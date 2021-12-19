@@ -5,104 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Speed_1, server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}, udp: true}
-  - {name: Speed_10, server: 183.232.226.152, port: 21106, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vvv, ws-headers: {Host: 183.232.226.152}, udp: true}
-  - {name: Speed_11, server: 185.252.223.203, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}, udp: true}
-  - {name: Speed_12, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: 856e5f80-15af-410b-b784-cbb71a34f646, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: Speed_13, server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 856e5f80-15af-410b-b784-cbb71a34f646, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: Speed_14, server: free-russian-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}, udp: true}
-  - {name: Speed_15, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Speed_16, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Speed_17, server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}, udp: true}
-  - {name: Speed_18, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
-  - {name: Speed_19, server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW, udp: true}
-  - {name: Speed_2, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: 856e5f80-15af-410b-b784-cbb71a34f646, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: Speed_20, server: 104.21.62.193, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}, udp: true}
-  - {name: Speed_21, server: 183.232.163.3, port: 6262, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_22, server: 217.138.193.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc, udp: true}
-  - {name: Speed_23, server: cm-jm.okvpn.xyz, port: 20005, type: vmess, uuid: 856e5f80-15af-410b-b784-cbb71a34f646, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: Speed_24, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Speed_25, server: 217.182.199.168, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Speed_26, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Speed_27, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF, udp: true}
-  - {name: Speed_28, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Speed_29, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: Speed_3, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: 856e5f80-15af-410b-b784-cbb71a34f646, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: Speed_30, server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
-  - {name: Speed_31, server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: Speed_32, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
-  - {name: Speed_33, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Speed_34, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
-  - {name: Speed_35, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}, udp: true}
-  - {name: Speed_36, server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Speed_37, server: 217.182.199.168, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Speed_38, server: free-russian02-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}, udp: true}
-  - {name: Speed_39, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Speed_4, server: ngzyd-1.okex-tradebot.xyz, port: 30012, type: vmess, uuid: 0b4069c9-7f09-4144-9800-ffbf24982ac8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}, udp: true}
-  - {name: Speed_40, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Speed_41, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
-  - {name: Speed_42, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
-  - {name: Speed_43, server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}, udp: true}
-  - {name: Speed_44, server: 183.232.163.3, port: 1313, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_45, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Speed_46, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Speed_47, server: 192.74.254.112, port: 52244, type: vmess, uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /E0Y46mSw/, ws-headers: {Host: 192.74.254.112}, udp: true}
-  - {name: Speed_48, server: 194.156.120.52, port: 41002, type: vmess, uuid: ebb93e84-5bb7-11ec-8bc6-6a5c6e054e4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Speed_49, server: 183.232.163.3, port: 3939, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_5, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: 0b4069c9-7f09-4144-9800-ffbf24982ac8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}, udp: true}
-  - {name: Speed_50, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Speed_51, server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: Speed_52, server: 183.232.163.3, port: 5959, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_53, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Speed_54, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Speed_55, server: 183.232.163.3, port: 6262, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: youtube-aweikeji}, udp: true}
-  - {name: Speed_56, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Speed_57, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Speed_58, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Speed_59, server: 183.232.163.3, port: 2424, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_6, server: ngzyd-1.okex-tradebot.xyz, port: 30014, type: vmess, uuid: 0b4069c9-7f09-4144-9800-ffbf24982ac8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}, udp: true}
-  - {name: Speed_60, server: 183.232.163.3, port: 3435, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_61, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Speed_62, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Speed_63, server: 183.232.163.3, port: 4949, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_64, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Speed_65, server: 183.232.163.3, port: 4343, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_66, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Speed_67, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Speed_68, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Speed_69, server: 183.232.163.3, port: 4646, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_7, server: 165.232.167.127, port: 80, type: vmess, uuid: 7c26f9a6-94a3-45a2-a0af-edae5c003d1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 165.232.167.127}, udp: true}
-  - {name: Speed_70, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Speed_71, server: 23.19.26.246, port: 10515, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: Speed_72, server: 198.200.51.18, port: 27962, type: vmess, uuid: b660c4a6-50df-11ec-9676-00163caf481c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jZyaImnU/, ws-headers: {Host: 198.200.51.18}, udp: true}
-  - {name: Speed_73, server: 183.232.163.3, port: 5152, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_74, server: 183.232.163.3, port: 1717, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_75, server: 183.232.163.3, port: 2727, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_76, server: 183.232.163.3, port: 4141, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_77, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Speed_78, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Speed_79, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Speed_8, server: 183.232.226.142, port: 21102, type: vmess, uuid: 28260fd2-636c-3a55-a10d-3e43b85af320, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vvv, ws-headers: {Host: 183.232.226.142}, udp: true}
-  - {name: Speed_80, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Speed_81, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Speed_82, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Speed_83, server: 183.232.163.3, port: 3434, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_84, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Speed_85, server: 198.200.51.18, port: 600, type: vmess, uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Speed_86, server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Speed_87, server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2, udp: true}
-  - {name: Speed_88, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Speed_89, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Speed_9, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
-  - {name: Speed_90, server: free-russian02-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: f84136de-e03e-4b19-abb0-388d5c8614b9, alterId: 233, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /0459ac88c41c8f/, ws-headers: {Host: free-russian02-cdn.xiaohouzi.club}, udp: true}
-  - {name: Speed_91, server: 183.232.163.3, port: 2525, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_92, server: 183.232.163.3, port: 5254, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_93, server: 183.232.163.3, port: 5253, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_94, server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Speed_95, server: 183.232.163.3, port: 9191, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_96, server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Speed_97, server: 183.232.163.3, port: 2020, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.163.3}, udp: true}
-  - {name: Speed_98, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 专线|亚洲01|混合主力, server: v31.88host.buzz, port: 18053, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v31.88host.buzz}, udp: true}
+  - {name: 专线|亚洲02|混合主力, server: v32.88host.buzz, port: 18054, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v32.88host.buzz}, udp: true}
+  - {name: 专线|亚洲03|混合主力, server: v33.88host.buzz, port: 18055, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v33.88host.buzz}, udp: true}
+  - {name: 专线|亚洲04|混合主力, server: v34.88host.buzz, port: 18056, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v34.88host.buzz}, udp: true}
+  - {name: 专线|亚洲05|混合主力, server: v35.88host.buzz, port: 18057, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v35.88host.buzz}, udp: true}
+  - {name: 专线|亚洲06|混合主力, server: v36.88host.buzz, port: 18058, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v36.88host.buzz}, udp: true}
+  - {name: 🇨🇦 标准|加拿大01|解锁流媒体, server: v27.88host.buzz, port: 18072, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v27.88host.buzz}, udp: true}
+  - {name: 🇨🇦 标准|加拿大02|解锁流媒体, server: v28.88host.buzz, port: 18073, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v28.88host.buzz}, udp: true}
+  - {name: 🇨🇳 专线|台湾01|原生HINET, server: v36.88host.buzz, port: 18078, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 专线|台湾02|原生HINET, server: v35.88host.buzz, port: 18079, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 专线|台湾03|原生HINET, server: v34.88host.buzz, port: 18080, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 专线|台湾04|原生HINET, server: v33.88host.buzz, port: 18081, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 基础|台湾01|视频主力, server: v12.88host.buzz, port: 18117, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 基础|台湾02|视频主力, server: v12.88host.buzz, port: 18118, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 基础|台湾03|视频主力, server: v13.88host.buzz, port: 18119, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 基础|台湾04|视频主力, server: v11.88host.buzz, port: 18120, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 标准|英国01|解锁流媒体, server: v25.88host.buzz, port: 18076, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v25.88host.buzz}, udp: true}
+  - {name: 🇬🇧 标准|英国02|解锁流媒体, server: v26.88host.buzz, port: 18077, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v26.88host.buzz}, udp: true}
+  - {name: 🇭🇰 专线|香港01|原生HGCBBS, server: v31.88host.buzz, port: 18064, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线|香港02|原生HGCBBS, server: v32.88host.buzz, port: 18065, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线|香港03|原生CMI, server: v33.88host.buzz, port: 18066, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线|香港04|原生HGCBBS, server: v34.88host.buzz, port: 18067, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线|香港05|原生HGCBBS, server: v35.88host.buzz, port: 18068, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线|香港06|原生CMI, server: v36.88host.buzz, port: 18069, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线|香港07|原生HKBN, server: v31.88host.buzz, port: 18082, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线|香港08|原生HKBN, server: v32.88host.buzz, port: 18083, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 基础|香港01|万能主力, server: v11.88host.buzz, port: 18005, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}, udp: true}
+  - {name: 🇭🇰 基础|香港02|万能主力, server: v12.88host.buzz, port: 18006, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}, udp: true}
+  - {name: 🇭🇰 基础|香港03|油管主力, server: v13.88host.buzz, port: 18007, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}, udp: true}
+  - {name: 🇭🇰 基础|香港04|油管主力, server: v11.88host.buzz, port: 18008, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}, udp: true}
+  - {name: 🇭🇰 基础|香港05|社交主力, server: v12.88host.buzz, port: 18009, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}, udp: true}
+  - {name: 🇭🇰 基础|香港06|社交主力, server: v13.88host.buzz, port: 18010, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}, udp: true}
+  - {name: 🇭🇰 标准|香港01|解锁流媒体, server: v21.88host.buzz, port: 18025, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v21.88host.buzz}, udp: true}
+  - {name: 🇭🇰 标准|香港02|解锁流媒体, server: v22.88host.buzz, port: 18026, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}, udp: true}
+  - {name: 🇭🇰 标准|香港03|解锁流媒体, server: v23.88host.buzz, port: 18027, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}, udp: true}
+  - {name: 🇭🇰 标准|香港04|解锁流媒体, server: v24.88host.buzz, port: 18028, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}, udp: true}
+  - {name: 🇭🇰 标准|香港05|解锁流媒体, server: v25.88host.buzz, port: 18029, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v25.88host.buzz}, udp: true}
+  - {name: 🇮🇳 标准|印度01|解锁流媒体, server: v27.88host.buzz, port: 18074, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v27.88host.buzz}, udp: true}
+  - {name: 🇮🇳 标准|印度02|解锁流媒体, server: v28.88host.buzz, port: 18075, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v28.88host.buzz}, udp: true}
+  - {name: 🇯🇵 基础|日本01|三网优化, server: v11.88host.buzz, port: 18003, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}, udp: true}
+  - {name: 🇯🇵 基础|日本02|三网优化, server: v12.88host.buzz, port: 18004, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}, udp: true}
+  - {name: 🇯🇵 标准|日本01|解锁流媒体, server: v21.88host.buzz, port: 18021, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v21.88host.buzz}, udp: true}
+  - {name: 🇯🇵 标准|日本02|解锁流媒体, server: v22.88host.buzz, port: 18022, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}, udp: true}
+  - {name: 🇯🇵 标准|日本03|解锁流媒体, server: v23.88host.buzz, port: 18023, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}, udp: true}
+  - {name: 🇯🇵 标准|日本04|解锁流媒体, server: v24.88host.buzz, port: 18024, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}, udp: true}
+  - {name: 🇰🇷 基础|韩国01|三网优化, server: v11.88host.buzz, port: 18001, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}, udp: true}
+  - {name: 🇰🇷 基础|韩国02|三网优化, server: v12.88host.buzz, port: 18002, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}, udp: true}
+  - {name: 🇲🇾 专线|马来西亚01|原生IP, server: v31.88host.buzz, port: 18046, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 专线|马来西亚02|原生IP, server: v32.88host.buzz, port: 18047, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 专线|俄罗斯01|原生IP, server: v31.88host.buzz, port: 18093, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v31.88host.buzz}, udp: true}
+  - {name: 🇷🇺 专线|俄罗斯02|原生IP, server: v32.88host.buzz, port: 18094, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v32.88host.buzz}, udp: true}
+  - {name: 🇷🇺 专线|俄罗斯03|原生IP, server: v33.88host.buzz, port: 18095, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v33.88host.buzz}, udp: true}
+  - {name: 🇷🇺 专线|俄罗斯04|原生IP, server: v34.88host.buzz, port: 18096, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v34.88host.buzz}, udp: true}
+  - {name: 🇷🇺 基础|俄罗斯01|限速100M, server: v11.88host.buzz, port: 18089, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}, udp: true}
+  - {name: 🇷🇺 基础|俄罗斯02|限速100M, server: v12.88host.buzz, port: 18090, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}, udp: true}
+  - {name: 🇷🇺 基础|俄罗斯03|限速100M, server: v13.88host.buzz, port: 18091, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}, udp: true}
+  - {name: 🇷🇺 基础|俄罗斯04|限速100M, server: v11.88host.buzz, port: 18092, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}, udp: true}
+  - {name: 🇸🇬 基础|新加坡01|视频主力, server: v11.88host.buzz, port: 18015, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}, udp: true}
+  - {name: 🇸🇬 基础|新加坡02|视频主力, server: v12.88host.buzz, port: 18016, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}, udp: true}
+  - {name: 🇸🇬 标准|新加坡01|解锁流媒体, server: v21.88host.buzz, port: 18033, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v21.88host.buzz}, udp: true}
+  - {name: 🇸🇬 标准|新加坡02|解锁流媒体, server: v22.88host.buzz, port: 18034, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}, udp: true}
+  - {name: 🇸🇬 标准|新加坡03|解锁流媒体, server: v23.88host.buzz, port: 18035, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}, udp: true}
+  - {name: 🇸🇬 标准|新加坡04|解锁流媒体, server: v24.88host.buzz, port: 18036, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}, udp: true}
+  - {name: 🇺🇲 专线|美国01|原生NTT, server: v31.88host.buzz, port: 18042, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 专线|美国02|原生NTT, server: v32.88host.buzz, port: 18043, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 专线|美国03|原生NTT, server: v33.88host.buzz, port: 18044, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 专线|美国04|原生NTT, server: v34.88host.buzz, port: 18045, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 专线|西雅图01|原生NTT, server: v31.88host.buzz, port: 18084, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 专线|西雅图02|原生NTT, server: v32.88host.buzz, port: 18085, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 基础|美国01|脸书主力, server: v11.88host.buzz, port: 18121, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}, udp: true}
+  - {name: 🇺🇲 基础|美国02|脸书主力, server: v12.88host.buzz, port: 18122, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}, udp: true}
+  - {name: 🇺🇲 基础|美国03|脸书主力, server: v13.88host.buzz, port: 18123, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}, udp: true}
+  - {name: 🇺🇲 基础|美国04|脸书主力, server: v11.88host.buzz, port: 18124, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}, udp: true}
+  - {name: 🇺🇲 标准|美国01|解锁流媒体, server: v22.88host.buzz, port: 18137, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}, udp: true}
+  - {name: 🇺🇲 标准|美国02|解锁流媒体, server: v22.88host.buzz, port: 18138, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}, udp: true}
+  - {name: 🇺🇲 标准|美国03|解锁流媒体, server: v23.88host.buzz, port: 18139, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}, udp: true}
+  - {name: 🇺🇲 标准|美国04|解锁流媒体, server: v24.88host.buzz, port: 18140, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,415 +90,331 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - Speed_1
-      - Speed_10
-      - Speed_11
-      - Speed_12
-      - Speed_13
-      - Speed_14
-      - Speed_15
-      - Speed_16
-      - Speed_17
-      - Speed_18
-      - Speed_19
-      - Speed_2
-      - Speed_20
-      - Speed_21
-      - Speed_22
-      - Speed_23
-      - Speed_24
-      - Speed_25
-      - Speed_26
-      - Speed_27
-      - Speed_28
-      - Speed_29
-      - Speed_3
-      - Speed_30
-      - Speed_31
-      - Speed_32
-      - Speed_33
-      - Speed_34
-      - Speed_35
-      - Speed_36
-      - Speed_37
-      - Speed_38
-      - Speed_39
-      - Speed_4
-      - Speed_40
-      - Speed_41
-      - Speed_42
-      - Speed_43
-      - Speed_44
-      - Speed_45
-      - Speed_46
-      - Speed_47
-      - Speed_48
-      - Speed_49
-      - Speed_5
-      - Speed_50
-      - Speed_51
-      - Speed_52
-      - Speed_53
-      - Speed_54
-      - Speed_55
-      - Speed_56
-      - Speed_57
-      - Speed_58
-      - Speed_59
-      - Speed_6
-      - Speed_60
-      - Speed_61
-      - Speed_62
-      - Speed_63
-      - Speed_64
-      - Speed_65
-      - Speed_66
-      - Speed_67
-      - Speed_68
-      - Speed_69
-      - Speed_7
-      - Speed_70
-      - Speed_71
-      - Speed_72
-      - Speed_73
-      - Speed_74
-      - Speed_75
-      - Speed_76
-      - Speed_77
-      - Speed_78
-      - Speed_79
-      - Speed_8
-      - Speed_80
-      - Speed_81
-      - Speed_82
-      - Speed_83
-      - Speed_84
-      - Speed_85
-      - Speed_86
-      - Speed_87
-      - Speed_88
-      - Speed_89
-      - Speed_9
-      - Speed_90
-      - Speed_91
-      - Speed_92
-      - Speed_93
-      - Speed_94
-      - Speed_95
-      - Speed_96
-      - Speed_97
-      - Speed_98
+      - 专线|亚洲01|混合主力
+      - 专线|亚洲02|混合主力
+      - 专线|亚洲03|混合主力
+      - 专线|亚洲04|混合主力
+      - 专线|亚洲05|混合主力
+      - 专线|亚洲06|混合主力
+      - 🇨🇦 标准|加拿大01|解锁流媒体
+      - 🇨🇦 标准|加拿大02|解锁流媒体
+      - 🇨🇳 专线|台湾01|原生HINET
+      - 🇨🇳 专线|台湾02|原生HINET
+      - 🇨🇳 专线|台湾03|原生HINET
+      - 🇨🇳 专线|台湾04|原生HINET
+      - 🇨🇳 基础|台湾01|视频主力
+      - 🇨🇳 基础|台湾02|视频主力
+      - 🇨🇳 基础|台湾03|视频主力
+      - 🇨🇳 基础|台湾04|视频主力
+      - 🇬🇧 标准|英国01|解锁流媒体
+      - 🇬🇧 标准|英国02|解锁流媒体
+      - 🇭🇰 专线|香港01|原生HGCBBS
+      - 🇭🇰 专线|香港02|原生HGCBBS
+      - 🇭🇰 专线|香港03|原生CMI
+      - 🇭🇰 专线|香港04|原生HGCBBS
+      - 🇭🇰 专线|香港05|原生HGCBBS
+      - 🇭🇰 专线|香港06|原生CMI
+      - 🇭🇰 专线|香港07|原生HKBN
+      - 🇭🇰 专线|香港08|原生HKBN
+      - 🇭🇰 基础|香港01|万能主力
+      - 🇭🇰 基础|香港02|万能主力
+      - 🇭🇰 基础|香港03|油管主力
+      - 🇭🇰 基础|香港04|油管主力
+      - 🇭🇰 基础|香港05|社交主力
+      - 🇭🇰 基础|香港06|社交主力
+      - 🇭🇰 标准|香港01|解锁流媒体
+      - 🇭🇰 标准|香港02|解锁流媒体
+      - 🇭🇰 标准|香港03|解锁流媒体
+      - 🇭🇰 标准|香港04|解锁流媒体
+      - 🇭🇰 标准|香港05|解锁流媒体
+      - 🇮🇳 标准|印度01|解锁流媒体
+      - 🇮🇳 标准|印度02|解锁流媒体
+      - 🇯🇵 基础|日本01|三网优化
+      - 🇯🇵 基础|日本02|三网优化
+      - 🇯🇵 标准|日本01|解锁流媒体
+      - 🇯🇵 标准|日本02|解锁流媒体
+      - 🇯🇵 标准|日本03|解锁流媒体
+      - 🇯🇵 标准|日本04|解锁流媒体
+      - 🇰🇷 基础|韩国01|三网优化
+      - 🇰🇷 基础|韩国02|三网优化
+      - 🇲🇾 专线|马来西亚01|原生IP
+      - 🇲🇾 专线|马来西亚02|原生IP
+      - 🇷🇺 专线|俄罗斯01|原生IP
+      - 🇷🇺 专线|俄罗斯02|原生IP
+      - 🇷🇺 专线|俄罗斯03|原生IP
+      - 🇷🇺 专线|俄罗斯04|原生IP
+      - 🇷🇺 基础|俄罗斯01|限速100M
+      - 🇷🇺 基础|俄罗斯02|限速100M
+      - 🇷🇺 基础|俄罗斯03|限速100M
+      - 🇷🇺 基础|俄罗斯04|限速100M
+      - 🇸🇬 基础|新加坡01|视频主力
+      - 🇸🇬 基础|新加坡02|视频主力
+      - 🇸🇬 标准|新加坡01|解锁流媒体
+      - 🇸🇬 标准|新加坡02|解锁流媒体
+      - 🇸🇬 标准|新加坡03|解锁流媒体
+      - 🇸🇬 标准|新加坡04|解锁流媒体
+      - 🇺🇲 专线|美国01|原生NTT
+      - 🇺🇲 专线|美国02|原生NTT
+      - 🇺🇲 专线|美国03|原生NTT
+      - 🇺🇲 专线|美国04|原生NTT
+      - 🇺🇲 专线|西雅图01|原生NTT
+      - 🇺🇲 专线|西雅图02|原生NTT
+      - 🇺🇲 基础|美国01|脸书主力
+      - 🇺🇲 基础|美国02|脸书主力
+      - 🇺🇲 基础|美国03|脸书主力
+      - 🇺🇲 基础|美国04|脸书主力
+      - 🇺🇲 标准|美国01|解锁流媒体
+      - 🇺🇲 标准|美国02|解锁流媒体
+      - 🇺🇲 标准|美国03|解锁流媒体
+      - 🇺🇲 标准|美国04|解锁流媒体
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Speed_1
-      - Speed_10
-      - Speed_11
-      - Speed_12
-      - Speed_13
-      - Speed_14
-      - Speed_15
-      - Speed_16
-      - Speed_17
-      - Speed_18
-      - Speed_19
-      - Speed_2
-      - Speed_20
-      - Speed_21
-      - Speed_22
-      - Speed_23
-      - Speed_24
-      - Speed_25
-      - Speed_26
-      - Speed_27
-      - Speed_28
-      - Speed_29
-      - Speed_3
-      - Speed_30
-      - Speed_31
-      - Speed_32
-      - Speed_33
-      - Speed_34
-      - Speed_35
-      - Speed_36
-      - Speed_37
-      - Speed_38
-      - Speed_39
-      - Speed_4
-      - Speed_40
-      - Speed_41
-      - Speed_42
-      - Speed_43
-      - Speed_44
-      - Speed_45
-      - Speed_46
-      - Speed_47
-      - Speed_48
-      - Speed_49
-      - Speed_5
-      - Speed_50
-      - Speed_51
-      - Speed_52
-      - Speed_53
-      - Speed_54
-      - Speed_55
-      - Speed_56
-      - Speed_57
-      - Speed_58
-      - Speed_59
-      - Speed_6
-      - Speed_60
-      - Speed_61
-      - Speed_62
-      - Speed_63
-      - Speed_64
-      - Speed_65
-      - Speed_66
-      - Speed_67
-      - Speed_68
-      - Speed_69
-      - Speed_7
-      - Speed_70
-      - Speed_71
-      - Speed_72
-      - Speed_73
-      - Speed_74
-      - Speed_75
-      - Speed_76
-      - Speed_77
-      - Speed_78
-      - Speed_79
-      - Speed_8
-      - Speed_80
-      - Speed_81
-      - Speed_82
-      - Speed_83
-      - Speed_84
-      - Speed_85
-      - Speed_86
-      - Speed_87
-      - Speed_88
-      - Speed_89
-      - Speed_9
-      - Speed_90
-      - Speed_91
-      - Speed_92
-      - Speed_93
-      - Speed_94
-      - Speed_95
-      - Speed_96
-      - Speed_97
-      - Speed_98
+      - 专线|亚洲01|混合主力
+      - 专线|亚洲02|混合主力
+      - 专线|亚洲03|混合主力
+      - 专线|亚洲04|混合主力
+      - 专线|亚洲05|混合主力
+      - 专线|亚洲06|混合主力
+      - 🇨🇦 标准|加拿大01|解锁流媒体
+      - 🇨🇦 标准|加拿大02|解锁流媒体
+      - 🇨🇳 专线|台湾01|原生HINET
+      - 🇨🇳 专线|台湾02|原生HINET
+      - 🇨🇳 专线|台湾03|原生HINET
+      - 🇨🇳 专线|台湾04|原生HINET
+      - 🇨🇳 基础|台湾01|视频主力
+      - 🇨🇳 基础|台湾02|视频主力
+      - 🇨🇳 基础|台湾03|视频主力
+      - 🇨🇳 基础|台湾04|视频主力
+      - 🇬🇧 标准|英国01|解锁流媒体
+      - 🇬🇧 标准|英国02|解锁流媒体
+      - 🇭🇰 专线|香港01|原生HGCBBS
+      - 🇭🇰 专线|香港02|原生HGCBBS
+      - 🇭🇰 专线|香港03|原生CMI
+      - 🇭🇰 专线|香港04|原生HGCBBS
+      - 🇭🇰 专线|香港05|原生HGCBBS
+      - 🇭🇰 专线|香港06|原生CMI
+      - 🇭🇰 专线|香港07|原生HKBN
+      - 🇭🇰 专线|香港08|原生HKBN
+      - 🇭🇰 基础|香港01|万能主力
+      - 🇭🇰 基础|香港02|万能主力
+      - 🇭🇰 基础|香港03|油管主力
+      - 🇭🇰 基础|香港04|油管主力
+      - 🇭🇰 基础|香港05|社交主力
+      - 🇭🇰 基础|香港06|社交主力
+      - 🇭🇰 标准|香港01|解锁流媒体
+      - 🇭🇰 标准|香港02|解锁流媒体
+      - 🇭🇰 标准|香港03|解锁流媒体
+      - 🇭🇰 标准|香港04|解锁流媒体
+      - 🇭🇰 标准|香港05|解锁流媒体
+      - 🇮🇳 标准|印度01|解锁流媒体
+      - 🇮🇳 标准|印度02|解锁流媒体
+      - 🇯🇵 基础|日本01|三网优化
+      - 🇯🇵 基础|日本02|三网优化
+      - 🇯🇵 标准|日本01|解锁流媒体
+      - 🇯🇵 标准|日本02|解锁流媒体
+      - 🇯🇵 标准|日本03|解锁流媒体
+      - 🇯🇵 标准|日本04|解锁流媒体
+      - 🇰🇷 基础|韩国01|三网优化
+      - 🇰🇷 基础|韩国02|三网优化
+      - 🇲🇾 专线|马来西亚01|原生IP
+      - 🇲🇾 专线|马来西亚02|原生IP
+      - 🇷🇺 专线|俄罗斯01|原生IP
+      - 🇷🇺 专线|俄罗斯02|原生IP
+      - 🇷🇺 专线|俄罗斯03|原生IP
+      - 🇷🇺 专线|俄罗斯04|原生IP
+      - 🇷🇺 基础|俄罗斯01|限速100M
+      - 🇷🇺 基础|俄罗斯02|限速100M
+      - 🇷🇺 基础|俄罗斯03|限速100M
+      - 🇷🇺 基础|俄罗斯04|限速100M
+      - 🇸🇬 基础|新加坡01|视频主力
+      - 🇸🇬 基础|新加坡02|视频主力
+      - 🇸🇬 标准|新加坡01|解锁流媒体
+      - 🇸🇬 标准|新加坡02|解锁流媒体
+      - 🇸🇬 标准|新加坡03|解锁流媒体
+      - 🇸🇬 标准|新加坡04|解锁流媒体
+      - 🇺🇲 专线|美国01|原生NTT
+      - 🇺🇲 专线|美国02|原生NTT
+      - 🇺🇲 专线|美国03|原生NTT
+      - 🇺🇲 专线|美国04|原生NTT
+      - 🇺🇲 专线|西雅图01|原生NTT
+      - 🇺🇲 专线|西雅图02|原生NTT
+      - 🇺🇲 基础|美国01|脸书主力
+      - 🇺🇲 基础|美国02|脸书主力
+      - 🇺🇲 基础|美国03|脸书主力
+      - 🇺🇲 基础|美国04|脸书主力
+      - 🇺🇲 标准|美国01|解锁流媒体
+      - 🇺🇲 标准|美国02|解锁流媒体
+      - 🇺🇲 标准|美国03|解锁流媒体
+      - 🇺🇲 标准|美国04|解锁流媒体
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Speed_1
-      - Speed_10
-      - Speed_11
-      - Speed_12
-      - Speed_13
-      - Speed_14
-      - Speed_15
-      - Speed_16
-      - Speed_17
-      - Speed_18
-      - Speed_19
-      - Speed_2
-      - Speed_20
-      - Speed_21
-      - Speed_22
-      - Speed_23
-      - Speed_24
-      - Speed_25
-      - Speed_26
-      - Speed_27
-      - Speed_28
-      - Speed_29
-      - Speed_3
-      - Speed_30
-      - Speed_31
-      - Speed_32
-      - Speed_33
-      - Speed_34
-      - Speed_35
-      - Speed_36
-      - Speed_37
-      - Speed_38
-      - Speed_39
-      - Speed_4
-      - Speed_40
-      - Speed_41
-      - Speed_42
-      - Speed_43
-      - Speed_44
-      - Speed_45
-      - Speed_46
-      - Speed_47
-      - Speed_48
-      - Speed_49
-      - Speed_5
-      - Speed_50
-      - Speed_51
-      - Speed_52
-      - Speed_53
-      - Speed_54
-      - Speed_55
-      - Speed_56
-      - Speed_57
-      - Speed_58
-      - Speed_59
-      - Speed_6
-      - Speed_60
-      - Speed_61
-      - Speed_62
-      - Speed_63
-      - Speed_64
-      - Speed_65
-      - Speed_66
-      - Speed_67
-      - Speed_68
-      - Speed_69
-      - Speed_7
-      - Speed_70
-      - Speed_71
-      - Speed_72
-      - Speed_73
-      - Speed_74
-      - Speed_75
-      - Speed_76
-      - Speed_77
-      - Speed_78
-      - Speed_79
-      - Speed_8
-      - Speed_80
-      - Speed_81
-      - Speed_82
-      - Speed_83
-      - Speed_84
-      - Speed_85
-      - Speed_86
-      - Speed_87
-      - Speed_88
-      - Speed_89
-      - Speed_9
-      - Speed_90
-      - Speed_91
-      - Speed_92
-      - Speed_93
-      - Speed_94
-      - Speed_95
-      - Speed_96
-      - Speed_97
-      - Speed_98
+      - 专线|亚洲01|混合主力
+      - 专线|亚洲02|混合主力
+      - 专线|亚洲03|混合主力
+      - 专线|亚洲04|混合主力
+      - 专线|亚洲05|混合主力
+      - 专线|亚洲06|混合主力
+      - 🇨🇦 标准|加拿大01|解锁流媒体
+      - 🇨🇦 标准|加拿大02|解锁流媒体
+      - 🇨🇳 专线|台湾01|原生HINET
+      - 🇨🇳 专线|台湾02|原生HINET
+      - 🇨🇳 专线|台湾03|原生HINET
+      - 🇨🇳 专线|台湾04|原生HINET
+      - 🇨🇳 基础|台湾01|视频主力
+      - 🇨🇳 基础|台湾02|视频主力
+      - 🇨🇳 基础|台湾03|视频主力
+      - 🇨🇳 基础|台湾04|视频主力
+      - 🇬🇧 标准|英国01|解锁流媒体
+      - 🇬🇧 标准|英国02|解锁流媒体
+      - 🇭🇰 专线|香港01|原生HGCBBS
+      - 🇭🇰 专线|香港02|原生HGCBBS
+      - 🇭🇰 专线|香港03|原生CMI
+      - 🇭🇰 专线|香港04|原生HGCBBS
+      - 🇭🇰 专线|香港05|原生HGCBBS
+      - 🇭🇰 专线|香港06|原生CMI
+      - 🇭🇰 专线|香港07|原生HKBN
+      - 🇭🇰 专线|香港08|原生HKBN
+      - 🇭🇰 基础|香港01|万能主力
+      - 🇭🇰 基础|香港02|万能主力
+      - 🇭🇰 基础|香港03|油管主力
+      - 🇭🇰 基础|香港04|油管主力
+      - 🇭🇰 基础|香港05|社交主力
+      - 🇭🇰 基础|香港06|社交主力
+      - 🇭🇰 标准|香港01|解锁流媒体
+      - 🇭🇰 标准|香港02|解锁流媒体
+      - 🇭🇰 标准|香港03|解锁流媒体
+      - 🇭🇰 标准|香港04|解锁流媒体
+      - 🇭🇰 标准|香港05|解锁流媒体
+      - 🇮🇳 标准|印度01|解锁流媒体
+      - 🇮🇳 标准|印度02|解锁流媒体
+      - 🇯🇵 基础|日本01|三网优化
+      - 🇯🇵 基础|日本02|三网优化
+      - 🇯🇵 标准|日本01|解锁流媒体
+      - 🇯🇵 标准|日本02|解锁流媒体
+      - 🇯🇵 标准|日本03|解锁流媒体
+      - 🇯🇵 标准|日本04|解锁流媒体
+      - 🇰🇷 基础|韩国01|三网优化
+      - 🇰🇷 基础|韩国02|三网优化
+      - 🇲🇾 专线|马来西亚01|原生IP
+      - 🇲🇾 专线|马来西亚02|原生IP
+      - 🇷🇺 专线|俄罗斯01|原生IP
+      - 🇷🇺 专线|俄罗斯02|原生IP
+      - 🇷🇺 专线|俄罗斯03|原生IP
+      - 🇷🇺 专线|俄罗斯04|原生IP
+      - 🇷🇺 基础|俄罗斯01|限速100M
+      - 🇷🇺 基础|俄罗斯02|限速100M
+      - 🇷🇺 基础|俄罗斯03|限速100M
+      - 🇷🇺 基础|俄罗斯04|限速100M
+      - 🇸🇬 基础|新加坡01|视频主力
+      - 🇸🇬 基础|新加坡02|视频主力
+      - 🇸🇬 标准|新加坡01|解锁流媒体
+      - 🇸🇬 标准|新加坡02|解锁流媒体
+      - 🇸🇬 标准|新加坡03|解锁流媒体
+      - 🇸🇬 标准|新加坡04|解锁流媒体
+      - 🇺🇲 专线|美国01|原生NTT
+      - 🇺🇲 专线|美国02|原生NTT
+      - 🇺🇲 专线|美国03|原生NTT
+      - 🇺🇲 专线|美国04|原生NTT
+      - 🇺🇲 专线|西雅图01|原生NTT
+      - 🇺🇲 专线|西雅图02|原生NTT
+      - 🇺🇲 基础|美国01|脸书主力
+      - 🇺🇲 基础|美国02|脸书主力
+      - 🇺🇲 基础|美国03|脸书主力
+      - 🇺🇲 基础|美国04|脸书主力
+      - 🇺🇲 标准|美国01|解锁流媒体
+      - 🇺🇲 标准|美国02|解锁流媒体
+      - 🇺🇲 标准|美国03|解锁流媒体
+      - 🇺🇲 标准|美国04|解锁流媒体
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Speed_1
-      - Speed_10
-      - Speed_11
-      - Speed_12
-      - Speed_13
-      - Speed_14
-      - Speed_15
-      - Speed_16
-      - Speed_17
-      - Speed_18
-      - Speed_19
-      - Speed_2
-      - Speed_20
-      - Speed_21
-      - Speed_22
-      - Speed_23
-      - Speed_24
-      - Speed_25
-      - Speed_26
-      - Speed_27
-      - Speed_28
-      - Speed_29
-      - Speed_3
-      - Speed_30
-      - Speed_31
-      - Speed_32
-      - Speed_33
-      - Speed_34
-      - Speed_35
-      - Speed_36
-      - Speed_37
-      - Speed_38
-      - Speed_39
-      - Speed_4
-      - Speed_40
-      - Speed_41
-      - Speed_42
-      - Speed_43
-      - Speed_44
-      - Speed_45
-      - Speed_46
-      - Speed_47
-      - Speed_48
-      - Speed_49
-      - Speed_5
-      - Speed_50
-      - Speed_51
-      - Speed_52
-      - Speed_53
-      - Speed_54
-      - Speed_55
-      - Speed_56
-      - Speed_57
-      - Speed_58
-      - Speed_59
-      - Speed_6
-      - Speed_60
-      - Speed_61
-      - Speed_62
-      - Speed_63
-      - Speed_64
-      - Speed_65
-      - Speed_66
-      - Speed_67
-      - Speed_68
-      - Speed_69
-      - Speed_7
-      - Speed_70
-      - Speed_71
-      - Speed_72
-      - Speed_73
-      - Speed_74
-      - Speed_75
-      - Speed_76
-      - Speed_77
-      - Speed_78
-      - Speed_79
-      - Speed_8
-      - Speed_80
-      - Speed_81
-      - Speed_82
-      - Speed_83
-      - Speed_84
-      - Speed_85
-      - Speed_86
-      - Speed_87
-      - Speed_88
-      - Speed_89
-      - Speed_9
-      - Speed_90
-      - Speed_91
-      - Speed_92
-      - Speed_93
-      - Speed_94
-      - Speed_95
-      - Speed_96
-      - Speed_97
-      - Speed_98
+      - 专线|亚洲01|混合主力
+      - 专线|亚洲02|混合主力
+      - 专线|亚洲03|混合主力
+      - 专线|亚洲04|混合主力
+      - 专线|亚洲05|混合主力
+      - 专线|亚洲06|混合主力
+      - 🇨🇦 标准|加拿大01|解锁流媒体
+      - 🇨🇦 标准|加拿大02|解锁流媒体
+      - 🇨🇳 专线|台湾01|原生HINET
+      - 🇨🇳 专线|台湾02|原生HINET
+      - 🇨🇳 专线|台湾03|原生HINET
+      - 🇨🇳 专线|台湾04|原生HINET
+      - 🇨🇳 基础|台湾01|视频主力
+      - 🇨🇳 基础|台湾02|视频主力
+      - 🇨🇳 基础|台湾03|视频主力
+      - 🇨🇳 基础|台湾04|视频主力
+      - 🇬🇧 标准|英国01|解锁流媒体
+      - 🇬🇧 标准|英国02|解锁流媒体
+      - 🇭🇰 专线|香港01|原生HGCBBS
+      - 🇭🇰 专线|香港02|原生HGCBBS
+      - 🇭🇰 专线|香港03|原生CMI
+      - 🇭🇰 专线|香港04|原生HGCBBS
+      - 🇭🇰 专线|香港05|原生HGCBBS
+      - 🇭🇰 专线|香港06|原生CMI
+      - 🇭🇰 专线|香港07|原生HKBN
+      - 🇭🇰 专线|香港08|原生HKBN
+      - 🇭🇰 基础|香港01|万能主力
+      - 🇭🇰 基础|香港02|万能主力
+      - 🇭🇰 基础|香港03|油管主力
+      - 🇭🇰 基础|香港04|油管主力
+      - 🇭🇰 基础|香港05|社交主力
+      - 🇭🇰 基础|香港06|社交主力
+      - 🇭🇰 标准|香港01|解锁流媒体
+      - 🇭🇰 标准|香港02|解锁流媒体
+      - 🇭🇰 标准|香港03|解锁流媒体
+      - 🇭🇰 标准|香港04|解锁流媒体
+      - 🇭🇰 标准|香港05|解锁流媒体
+      - 🇮🇳 标准|印度01|解锁流媒体
+      - 🇮🇳 标准|印度02|解锁流媒体
+      - 🇯🇵 基础|日本01|三网优化
+      - 🇯🇵 基础|日本02|三网优化
+      - 🇯🇵 标准|日本01|解锁流媒体
+      - 🇯🇵 标准|日本02|解锁流媒体
+      - 🇯🇵 标准|日本03|解锁流媒体
+      - 🇯🇵 标准|日本04|解锁流媒体
+      - 🇰🇷 基础|韩国01|三网优化
+      - 🇰🇷 基础|韩国02|三网优化
+      - 🇲🇾 专线|马来西亚01|原生IP
+      - 🇲🇾 专线|马来西亚02|原生IP
+      - 🇷🇺 专线|俄罗斯01|原生IP
+      - 🇷🇺 专线|俄罗斯02|原生IP
+      - 🇷🇺 专线|俄罗斯03|原生IP
+      - 🇷🇺 专线|俄罗斯04|原生IP
+      - 🇷🇺 基础|俄罗斯01|限速100M
+      - 🇷🇺 基础|俄罗斯02|限速100M
+      - 🇷🇺 基础|俄罗斯03|限速100M
+      - 🇷🇺 基础|俄罗斯04|限速100M
+      - 🇸🇬 基础|新加坡01|视频主力
+      - 🇸🇬 基础|新加坡02|视频主力
+      - 🇸🇬 标准|新加坡01|解锁流媒体
+      - 🇸🇬 标准|新加坡02|解锁流媒体
+      - 🇸🇬 标准|新加坡03|解锁流媒体
+      - 🇸🇬 标准|新加坡04|解锁流媒体
+      - 🇺🇲 专线|美国01|原生NTT
+      - 🇺🇲 专线|美国02|原生NTT
+      - 🇺🇲 专线|美国03|原生NTT
+      - 🇺🇲 专线|美国04|原生NTT
+      - 🇺🇲 专线|西雅图01|原生NTT
+      - 🇺🇲 专线|西雅图02|原生NTT
+      - 🇺🇲 基础|美国01|脸书主力
+      - 🇺🇲 基础|美国02|脸书主力
+      - 🇺🇲 基础|美国03|脸书主力
+      - 🇺🇲 基础|美国04|脸书主力
+      - 🇺🇲 标准|美国01|解锁流媒体
+      - 🇺🇲 标准|美国02|解锁流媒体
+      - 🇺🇲 标准|美国03|解锁流媒体
+      - 🇺🇲 标准|美国04|解锁流媒体
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -539,105 +434,127 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - Speed_1
-      - Speed_10
-      - Speed_11
-      - Speed_12
-      - Speed_13
-      - Speed_14
-      - Speed_15
-      - Speed_16
-      - Speed_17
-      - Speed_18
-      - Speed_19
-      - Speed_2
-      - Speed_20
-      - Speed_21
-      - Speed_22
-      - Speed_23
-      - Speed_24
-      - Speed_25
-      - Speed_26
-      - Speed_27
-      - Speed_28
-      - Speed_29
-      - Speed_3
-      - Speed_30
-      - Speed_31
-      - Speed_32
-      - Speed_33
-      - Speed_34
-      - Speed_35
-      - Speed_36
-      - Speed_37
-      - Speed_38
-      - Speed_39
-      - Speed_4
-      - Speed_40
-      - Speed_41
-      - Speed_42
-      - Speed_43
-      - Speed_44
-      - Speed_45
-      - Speed_46
-      - Speed_47
-      - Speed_48
-      - Speed_49
-      - Speed_5
-      - Speed_50
-      - Speed_51
-      - Speed_52
-      - Speed_53
-      - Speed_54
-      - Speed_55
-      - Speed_56
-      - Speed_57
-      - Speed_58
-      - Speed_59
-      - Speed_6
-      - Speed_60
-      - Speed_61
-      - Speed_62
-      - Speed_63
-      - Speed_64
-      - Speed_65
-      - Speed_66
-      - Speed_67
-      - Speed_68
-      - Speed_69
-      - Speed_7
-      - Speed_70
-      - Speed_71
-      - Speed_72
-      - Speed_73
-      - Speed_74
-      - Speed_75
-      - Speed_76
-      - Speed_77
-      - Speed_78
-      - Speed_79
-      - Speed_8
-      - Speed_80
-      - Speed_81
-      - Speed_82
-      - Speed_83
-      - Speed_84
-      - Speed_85
-      - Speed_86
-      - Speed_87
-      - Speed_88
-      - Speed_89
-      - Speed_9
-      - Speed_90
-      - Speed_91
-      - Speed_92
-      - Speed_93
-      - Speed_94
-      - Speed_95
-      - Speed_96
-      - Speed_97
-      - Speed_98
+      - 专线|亚洲01|混合主力
+      - 专线|亚洲02|混合主力
+      - 专线|亚洲03|混合主力
+      - 专线|亚洲04|混合主力
+      - 专线|亚洲05|混合主力
+      - 专线|亚洲06|混合主力
+      - 🇨🇦 标准|加拿大01|解锁流媒体
+      - 🇨🇦 标准|加拿大02|解锁流媒体
+      - 🇨🇳 专线|台湾01|原生HINET
+      - 🇨🇳 专线|台湾02|原生HINET
+      - 🇨🇳 专线|台湾03|原生HINET
+      - 🇨🇳 专线|台湾04|原生HINET
+      - 🇨🇳 基础|台湾01|视频主力
+      - 🇨🇳 基础|台湾02|视频主力
+      - 🇨🇳 基础|台湾03|视频主力
+      - 🇨🇳 基础|台湾04|视频主力
+      - 🇬🇧 标准|英国01|解锁流媒体
+      - 🇬🇧 标准|英国02|解锁流媒体
+      - 🇭🇰 专线|香港01|原生HGCBBS
+      - 🇭🇰 专线|香港02|原生HGCBBS
+      - 🇭🇰 专线|香港03|原生CMI
+      - 🇭🇰 专线|香港04|原生HGCBBS
+      - 🇭🇰 专线|香港05|原生HGCBBS
+      - 🇭🇰 专线|香港06|原生CMI
+      - 🇭🇰 专线|香港07|原生HKBN
+      - 🇭🇰 专线|香港08|原生HKBN
+      - 🇭🇰 基础|香港01|万能主力
+      - 🇭🇰 基础|香港02|万能主力
+      - 🇭🇰 基础|香港03|油管主力
+      - 🇭🇰 基础|香港04|油管主力
+      - 🇭🇰 基础|香港05|社交主力
+      - 🇭🇰 基础|香港06|社交主力
+      - 🇭🇰 标准|香港01|解锁流媒体
+      - 🇭🇰 标准|香港02|解锁流媒体
+      - 🇭🇰 标准|香港03|解锁流媒体
+      - 🇭🇰 标准|香港04|解锁流媒体
+      - 🇭🇰 标准|香港05|解锁流媒体
+      - 🇮🇳 标准|印度01|解锁流媒体
+      - 🇮🇳 标准|印度02|解锁流媒体
+      - 🇯🇵 基础|日本01|三网优化
+      - 🇯🇵 基础|日本02|三网优化
+      - 🇯🇵 标准|日本01|解锁流媒体
+      - 🇯🇵 标准|日本02|解锁流媒体
+      - 🇯🇵 标准|日本03|解锁流媒体
+      - 🇯🇵 标准|日本04|解锁流媒体
+      - 🇰🇷 基础|韩国01|三网优化
+      - 🇰🇷 基础|韩国02|三网优化
+      - 🇲🇾 专线|马来西亚01|原生IP
+      - 🇲🇾 专线|马来西亚02|原生IP
+      - 🇷🇺 专线|俄罗斯01|原生IP
+      - 🇷🇺 专线|俄罗斯02|原生IP
+      - 🇷🇺 专线|俄罗斯03|原生IP
+      - 🇷🇺 专线|俄罗斯04|原生IP
+      - 🇷🇺 基础|俄罗斯01|限速100M
+      - 🇷🇺 基础|俄罗斯02|限速100M
+      - 🇷🇺 基础|俄罗斯03|限速100M
+      - 🇷🇺 基础|俄罗斯04|限速100M
+      - 🇸🇬 基础|新加坡01|视频主力
+      - 🇸🇬 基础|新加坡02|视频主力
+      - 🇸🇬 标准|新加坡01|解锁流媒体
+      - 🇸🇬 标准|新加坡02|解锁流媒体
+      - 🇸🇬 标准|新加坡03|解锁流媒体
+      - 🇸🇬 标准|新加坡04|解锁流媒体
+      - 🇺🇲 专线|美国01|原生NTT
+      - 🇺🇲 专线|美国02|原生NTT
+      - 🇺🇲 专线|美国03|原生NTT
+      - 🇺🇲 专线|美国04|原生NTT
+      - 🇺🇲 专线|西雅图01|原生NTT
+      - 🇺🇲 专线|西雅图02|原生NTT
+      - 🇺🇲 基础|美国01|脸书主力
+      - 🇺🇲 基础|美国02|脸书主力
+      - 🇺🇲 基础|美国03|脸书主力
+      - 🇺🇲 基础|美国04|脸书主力
+      - 🇺🇲 标准|美国01|解锁流媒体
+      - 🇺🇲 标准|美国02|解锁流媒体
+      - 🇺🇲 标准|美国03|解锁流媒体
+      - 🇺🇲 标准|美国04|解锁流媒体
 rules:
+ - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
+ - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
+ - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
+ - DOMAIN-SUFFIX,local,🎯 全球直连
+ - DOMAIN-SUFFIX,localhost,🎯 全球直连
+ - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
+ - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
+ - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+ - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
+ - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
+ - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
+ - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
+ - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+ - DOMAIN,router.asus.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,my.router,🎯 全球直连
+ - DOMAIN-SUFFIX,p.to,🎯 全球直连
+ - DOMAIN-SUFFIX,peiluyou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
+ - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+ - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
+ - DOMAIN,dl.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
+ - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+ - DOMAIN,xivanalysis.com,🎯 全球直连
+ - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
+ - DOMAIN,fairplay.l.qq.com,🎯 全球直连
+ - DOMAIN,livew.l.qq.com,🎯 全球直连
+ - DOMAIN,vd.l.qq.com,🎯 全球直连
+ - DOMAIN,analytics.strava.com,🎯 全球直连
+ - DOMAIN,msg.umeng.com,🎯 全球直连
+ - DOMAIN,msg.umengcloud.com,🎯 全球直连
+ - DOMAIN,tracking.miui.com,🎯 全球直连
+ - DOMAIN,app.adjust.com,🎯 全球直连
+ - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
