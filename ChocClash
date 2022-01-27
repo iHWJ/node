@@ -1,3 +1,4 @@
+### subscription-url = https://ovo.dydedicated.top/api/v1/client/subscribe?token=02e3ce9c6f8025a80d52615296586589
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -5,441 +6,84 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CA_001, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA_002, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_003, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_004, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_005, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA_006, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA_007, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: GB_010, server: 212.38.189.174, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: GB_011, server: 212.38.189.174, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: NO_016, server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_058, server: 134.195.196.128, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ZZ_059, server: 134.195.196.128, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ZZ_060, server: 134.195.196.150, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ZZ_061, server: 134.195.196.214, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ZZ_062, server: 134.195.196.128, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_063, server: 134.195.196.150, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_064, server: 134.195.196.200, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_065, server: 134.195.196.217, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_066, server: 134.195.196.150, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_067, server: 141.164.42.236, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_068, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_069, server: 134.195.196.128, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_070, server: 134.195.196.150, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_071, server: 134.195.196.150, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_072, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_073, server: 134.195.196.217, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_074, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_075, server: 141.164.59.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_076, server: 158.247.206.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_077, server: 158.247.224.123, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_078, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_079, server: 134.195.196.128, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_080, server: 134.195.196.128, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_081, server: 134.195.196.150, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_082, server: 134.195.196.150, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_083, server: 134.195.196.214, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_084, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_085, server: 167.88.63.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_086, server: 134.195.196.150, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_087, server: 134.195.196.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_088, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_089, server: 158.247.224.123, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_090, server: 134.195.196.150, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ZZ_091, server: 134.195.196.150, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ZZ_092, server: 134.195.196.217, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ZZ_093, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ZZ_094, server: 134.195.196.149, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_095, server: 134.195.196.150, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_096, server: 134.195.196.150, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_097, server: 134.195.196.214, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_098, server: 134.195.196.214, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_099, server: 134.195.196.217, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_100, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_101, server: 158.247.222.102, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_102, server: 134.195.196.128, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_103, server: 134.195.196.128, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_104, server: 134.195.196.150, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_105, server: 134.195.196.150, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_106, server: 134.195.196.200, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_107, server: 134.195.196.214, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_108, server: 134.195.196.128, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_109, server: 134.195.196.128, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_110, server: 134.195.196.128, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_111, server: 134.195.196.128, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_112, server: 134.195.196.128, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_113, server: 134.195.196.150, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_114, server: 134.195.196.150, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_115, server: 134.195.196.150, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_116, server: 134.195.196.150, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_117, server: 134.195.196.150, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_118, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_119, server: 134.195.196.200, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_120, server: 134.195.196.214, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_121, server: 134.195.196.214, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_122, server: 134.195.196.217, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_123, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_124, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_125, server: 134.195.196.128, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ZZ_126, server: 134.195.196.150, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ZZ_127, server: 134.195.196.128, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_128, server: 134.195.196.150, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_129, server: 134.195.196.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_130, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_131, server: 134.195.196.217, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_132, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_133, server: 134.195.196.128, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_134, server: 134.195.196.150, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_135, server: 134.195.196.214, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_136, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_137, server: 134.195.196.128, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_138, server: 134.195.196.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_139, server: 134.195.196.150, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_140, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_141, server: 158.247.224.123, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇫🇷 FR_008, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇫🇷 FR_009, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇯🇵 JP_012, server: 84.17.34.8, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm, udp: true}
-  - {name: 🇯🇵 JP_013, server: 141.164.59.168, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇯🇵 JP_014, server: 141.164.56.110, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇯🇵 JP_015, server: 141.164.53.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇷🇴 RO_017, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF, udp: true}
-  - {name: 🇷🇺 RU_018, server: 82.202.220.242, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr, udp: true}
-  - {name: 🇺🇲 US_019, server: 38.68.134.190, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇲 US_020, server: 38.68.134.190, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇺🇲 US_021, server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇲 US_022, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇲 US_023, server: 38.68.134.37, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇲 US_024, server: 38.68.134.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇲 US_025, server: 38.91.100.200, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇲 US_026, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇲 US_027, server: 38.68.135.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇲 US_028, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 US_029, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 US_030, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 US_031, server: 38.68.134.37, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇲 US_032, server: 38.68.134.190, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇲 US_033, server: 172.104.207.231, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇺🇲 US_034, server: 38.68.134.190, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇺🇲 US_035, server: 38.68.134.190, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇺🇲 US_036, server: 38.68.134.190, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇺🇲 US_037, server: 38.68.134.190, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇺🇲 US_038, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇲 US_039, server: 167.88.63.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇲 US_040, server: 192.46.209.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇲 US_041, server: 38.68.134.190, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇲 US_042, server: 38.68.134.37, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇲 US_043, server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇲 US_044, server: 38.68.134.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇲 US_045, server: 192.46.209.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 🇺🇲 US_046, server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 US_047, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 US_048, server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 US_049, server: 38.68.134.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 US_050, server: 38.91.101.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇲 US_051, server: 38.68.134.190, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇺🇲 US_052, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇲 US_053, server: 38.68.134.190, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇲 US_054, server: 38.68.134.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇲 US_055, server: 38.68.135.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇲 US_056, server: 38.68.135.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇲 US_057, server: 38.91.100.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 俄国01|解锁|D组中继×1.0, server: ovo.cz.cu.898022.xyz, port: 32129, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.ru01.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 俄国01|解锁|直连×1.0, server: ovo.ru01.898022.xyz, port: 39090, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.ru01.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 地址 ovocloud.cc 已更换成Trojan协议, server: google.com, port: 80, type: vmess, uuid: 63d6c8af-9ea3-48dc-8ed8-473863508a83, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: google.com}, udp: true}
+  - {name: 🇨🇳 台湾01|原生|B组中继×1.0, server: ovo.gz.cm.898022.xyz, port: 32126, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.tw01.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾01|原生|C组中继×1.0, server: ovo.ah.cm.898022.xyz, port: 32126, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.tw01.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾01|原生|稳定动态|直连×1.0, server: ovo.tw01.898022.xyz, port: 39090, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.tw01.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾02|原生|B组中继×1.0, server: ovo.gz.cm.898022.xyz, port: 32127, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.tw02.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾02|原生|C组中继×1.0, server: ovo.ah.cm.898022.xyz, port: 32127, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.tw02.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾02|原生|稳定动态|直连×1.0, server: ovo.tw02.898022.xyz, port: 39090, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.tw02.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港01|原生|B组中继×2.0, server: ovo.gz.cm.898022.xyz, port: 32121, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.hk01.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港01|原生|C组中继×2.0, server: ovo.ah.cm.898022.xyz, port: 32121, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.hk01.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港01|原生|直连×2.0, server: ovo.hk01.898022.xyz, port: 39090, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.hk01.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港02|解锁|B组中继×2.0, server: ovo.gz.cm.898022.xyz, port: 32122, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.hk02.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港02|解锁|C组中继×2.0, server: ovo.ah.cm.898022.xyz, port: 32122, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.hk02.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港02|解锁|直连×2.0, server: ovo.hk02.898022.xyz, port: 39090, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.hk02.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港03|原生|B组中继×1.5, server: ovo.gz.cm.898022.xyz, port: 32123, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.hk03.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港03|原生|C组中继×1.5, server: ovo.ah.cm.898022.xyz, port: 32123, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.hk03.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港03|原生|直连×1.5, server: ovo.hk03.898022.xyz, port: 39090, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.hk03.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本01-CM-2.0, server: ovo.gz.cm.898022.xyz, port: 32124, type: ss, cipher: chacha20-ietf-poly1305, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, udp: true}
+  - {name: 🇯🇵 日本01-CU-2.0, server: ovo.cz.cu.898022.xyz, port: 32124, type: ss, cipher: chacha20-ietf-poly1305, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, udp: true}
+  - {name: 🇺🇲 美国01|原生|B组中继×1.5, server: ovo.gz.cm.898022.xyz, port: 32128, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.us01.898022.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇲 美国01|原生|D组中继×1.5, server: ovo.cz.cu.898022.xyz, port: 32128, type: trojan, password: 63d6c8af-9ea3-48dc-8ed8-473863508a83, sni: ovo.us01.898022.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CA_001
-      - CA_002
-      - CA_003
-      - CA_004
-      - CA_005
-      - CA_006
-      - CA_007
-      - GB_010
-      - GB_011
-      - NO_016
-      - ZZ_058
-      - ZZ_059
-      - ZZ_060
-      - ZZ_061
-      - ZZ_062
-      - ZZ_063
-      - ZZ_064
-      - ZZ_065
-      - ZZ_066
-      - ZZ_067
-      - ZZ_068
-      - ZZ_069
-      - ZZ_070
-      - ZZ_071
-      - ZZ_072
-      - ZZ_073
-      - ZZ_074
-      - ZZ_075
-      - ZZ_076
-      - ZZ_077
-      - ZZ_078
-      - ZZ_079
-      - ZZ_080
-      - ZZ_081
-      - ZZ_082
-      - ZZ_083
-      - ZZ_084
-      - ZZ_085
-      - ZZ_086
-      - ZZ_087
-      - ZZ_088
-      - ZZ_089
-      - ZZ_090
-      - ZZ_091
-      - ZZ_092
-      - ZZ_093
-      - ZZ_094
-      - ZZ_095
-      - ZZ_096
-      - ZZ_097
-      - ZZ_098
-      - ZZ_099
-      - ZZ_100
-      - ZZ_101
-      - ZZ_102
-      - ZZ_103
-      - ZZ_104
-      - ZZ_105
-      - ZZ_106
-      - ZZ_107
-      - ZZ_108
-      - ZZ_109
-      - ZZ_110
-      - ZZ_111
-      - ZZ_112
-      - ZZ_113
-      - ZZ_114
-      - ZZ_115
-      - ZZ_116
-      - ZZ_117
-      - ZZ_118
-      - ZZ_119
-      - ZZ_120
-      - ZZ_121
-      - ZZ_122
-      - ZZ_123
-      - ZZ_124
-      - ZZ_125
-      - ZZ_126
-      - ZZ_127
-      - ZZ_128
-      - ZZ_129
-      - ZZ_130
-      - ZZ_131
-      - ZZ_132
-      - ZZ_133
-      - ZZ_134
-      - ZZ_135
-      - ZZ_136
-      - ZZ_137
-      - ZZ_138
-      - ZZ_139
-      - ZZ_140
-      - ZZ_141
-      - 🇫🇷 FR_008
-      - 🇫🇷 FR_009
-      - 🇯🇵 JP_012
-      - 🇯🇵 JP_013
-      - 🇯🇵 JP_014
-      - 🇯🇵 JP_015
-      - 🇷🇴 RO_017
-      - 🇷🇺 RU_018
-      - 🇺🇲 US_019
-      - 🇺🇲 US_020
-      - 🇺🇲 US_021
-      - 🇺🇲 US_022
-      - 🇺🇲 US_023
-      - 🇺🇲 US_024
-      - 🇺🇲 US_025
-      - 🇺🇲 US_026
-      - 🇺🇲 US_027
-      - 🇺🇲 US_028
-      - 🇺🇲 US_029
-      - 🇺🇲 US_030
-      - 🇺🇲 US_031
-      - 🇺🇲 US_032
-      - 🇺🇲 US_033
-      - 🇺🇲 US_034
-      - 🇺🇲 US_035
-      - 🇺🇲 US_036
-      - 🇺🇲 US_037
-      - 🇺🇲 US_038
-      - 🇺🇲 US_039
-      - 🇺🇲 US_040
-      - 🇺🇲 US_041
-      - 🇺🇲 US_042
-      - 🇺🇲 US_043
-      - 🇺🇲 US_044
-      - 🇺🇲 US_045
-      - 🇺🇲 US_046
-      - 🇺🇲 US_047
-      - 🇺🇲 US_048
-      - 🇺🇲 US_049
-      - 🇺🇲 US_050
-      - 🇺🇲 US_051
-      - 🇺🇲 US_052
-      - 🇺🇲 US_053
-      - 🇺🇲 US_054
-      - 🇺🇲 US_055
-      - 🇺🇲 US_056
-      - 🇺🇲 US_057
+      - 俄国01|解锁|D组中继×1.0
+      - 俄国01|解锁|直连×1.0
+      - 地址 ovocloud.cc 已更换成Trojan协议
+      - 🇨🇳 台湾01|原生|B组中继×1.0
+      - 🇨🇳 台湾01|原生|C组中继×1.0
+      - 🇨🇳 台湾01|原生|稳定动态|直连×1.0
+      - 🇨🇳 台湾02|原生|B组中继×1.0
+      - 🇨🇳 台湾02|原生|C组中继×1.0
+      - 🇨🇳 台湾02|原生|稳定动态|直连×1.0
+      - 🇭🇰 香港01|原生|B组中继×2.0
+      - 🇭🇰 香港01|原生|C组中继×2.0
+      - 🇭🇰 香港01|原生|直连×2.0
+      - 🇭🇰 香港02|解锁|B组中继×2.0
+      - 🇭🇰 香港02|解锁|C组中继×2.0
+      - 🇭🇰 香港02|解锁|直连×2.0
+      - 🇭🇰 香港03|原生|B组中继×1.5
+      - 🇭🇰 香港03|原生|C组中继×1.5
+      - 🇭🇰 香港03|原生|直连×1.5
+      - 🇯🇵 日本01-CM-2.0
+      - 🇯🇵 日本01-CU-2.0
+      - 🇺🇲 美国01|原生|B组中继×1.5
+      - 🇺🇲 美国01|原生|D组中继×1.5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CA_001
-      - CA_002
-      - CA_003
-      - CA_004
-      - CA_005
-      - CA_006
-      - CA_007
-      - GB_010
-      - GB_011
-      - NO_016
-      - ZZ_058
-      - ZZ_059
-      - ZZ_060
-      - ZZ_061
-      - ZZ_062
-      - ZZ_063
-      - ZZ_064
-      - ZZ_065
-      - ZZ_066
-      - ZZ_067
-      - ZZ_068
-      - ZZ_069
-      - ZZ_070
-      - ZZ_071
-      - ZZ_072
-      - ZZ_073
-      - ZZ_074
-      - ZZ_075
-      - ZZ_076
-      - ZZ_077
-      - ZZ_078
-      - ZZ_079
-      - ZZ_080
-      - ZZ_081
-      - ZZ_082
-      - ZZ_083
-      - ZZ_084
-      - ZZ_085
-      - ZZ_086
-      - ZZ_087
-      - ZZ_088
-      - ZZ_089
-      - ZZ_090
-      - ZZ_091
-      - ZZ_092
-      - ZZ_093
-      - ZZ_094
-      - ZZ_095
-      - ZZ_096
-      - ZZ_097
-      - ZZ_098
-      - ZZ_099
-      - ZZ_100
-      - ZZ_101
-      - ZZ_102
-      - ZZ_103
-      - ZZ_104
-      - ZZ_105
-      - ZZ_106
-      - ZZ_107
-      - ZZ_108
-      - ZZ_109
-      - ZZ_110
-      - ZZ_111
-      - ZZ_112
-      - ZZ_113
-      - ZZ_114
-      - ZZ_115
-      - ZZ_116
-      - ZZ_117
-      - ZZ_118
-      - ZZ_119
-      - ZZ_120
-      - ZZ_121
-      - ZZ_122
-      - ZZ_123
-      - ZZ_124
-      - ZZ_125
-      - ZZ_126
-      - ZZ_127
-      - ZZ_128
-      - ZZ_129
-      - ZZ_130
-      - ZZ_131
-      - ZZ_132
-      - ZZ_133
-      - ZZ_134
-      - ZZ_135
-      - ZZ_136
-      - ZZ_137
-      - ZZ_138
-      - ZZ_139
-      - ZZ_140
-      - ZZ_141
-      - 🇫🇷 FR_008
-      - 🇫🇷 FR_009
-      - 🇯🇵 JP_012
-      - 🇯🇵 JP_013
-      - 🇯🇵 JP_014
-      - 🇯🇵 JP_015
-      - 🇷🇴 RO_017
-      - 🇷🇺 RU_018
-      - 🇺🇲 US_019
-      - 🇺🇲 US_020
-      - 🇺🇲 US_021
-      - 🇺🇲 US_022
-      - 🇺🇲 US_023
-      - 🇺🇲 US_024
-      - 🇺🇲 US_025
-      - 🇺🇲 US_026
-      - 🇺🇲 US_027
-      - 🇺🇲 US_028
-      - 🇺🇲 US_029
-      - 🇺🇲 US_030
-      - 🇺🇲 US_031
-      - 🇺🇲 US_032
-      - 🇺🇲 US_033
-      - 🇺🇲 US_034
-      - 🇺🇲 US_035
-      - 🇺🇲 US_036
-      - 🇺🇲 US_037
-      - 🇺🇲 US_038
-      - 🇺🇲 US_039
-      - 🇺🇲 US_040
-      - 🇺🇲 US_041
-      - 🇺🇲 US_042
-      - 🇺🇲 US_043
-      - 🇺🇲 US_044
-      - 🇺🇲 US_045
-      - 🇺🇲 US_046
-      - 🇺🇲 US_047
-      - 🇺🇲 US_048
-      - 🇺🇲 US_049
-      - 🇺🇲 US_050
-      - 🇺🇲 US_051
-      - 🇺🇲 US_052
-      - 🇺🇲 US_053
-      - 🇺🇲 US_054
-      - 🇺🇲 US_055
-      - 🇺🇲 US_056
-      - 🇺🇲 US_057
+      - 俄国01|解锁|D组中继×1.0
+      - 俄国01|解锁|直连×1.0
+      - 地址 ovocloud.cc 已更换成Trojan协议
+      - 🇨🇳 台湾01|原生|B组中继×1.0
+      - 🇨🇳 台湾01|原生|C组中继×1.0
+      - 🇨🇳 台湾01|原生|稳定动态|直连×1.0
+      - 🇨🇳 台湾02|原生|B组中继×1.0
+      - 🇨🇳 台湾02|原生|C组中继×1.0
+      - 🇨🇳 台湾02|原生|稳定动态|直连×1.0
+      - 🇭🇰 香港01|原生|B组中继×2.0
+      - 🇭🇰 香港01|原生|C组中继×2.0
+      - 🇭🇰 香港01|原生|直连×2.0
+      - 🇭🇰 香港02|解锁|B组中继×2.0
+      - 🇭🇰 香港02|解锁|C组中继×2.0
+      - 🇭🇰 香港02|解锁|直连×2.0
+      - 🇭🇰 香港03|原生|B组中继×1.5
+      - 🇭🇰 香港03|原生|C组中继×1.5
+      - 🇭🇰 香港03|原生|直连×1.5
+      - 🇯🇵 日本01-CM-2.0
+      - 🇯🇵 日本01-CU-2.0
+      - 🇺🇲 美国01|原生|B组中继×1.5
+      - 🇺🇲 美国01|原生|D组中继×1.5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -457,147 +101,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CA_001
-      - CA_002
-      - CA_003
-      - CA_004
-      - CA_005
-      - CA_006
-      - CA_007
-      - GB_010
-      - GB_011
-      - NO_016
-      - ZZ_058
-      - ZZ_059
-      - ZZ_060
-      - ZZ_061
-      - ZZ_062
-      - ZZ_063
-      - ZZ_064
-      - ZZ_065
-      - ZZ_066
-      - ZZ_067
-      - ZZ_068
-      - ZZ_069
-      - ZZ_070
-      - ZZ_071
-      - ZZ_072
-      - ZZ_073
-      - ZZ_074
-      - ZZ_075
-      - ZZ_076
-      - ZZ_077
-      - ZZ_078
-      - ZZ_079
-      - ZZ_080
-      - ZZ_081
-      - ZZ_082
-      - ZZ_083
-      - ZZ_084
-      - ZZ_085
-      - ZZ_086
-      - ZZ_087
-      - ZZ_088
-      - ZZ_089
-      - ZZ_090
-      - ZZ_091
-      - ZZ_092
-      - ZZ_093
-      - ZZ_094
-      - ZZ_095
-      - ZZ_096
-      - ZZ_097
-      - ZZ_098
-      - ZZ_099
-      - ZZ_100
-      - ZZ_101
-      - ZZ_102
-      - ZZ_103
-      - ZZ_104
-      - ZZ_105
-      - ZZ_106
-      - ZZ_107
-      - ZZ_108
-      - ZZ_109
-      - ZZ_110
-      - ZZ_111
-      - ZZ_112
-      - ZZ_113
-      - ZZ_114
-      - ZZ_115
-      - ZZ_116
-      - ZZ_117
-      - ZZ_118
-      - ZZ_119
-      - ZZ_120
-      - ZZ_121
-      - ZZ_122
-      - ZZ_123
-      - ZZ_124
-      - ZZ_125
-      - ZZ_126
-      - ZZ_127
-      - ZZ_128
-      - ZZ_129
-      - ZZ_130
-      - ZZ_131
-      - ZZ_132
-      - ZZ_133
-      - ZZ_134
-      - ZZ_135
-      - ZZ_136
-      - ZZ_137
-      - ZZ_138
-      - ZZ_139
-      - ZZ_140
-      - ZZ_141
-      - 🇫🇷 FR_008
-      - 🇫🇷 FR_009
-      - 🇯🇵 JP_012
-      - 🇯🇵 JP_013
-      - 🇯🇵 JP_014
-      - 🇯🇵 JP_015
-      - 🇷🇴 RO_017
-      - 🇷🇺 RU_018
-      - 🇺🇲 US_019
-      - 🇺🇲 US_020
-      - 🇺🇲 US_021
-      - 🇺🇲 US_022
-      - 🇺🇲 US_023
-      - 🇺🇲 US_024
-      - 🇺🇲 US_025
-      - 🇺🇲 US_026
-      - 🇺🇲 US_027
-      - 🇺🇲 US_028
-      - 🇺🇲 US_029
-      - 🇺🇲 US_030
-      - 🇺🇲 US_031
-      - 🇺🇲 US_032
-      - 🇺🇲 US_033
-      - 🇺🇲 US_034
-      - 🇺🇲 US_035
-      - 🇺🇲 US_036
-      - 🇺🇲 US_037
-      - 🇺🇲 US_038
-      - 🇺🇲 US_039
-      - 🇺🇲 US_040
-      - 🇺🇲 US_041
-      - 🇺🇲 US_042
-      - 🇺🇲 US_043
-      - 🇺🇲 US_044
-      - 🇺🇲 US_045
-      - 🇺🇲 US_046
-      - 🇺🇲 US_047
-      - 🇺🇲 US_048
-      - 🇺🇲 US_049
-      - 🇺🇲 US_050
-      - 🇺🇲 US_051
-      - 🇺🇲 US_052
-      - 🇺🇲 US_053
-      - 🇺🇲 US_054
-      - 🇺🇲 US_055
-      - 🇺🇲 US_056
-      - 🇺🇲 US_057
+      - 俄国01|解锁|D组中继×1.0
+      - 俄国01|解锁|直连×1.0
+      - 地址 ovocloud.cc 已更换成Trojan协议
+      - 🇨🇳 台湾01|原生|B组中继×1.0
+      - 🇨🇳 台湾01|原生|C组中继×1.0
+      - 🇨🇳 台湾01|原生|稳定动态|直连×1.0
+      - 🇨🇳 台湾02|原生|B组中继×1.0
+      - 🇨🇳 台湾02|原生|C组中继×1.0
+      - 🇨🇳 台湾02|原生|稳定动态|直连×1.0
+      - 🇭🇰 香港01|原生|B组中继×2.0
+      - 🇭🇰 香港01|原生|C组中继×2.0
+      - 🇭🇰 香港01|原生|直连×2.0
+      - 🇭🇰 香港02|解锁|B组中继×2.0
+      - 🇭🇰 香港02|解锁|C组中继×2.0
+      - 🇭🇰 香港02|解锁|直连×2.0
+      - 🇭🇰 香港03|原生|B组中继×1.5
+      - 🇭🇰 香港03|原生|C组中继×1.5
+      - 🇭🇰 香港03|原生|直连×1.5
+      - 🇯🇵 日本01-CM-2.0
+      - 🇯🇵 日本01-CU-2.0
+      - 🇺🇲 美国01|原生|B组中继×1.5
+      - 🇺🇲 美国01|原生|D组中继×1.5
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
