@@ -5,12 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: IR_746, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: true, udp: true}
-  - {name: US_1248 |133.49Mb, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, udp: true}
-  - {name: US_2893 |29.15Mb, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: US_2894 |29.62Mb, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_2161, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_3142, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: AU_70, server: 129.154.50.0, port: 29363, type: vmess, uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: HK_672, server: hkaz1.scsevers.cf, port: 443, type: trojan, password: sharecentre, sni: hkaz1.scsevers.cf, skip-cert-verify: true, udp: true}
+  - {name: US_3116, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, udp: true}
+  - {name: US_83 TG@peekfun, server: 142.202.48.77, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_84 TG@peekfun, server: 142.202.48.77, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_85 TG@peekfun, server: 142.202.48.77, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_86 TG@peekfun, server: 142.202.48.77, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_88 TG@peekfun, server: 142.202.48.77, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_92 TG@peekfun, server: 142.202.48.77, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_93 TG@peekfun, server: 142.202.48.77, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇭🇰HK_3112, server: 20.219.1.62, port: 25558, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: false, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -29,46 +34,66 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - IR_746
-      - US_1248 |133.49Mb
-      - US_2893 |29.15Mb
-      - US_2894 |29.62Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2161
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3142
+      - AU_70
+      - HK_672
+      - US_3116
+      - US_83 TG@peekfun
+      - US_84 TG@peekfun
+      - US_85 TG@peekfun
+      - US_86 TG@peekfun
+      - US_88 TG@peekfun
+      - US_92 TG@peekfun
+      - US_93 TG@peekfun
+      - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_3112
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - IR_746
-      - US_1248 |133.49Mb
-      - US_2893 |29.15Mb
-      - US_2894 |29.62Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2161
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3142
+      - AU_70
+      - HK_672
+      - US_3116
+      - US_83 TG@peekfun
+      - US_84 TG@peekfun
+      - US_85 TG@peekfun
+      - US_86 TG@peekfun
+      - US_88 TG@peekfun
+      - US_92 TG@peekfun
+      - US_93 TG@peekfun
+      - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_3112
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - IR_746
-      - US_1248 |133.49Mb
-      - US_2893 |29.15Mb
-      - US_2894 |29.62Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2161
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3142
+      - AU_70
+      - HK_672
+      - US_3116
+      - US_83 TG@peekfun
+      - US_84 TG@peekfun
+      - US_85 TG@peekfun
+      - US_86 TG@peekfun
+      - US_88 TG@peekfun
+      - US_92 TG@peekfun
+      - US_93 TG@peekfun
+      - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_3112
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - IR_746
-      - US_1248 |133.49Mb
-      - US_2893 |29.15Mb
-      - US_2894 |29.62Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2161
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3142
+      - AU_70
+      - HK_672
+      - US_3116
+      - US_83 TG@peekfun
+      - US_84 TG@peekfun
+      - US_85 TG@peekfun
+      - US_86 TG@peekfun
+      - US_88 TG@peekfun
+      - US_92 TG@peekfun
+      - US_93 TG@peekfun
+      - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_3112
   - name: 📲 电报消息
     type: select
     proxies:
@@ -244,7 +269,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - DIRECT
+      - HK_672
+      - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_3112
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -256,11 +282,15 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_1248 |133.49Mb
-      - US_2893 |29.15Mb
-      - US_2894 |29.62Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_2161
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_3142
+      - US_3116
+      - US_83 TG@peekfun
+      - US_84 TG@peekfun
+      - US_85 TG@peekfun
+      - US_86 TG@peekfun
+      - US_88 TG@peekfun
+      - US_92 TG@peekfun
+      - US_93 TG@peekfun
+      - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_3112
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
