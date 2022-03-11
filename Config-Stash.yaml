@@ -1,4 +1,4 @@
-# 将proxy-providers中的订阅链接替换即可
+# Config-Stash.yaml配置模板
 
 mixed-port: 7890
 allow-lan: true
@@ -13,8 +13,8 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://moonsub.vercel.app/sub?target=clash&new_name=true&emoji=true&udp=true&tfo=false&fdn=true&sort=true&clash.doh=true&expand=true&filename=MOON365FREE&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini.ini&url=https%3A%2F%2Fhi.moon365.workers.dev%2Ffree%3Fsub%3Dclash&rename=`【hi-moon.pw】@`"
-    # Clash订阅链接替换掉整个引号""内的链接
+    url: "https://moonsub.vercel.app/sub?target=clash&new_name=true&emoji=true&udp=true&tfo=false&fdn=true&sort=true&clash.doh=true&expand=true&filename=AIRBUS&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini.ini&url=https%3A%2F%2Fhi.moon365.workers.dev%2Ffree%3Fsub%3Dclash%7Chttps%3A%2F%2Fgitee.com%2Fioii%2Fiioii%2Fraw%2Fmaster%2F3.11%7C&rename=`【hi-moon.pw】@``_TGatnodesharing@`"
+    # 将Clash订阅链接替换掉整个引号""内的链接
     interval: 3600
     path: ./all.yaml
     health-check:
