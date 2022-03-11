@@ -1,3 +1,5 @@
+# 将proxy-providers中的链接替换即可
+
 mixed-port: 7890
 allow-lan: true
 bind-address: '*'
@@ -11,8 +13,8 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fcdn.jsdelivr.net/gh/git-yusteven/openit@main/Clash.yaml&new_name=true&emoji=true&fdn=true&sort=true&clash.doh=true&expand=true&list=true&udp=true"
-    # 可以使用任意类型的链接替换上面文字，多个链接使用英文符号的竖杠|隔开一起写上即可；也可以将Clash订阅链接替换掉整个引号""内的链接
+    url: "https://api.hxsj.tk/sub?target=clash&new_name=true&emoji=true&udp=true&tfo=false&fdn=true&sort=true&clash.doh=true&expand=true&filename=NODESHARING&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_MultiMode.ini&url=https%3A%2F%2Fgitee.com%2Fioii%2Fiioii%2Fraw%2Fmaster%2F3.11&&rename=`_TGatnodesharing@`"
+    # Clash订阅链接替换掉整个引号""内的链接
     interval: 3600
     path: ./all.yaml
     health-check:
@@ -368,8 +370,6 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Domain.yaml"
     path: ./ruleset/Global-Domain.yaml
     interval: 86400
-
-
 
 rules:
   - RULE-SET,Direct,DIRECT
