@@ -13,8 +13,8 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://api.dler.io/sub?target=clash&new_name=true&emoji=true&udp=true&tfo=false&fdn=true&sort=true&clash.doh=true&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Ffreefq%2Ffree%40master%2Fv2%7Chttp%3A%2F%2Fopenit.ml%2FClash.yaml%7C&rename=`github.com/freefq - ``[Http|]`"
-    # 或者将Clash订阅链接替换掉整个引号""内的链接
+    url: "https://greenyun.tk/api/v1/client/subscribe?token=d2da74a76b327681c2ea009fbd47a873"
+    # 将Clash订阅链接替换掉整个引号""内的链接
     interval: 3600
     path: ./all.yaml
     health-check:
