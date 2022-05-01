@@ -13,7 +13,7 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://greenyun.tk/api/v1/client/subscribe?token=d2da74a76b327681c2ea009fbd47a873&flag=clash"
+    url: "https://subscribe-puce.vercel.app/api/v1/client/subscribe?token=3460d4bf47a1e6b024a8934cca86f8d1&flag=clash|https://698436.xyz/api/v1/client/subscribe?token=7de00ed48a65dc47378998a9953164f0&flag=clash"
     # 将Clash订阅链接替换掉整个引号""内的链接
     interval: 3600
     path: ./all.yaml
