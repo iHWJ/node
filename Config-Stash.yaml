@@ -13,7 +13,7 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://free.dswang.ga/clash/proxies"
+    url: "http://openit.ml/Clash.yaml"
     #Clash类型订阅链接
     interval: 3600
     path: ./all.yaml
