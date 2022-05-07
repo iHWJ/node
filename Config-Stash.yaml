@@ -13,7 +13,7 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://hk.xhrzg2017.xyz/clash/proxies"
+    url: "https://proxies.bihai.cf/clash/proxies"
     #Clash类型订阅链接
     interval: 3600
     path: ./all.yaml
