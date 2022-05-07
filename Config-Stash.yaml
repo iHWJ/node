@@ -13,7 +13,7 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://circlecloud123.com/api/v1/client/subscribe?token=463eca519f378d5c9b14e980b4b0c359"
+    url: "https://proxies.bihai.cf/clash/proxies?type=trojan"
     #Clash订阅链接
     interval: 3600
     path: ./all.yaml
