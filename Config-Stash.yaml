@@ -15,7 +15,7 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://proxypoolss.fly.dev/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|https://gfwglass.tk/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|https://fq.lonxin.net/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|https://free886.herokuapp.com/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|http://wxshi.top:9090/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|https://free.dswang.ga/clash/proxies?type=trojan&c=CN,HK,TW,US,JP"
+    url: "https://api.v1.mk/sub?target=clash&url=https://proxypoolss.fly.dev/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|https://gfwglass.tk/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|https://fq.lonxin.net/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|https://free886.herokuapp.com/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|http://wxshi.top:9090/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|https://free.dswang.ga/clash/proxies?type=trojan&c=CN,HK,TW,US,JP&list=true&udp=true"
     #Clash订阅链接
     interval: 86400
     path: ./all.yaml
