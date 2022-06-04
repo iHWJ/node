@@ -15,7 +15,7 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://api.v1.mk/sub?target=clash&url=https://proxypoolss.fly.dev/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|https://proxies.bihai.cf/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|https://gfwglass.tk/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|https://fq.lonxin.net/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|https://free886.herokuapp.com/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|http://wxshi.top:9090/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|https://free.dswang.ga/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|https://sspool.herokuapp.com/clash/proxies?type=trojan&c=CN,HK,TW,US,JP|http://clash.3wking.com:12580/clash/proxies?type=trojan&c=CN,HK,TW,US,JP&list=true&udp=true"
+    url: "https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fproxypoolss.fly.dev%2Fclash%2Fproxies%3Ftype%3Dtrojan%26c%3DHK%2CTW%2CUS%2CJP%7Chttps%3A%2F%2Fproxies.bihai.cf%2Fclash%2Fproxies%3Ftype%3Dtrojan%26c%3DHK%2CTW%2CUS%2CJP%7Chttps%3A%2F%2Fgfwglass.tk%2Fclash%2Fproxies%3Ftype%3Dtrojan%26c%3DHK%2CTW%2CUS%2CJP%7Chttps%3A%2F%2Ffq.lonxin.net%2Fclash%2Fproxies%3Ftype%3Dtrojan%26c%3DHK%2CTW%2CUS%2CJP%7Chttps%3A%2F%2Ffree886.herokuapp.com%2Fclash%2Fproxies%3Ftype%3Dtrojan%26c%3DHK%2CTW%2CUS%2CJP%7Chttp%3A%2F%2Fwxshi.top%3A9090%2Fclash%2Fproxies%3Ftype%3Dtrojan%26c%3DHK%2CTW%2CUS%2CJP%7Chttps%3A%2F%2Ffree.dswang.ga%2Fclash%2Fproxies%3Ftype%3Dtrojan%26c%3DHK%2CTW%2CUS%2CJP%7Chttps%3A%2F%2Fsspool.herokuapp.com%2Fclash%2Fproxies%3Ftype%3Dtrojan%26c%3DHK%2CTW%2CUS%2CJP%7Chttp%3A%2F%2Fclash.3wking.com%3A12580%2Fclash%2Fproxies%3Ftype%3Dtrojan%26c%3DHK%2CTW%2CUS%2CJP&list=true&udp=true"
     #Clash订阅链接
     interval: 86400
     path: ./all.yaml
