@@ -15,7 +15,7 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://api.v1.mk/sub?target=clash&url=https://gitlab.com/youtube-aweikeji/TG-aweikeji/-/raw/main/6/6.13/youtube-aweikeji6.13&list=true&udp=true&emoji=true&rename=\(youtube阿伟科技\)"
+    url: "https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fgitlab.com%2Fyoutube-aweikeji%2FTG-aweikeji%2F-%2Fraw%2Fmain%2F6%2F6.13%2Fyoutube-aweikeji6.13&rename=%5C(youtube%E9%98%BF%E4%BC%9F%E7%A7%91%E6%8A%80%5C)&emoji=true&list=true&udp=true"
 
     interval: 86400
     path: ./all.yaml
