@@ -1,4 +1,4 @@
-# Config-Stash配置模板
+# Config-Stash
 
 mixed-port: 7890
 allow-lan: true
@@ -15,7 +15,7 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://api.v1.mk/sub?target=clash&url=https://gitlab.com/youtube-aweikeji/TG-aweikeji/-/raw/main/6/614/aweikeji-6.14&list=true&udp=true&emoji=true&rename=%5C(youtube%E9%98%BF%E4%BC%9F%E7%A7%91%E6%8A%80%5C)"
+    url: "https://api.v1.mk/sub?target=clash&url=https://gitlab.com/youtube-aweikeji/TG-aweikeji/-/raw/main/6/615/CL6.15&list=true&udp=true&emoji=true&rename=%5C%28youtube%E9%98%BF%E4%BC%9F%E7%A7%91%E6%8A%80%5C%29"
 
     interval: 86400
     path: ./all.yaml
