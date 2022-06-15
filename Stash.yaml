@@ -9,7 +9,7 @@ ipv6: true
 external-controller: 127.0.0.1:9090
 
 subscribe-url: 
-#用于Stash获取机场流量信息
+#用于Stash获取机场流量信息并在主页显示
 
 proxy-providers:
   #全部节点
@@ -24,6 +24,26 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204
 
+  #美国节点    
+  US:
+    <<: *All #引用锚点内容
+    filter: 美|🇺🇲|US|(?i)States|American
+    
+  #香港节点
+  HK:
+    <<: *All
+    filter: 港|🇭🇰|HK|(?i)Hong
+
+  #日本节点
+  JP:
+    <<: *All
+    filter: 日|🇯🇵|东京|JP|(?i)Japan
+ 
+  #台湾节点
+  TW:
+    <<: *All
+    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
+   
 dns:
   enable: true
   ipv6: true
@@ -86,6 +106,10 @@ proxy-groups:
       - 手动切换
       - 自动选择
       - 故障转移
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
 
   - name: 国内网站
     type: select
@@ -95,6 +119,10 @@ proxy-groups:
       - 手动切换
       - 自动选择
       - 故障转移
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
       
   - name: YouTube
     type: select
@@ -155,6 +183,30 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
     proxies:
       *G
+
+  - name: 香港节点
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+    use:
+      - HK
+      
+  - name: 日本节点
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+    use:
+      - JP
+     
+  - name: 台湾节点
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
+    use:
+      - TW
+
+  - name: 美国节点
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+    use:
+      - US
 
 rule-providers:
 
