@@ -15,7 +15,7 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://api.dler.io/sub?target=clash&&list=true&udp=true&emoji=true&sort=true&url=https://ghproxy.com/https://raw.githubusercontent.com/changfengoss/pub/main/data/2022_06_16/HF08ma.txt&rename=%5C(yudou66.com%20%E7%8E%89%E8%B1%86%E5%88%86%E4%BA%AB%5C)"
+    url: "https://api.dler.io/sub?target=clash&emoji=true&udp=true&sort=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Fchangfengoss%2Fpub%2Fmain%2Fdata%2F2022_06_17%2FBd2pza.txt&rename=%5C%28yudou66.com%20%E7%8E%89%E8%B1%86%E5%88%86%E4%BA%AB%5C%29&list=true"
 
     interval: 86400
     path: ./all.yaml
