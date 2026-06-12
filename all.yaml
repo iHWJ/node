@@ -1,209 +1,656 @@
 proxies:
-    - name: "\U0001F1F7\U0001F1F4RO_1|748KB/s|TK-RO|GPT⁺-RO|GM-RO|CL-RO|SP-RO"
+    - name: "\U0001F1F7\U0001F1F4RO_1|609KB/s|0%|TK-RO|YT-UA|GPT⁺-RO|GM-UA|CL-RO|SP-RO"
       port: 9002
-      server: 193.176.84.27
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_2|612KB/s|0%|TK-RO|GPT⁺-RO|GM-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.176
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_3|536KB/s|0%|TK-RO|YT-RO|GPT⁺-RO|GM-RO|CL-RO"
-      port: 9002
-      server: 84.239.49.219
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_4|737KB/s|0%|GPT⁺-RO|GM-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.196
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - client-fingerprint: edge
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1|1002KB/s|0%|YT-US|GPT⁺-NL|CL-NL"
-      network: tcp
-      port: 443
-      security: tls
-      server: 85.234.114.53
-      servername: r1.mizulina.top
-      tls: true
-      type: vless
-      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    - name: "\U0001F1F7\U0001F1F4RO_5|1.3MB/s|0%|GPT⁺-RO|GM-UA|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.57
+      server: 84.239.49.231
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - client-fingerprint: edge
-      encryption: none
-      flow: xtls-rprx-vision-udp443
-      name: "\U0001F1FA\U0001F1F8US_2|837KB/s|0%|YT-US|GPT⁺-NL|GM-US|CL-NL|SP-US"
-      network: tcp
-      port: "22231"
-      server: 85.234.114.53
-      servername: r1.mizulina.top
+    - name: "\U0001F1F7\U0001F1F4RO_2|1.8MB/s|0%|TK-RO|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.234
+      skip-cert-verify: true
       tls: true
-      type: vless
+      type: http
       udp: true
-      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-      xudp: true
+    - name: "\U0001F1F7\U0001F1F4RO_3|1.3MB/s|0%|TK-RO|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.214
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_4|2.5MB/s|0%|TK-RO|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.14.154
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_5|710KB/s|0%|TK-RO|GPT⁺-RO|GM-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.40
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_6|579KB/s|0%|YT-UA|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.225
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_7|556KB/s|0%|TK-RO|YT-US|GPT⁺-RO|GM-TM|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.166
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_8|950KB/s|0%|TK-RO|GPT⁺-RO|GM-UA|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.191
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_9|519KB/s|0%|TK-RO|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.178
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F0\U0001F1F7KR_1|1.6MB/s|7%|YT-KR|NF|GPT⁺-KR|GM-KR|CL-KR|SP-KR"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - multiplexing: MULTIPLEXING_LOW
+      name: "\U0001F1FA\U0001F1F8US_1|3.4MB/s|0%|TK-US|YT-CN|NF|D+|GPT⁺-US|CL-US|SP-US"
+      password: dongtaiwang.com
+      port: 34567
+      server: 157.254.223.44
+      transport: TCP
+      type: mieru
+      username: dongtaiwang.com
+    - name: "\U0001F1F7\U0001F1F4RO_10|621KB/s|0%|TK-RO|GPT⁺-RO|GM-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.14.148
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_11|869KB/s|0%|TK-RO|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.163
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_12|873KB/s|0%|TK-RO|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.171
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_13|2.1MB/s|0%|TK-RO|YT-UA|GPT⁺-RO|GM-UA|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.160
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_14|560KB/s|GPT⁺-RO|CL-RO"
+      port: 9002
+      server: 193.176.84.25
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_15|615KB/s|0%|TK-RO|D+|GPT⁺-RO|GM-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.227
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_16|852KB/s|0%|TK-RO|GPT⁺-RO|GM-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.14.154
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_17|1.0MB/s|0%|TK-RO|YT-US|NF|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.211
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_18|773KB/s|0%|TK-RO|GPT⁺-RO|GM-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.173
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
     - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s|TK-DE|GPT⁺-DE|GM-DE|CL-DE|SP-DE"
-      network: ws
-      port: "80"
-      server: 199.232.197.131
+      http-opts:
+        headers: {}
+        path:
+            - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+      name: "\U0001F1E8\U0001F1EDCH_1|2.5MB/s|13%|TK-CH|NF|GPT⁺-CH|GM-CH|CL-CH|SP-CH"
+      network: http
+      port: "22"
+      server: 172.65.111.43
       type: vless
       udp: true
-      uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-      ws-opts:
-        headers:
-            Host: max-gb1.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36
-        path: /
+      uuid: monacoVPN
       xudp: true
-    - name: "\U0001F1F8\U0001F1ECSG_1|1.2MB/s|0%|TK-SG|YT-SG|NF-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: 80
-      server: education.panelvps.eu.org
-      skip-cert-verify: true
-      tfo: false
-      tls: false
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI_1|2.6MB/s|5%|TK-FI|GPT⁺-FI|GM-FI|CL-FI|SP-FI"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: MuQH546CBdgYVBzNU_F5fimkbQ0srHxgLKDjl1Wz2Rw
+        short-id: ""
+      server: 45.144.52.70
+      servername: fl-modx.webedg.net
+      tls: true
       type: vless
-      uuid: a3ca2f6f-3905-406b-b15e-873bed123033
+      udp: true
+      uuid: 8882d507-a051-4c81-a158-996f5270921e
+      xudp: true
+    - name: "\U0001F1FA\U0001F1F8US_2|1.6MB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      password: 111d8ca1-4d08-43af-b4d6-2ac65477c20d
+      port: 443
+      server: shazira.app
+      skip-cert-verify: true
+      sni: shazira.app
+      type: trojan
       ws-opts:
         headers:
-            Host: education.panelvps.eu.org
-        path: /vless
-    - cipher: 2022-blake3-aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8US_3|699KB/s|51%|TK-US|YT-CN|NF|GPT⁺-US|CL-US|SP-US"
-      password: Z7+ihCahl4v8UUYCgPv93w==
-      port: 8416
-      server: 192.3.196.182
-      type: ss
-    - client-fingerprint: firefox
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: grpc
-      name: "\U0001F1F0\U0001F1F7KR_1|5.1MB/s|TK-KR|YT-KR|NF|GPT⁺-KR|GM-KR|CL-KR|SP-KR"
-      network: grpc
-      port: 8132
-      reality-opts:
-        public-key: ZXcygBPTlVUgYDMViBKgs2TXyRHcxVzo4lycLXOG1GQ
-      server: 47.80.24.245
-      servername: addons.mozilla.org
+            Host: shazira.app
+        path: /Novan-ID11
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_3|536KB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: support.zoom.us.novantunnel.tech
+      servername: support.zoom.us.novantunnel.tech
       skip-cert-verify: true
       tfo: false
       tls: true
       type: vless
-      uuid: 5fb6c5d2-629b-48c6-bb3c-595caf2007ee
-    - cipher: 2022-blake3-aes-128-gcm
-      name: "\U0001F1F0\U0001F1F7KR_2|10.3MB/s|TK-KR|YT-KR|NF|GPT⁺-KR|GM-KR|CL-KR|SP-KR"
-      password: 3UebYm8HW8DU7iMs1O0pew==
-      port: 8127
-      server: 47.80.24.245
-      type: ss
-    - name: "\U0001F1EE\U0001F1F3IN_1|1.5MB/s|YT-IN|NF-IN|GPT⁺-IN|GM-IN|CL-IN|SP-IN"
-      network: ws
-      port: 80
-      server: dual.abhizzz.net
-      skip-cert-verify: true
-      tfo: false
-      tls: false
-      type: vless
-      uuid: fd925aaf-f2ee-4823-a586-3ef60df25c29
+      uuid: 2cc41a6e-c32c-45c4-a700-42dafd38786c
       ws-opts:
         headers:
-            Host: dual.abhizzz.net
-        path: /vless
+            Host: support.zoom.us.novantunnel.tech
+        path: /Novan-AE4
+    - name: "\U0001F1FA\U0001F1F8US_4|1.4MB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      password: b8e4767c-58c6-40d8-961e-a6b38050e300
+      port: 443
+      server: support.zoom.us.novantunnel.tech
+      skip-cert-verify: true
+      sni: support.zoom.us.novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: support.zoom.us.novantunnel.tech
+        path: /Novan-AE19
+    - name: "\U0001F1FA\U0001F1F8US_5|2.5MB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      password: 90135fae-0c11-4215-a101-0d43428b4d22
+      port: 443
+      server: novantunnel.tech
+      skip-cert-verify: true
+      sni: novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: novantunnel.tech
+        path: /Novan-AE23
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_6|1.6MB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: ava.game.naver.com.novantunnel.tech
+      servername: ava.game.naver.com.novantunnel.tech
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 16c5085f-6c41-49a9-8e58-ce3c2c622e3e
+      ws-opts:
+        headers:
+            Host: ava.game.naver.com.novantunnel.tech
+        path: /Novan-AE27
+    - name: "\U0001F1FA\U0001F1F8US_7|2.1MB/s|TK-US|YT-US|D+|GM-US|SP-US"
+      network: ws
+      password: 5e5e813b-6ada-4fa2-8f1c-46716272a838
+      port: 443
+      server: novantunnel.tech
+      skip-cert-verify: true
+      sni: novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: novantunnel.tech
+        path: /Novan-AE6
+    - name: "\U0001F1FA\U0001F1F8US_8|1.4MB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      password: 17e0ae25-7037-481f-9588-7d076404f75f
+      port: 443
+      server: ava.game.naver.com.novantunnel.tech
+      skip-cert-verify: true
+      sni: ava.game.naver.com.novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: ava.game.naver.com.novantunnel.tech
+        path: /Novan-AE19
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_9|621KB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: novantunnel.tech
+      servername: novantunnel.tech
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: b28d5e68-19fb-45c1-a0cd-bedacf4f765b
+      ws-opts:
+        headers:
+            Host: novantunnel.tech
+        path: /Novan-AE8
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_10|2.5MB/s|TK-US|YT-US|NF|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: ava.game.naver.com.novantunnel.tech
+      servername: ava.game.naver.com.novantunnel.tech
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: a8a43fbd-5031-4e5c-a54f-b55afbe324e4
+      ws-opts:
+        headers:
+            Host: ava.game.naver.com.novantunnel.tech
+        path: /Novan-AE29
+    - name: "\U0001F1FA\U0001F1F8US_11|687KB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      password: 01c7b48f-e2c0-45ad-a68f-709c33b3c23b
+      port: 443
+      server: ava.game.naver.com.novantunnel.tech
+      skip-cert-verify: true
+      sni: ava.game.naver.com.novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: ava.game.naver.com.novantunnel.tech
+        path: /Novan-AE30
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_12|725KB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: support.zoom.us.novantunnel.tech
+      servername: support.zoom.us.novantunnel.tech
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 8c14657e-9209-4d27-8cce-37bfa002745b
+      ws-opts:
+        headers:
+            Host: support.zoom.us.novantunnel.tech
+        path: /Novan-AE1
+    - name: "\U0001F1FA\U0001F1F8US_13|2.7MB/s|TK-US|NF|D+|GM-US|SP-US"
+      network: ws
+      password: 25a1f1a8-9f8d-4f40-955e-abd2aefc0912
+      port: 443
+      server: novantunnel.tech
+      skip-cert-verify: true
+      sni: novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: novantunnel.tech
+        path: /Novan-AE11
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_14|585KB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: ava.game.naver.com.novantunnel.tech
+      servername: ava.game.naver.com.novantunnel.tech
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: aacc57f1-78fd-490d-ba61-40b6e6ffb0d7
+      ws-opts:
+        headers:
+            Host: ava.game.naver.com.novantunnel.tech
+        path: /Novan-AE25
+    - name: "\U0001F1FA\U0001F1F8US_15|2.3MB/s|YT-US|NF|GM-US|SP-US"
+      network: ws
+      password: f22f35ea-1c02-4b20-b5d3-4b63c135ef49
+      port: 443
+      server: edu.ruangguru.com.novantunnel.tech
+      skip-cert-verify: true
+      sni: edu.ruangguru.com.novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: edu.ruangguru.com.novantunnel.tech
+        path: /Novan-AE18
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_16|2.8MB/s|YT-US|NF|D+|GPT⁺-AE|GM-US|CL-AE"
+      network: ws
+      port: 443
+      server: support.zoom.us.novantunnel.tech
+      servername: support.zoom.us.novantunnel.tech
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: fba1164d-0ece-49a5-b061-9be3f076038c
+      ws-opts:
+        headers:
+            Host: support.zoom.us.novantunnel.tech
+        path: /Novan-AE9
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_17|556KB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: support.zoom.us.novantunnel.tech
+      servername: support.zoom.us.novantunnel.tech
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 9061f777-a15d-4835-8983-bb7cbdb11763
+      ws-opts:
+        headers:
+            Host: support.zoom.us.novantunnel.tech
+        path: /Novan-AE18
+    - name: "\U0001F1FA\U0001F1F8US_18|1.7MB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      password: 57920983-3892-4d5f-802c-5bf5f3da3ae6
+      port: 443
+      server: novantunnel.tech
+      skip-cert-verify: true
+      sni: novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: novantunnel.tech
+        path: /Novan-AE10
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_19|2.5MB/s|TK-US|YT-US|NF|D+|GPT⁺-SG|GM-US|CL-SG|SP-US"
+      network: ws
+      port: 443
+      server: 188.114.97.149
+      servername: ip.racknerd.henso.wiki
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 23ffebbc-141b-4056-b110-cb68e7821af7
+      ws-opts:
+        headers:
+            Host: ip.racknerd.henso.wiki
+        path: /?ed=2048
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_20|781KB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: ava.game.naver.com.novantunnel.tech
+      servername: ava.game.naver.com.novantunnel.tech
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: c5c01c17-c517-4a23-9df8-7ff25a7f5b33
+      ws-opts:
+        headers:
+            Host: ava.game.naver.com.novantunnel.tech
+        path: /Novan-AE22
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_21|549KB/s|YT-US|NF|D+|GM-US"
+      network: ws
+      port: 443
+      server: support.zoom.us.novantunnel.tech
+      servername: support.zoom.us.novantunnel.tech
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 5413b1ba-fe63-4020-9fec-5c17aa15d88e
+      ws-opts:
+        headers:
+            Host: support.zoom.us.novantunnel.tech
+        path: /Novan-AE5
+    - name: "\U0001F1FA\U0001F1F8US_22|2.6MB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      password: 71507705-8ce9-443b-a3fe-cbb48d1125ea
+      port: 443
+      server: support.zoom.us.novantunnel.tech
+      skip-cert-verify: true
+      sni: support.zoom.us.novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: support.zoom.us.novantunnel.tech
+        path: /Novan-AE10
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_23|2.4MB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: novantunnel.tech
+      servername: novantunnel.tech
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: e62b28a6-ba40-4360-90aa-c4e6a2a6d166
+      ws-opts:
+        headers:
+            Host: novantunnel.tech
+        path: /Novan-AE29
+    - name: "\U0001F1FA\U0001F1F8US_24|607KB/s|TK-US|D+|GM-US"
+      network: ws
+      password: 18c93882-d6b5-4992-ba76-49c48e986445
+      port: 443
+      server: novantunnel.tech
+      skip-cert-verify: true
+      sni: novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: novantunnel.tech
+        path: /Novan-AE30
+    - name: "\U0001F1FA\U0001F1F8US_25|1.3MB/s|TK-US|YT-US|NF|GM-US|SP-US"
+      network: ws
+      password: 724aaffc-f4c6-49f9-b50e-f76065afbe7c
+      port: 443
+      server: edu.ruangguru.com.novantunnel.tech
+      skip-cert-verify: true
+      sni: edu.ruangguru.com.novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: edu.ruangguru.com.novantunnel.tech
+        path: /Novan-AE5
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_26|587KB/s|TK-US|YT-US|NF|D+|GM-US"
+      network: ws
+      port: 443
+      server: ava.game.naver.com.novantunnel.tech
+      servername: ava.game.naver.com.novantunnel.tech
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 4ad35ed0-ac7f-4f69-a26b-2894d780c545
+      ws-opts:
+        headers:
+            Host: ava.game.naver.com.novantunnel.tech
+        path: /Novan-AE2
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_27|559KB/s|TK-US|NF|D+|GPT|GM-US|CL-AE|SP-US"
+      network: ws
+      port: 443
+      server: ava.game.naver.com.novantunnel.tech
+      servername: ava.game.naver.com.novantunnel.tech
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 366d99ec-dd82-4ed4-83bc-c678a2bc966a
+      ws-opts:
+        headers:
+            Host: ava.game.naver.com.novantunnel.tech
+        path: /Novan-AE16
+    - name: "\U0001F1FA\U0001F1F8US_28|587KB/s|NF|GM-US"
+      network: ws
+      password: 6113911f-8a3e-4de3-949a-500d9c50fe0c
+      port: 443
+      server: support.zoom.us.novantunnel.tech
+      skip-cert-verify: true
+      sni: support.zoom.us.novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: support.zoom.us.novantunnel.tech
+        path: /Novan-AE25
+    - name: "\U0001F1FA\U0001F1F8US_29|1.8MB/s|TK-US|YT-US|NF|D+|SP-US"
+      network: ws
+      password: a5d47e46-3fcc-4232-bd6f-3703df3e99d4
+      port: 443
+      server: support.zoom.us.novantunnel.tech
+      skip-cert-verify: true
+      sni: support.zoom.us.novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: support.zoom.us.novantunnel.tech
+        path: /Novan-AE18
+    - name: "\U0001F1FA\U0001F1F8US_30|768KB/s|TK-US|YT-US|NF|D+"
+      network: ws
+      password: 758ba2c8-5142-46ca-95b8-440adec2a4c5
+      port: 443
+      server: support.zoom.us.novantunnel.tech
+      skip-cert-verify: true
+      sni: support.zoom.us.novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: support.zoom.us.novantunnel.tech
+        path: /Novan-AE17
+    - name: "\U0001F1FA\U0001F1F8US_31|1.8MB/s|TK-US|YT-US|NF|GM-US|SP-US"
+      network: ws
+      password: ec5cf915-2203-403c-9710-dbd553857929
+      port: 443
+      server: novantunnel.tech
+      skip-cert-verify: true
+      sni: novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: novantunnel.tech
+        path: /Novan-AE27
+    - name: "\U0001F1FA\U0001F1F8US_32|814KB/s|48%|YT-HK|GPT⁺-AE|CL-AE|SP-AE"
+      password: f1c30ab0-f60f-4996-ae40-bed63f1c39dd
+      port: 53215
+      server: 130.94.45.106
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: anytls
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8US_33|652KB/s|TK-US|YT-US|NF|GPT⁺|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: novantunnel.tech
+      servername: novantunnel.tech
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 5e5e813b-6ada-4fa2-8f1c-46716272a838
+      ws-opts:
+        headers:
+            Host: novantunnel.tech
+        path: /Novan-AE6
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1EAAE_1|850KB/s|YT-AE|GPT⁺-AE|GM-AE|CL-AE|SP-AE"
+      name: "\U0001F1E7\U0001F1E6BA_1|2.8MB/s|0%|YT-BA|NF-BA|GPT⁺-BA|GM-BA|CL-BA|SP-BA"
       network: tcp
       port: 443
       reality-opts:
-        public-key: lNmfBMA3R97nKT0zZEH-oYpLzO41y1xu7Tf_p0-oGF8
-        short-id: 0c1553316a645758
-      server: 103.57.251.208
-      servername: www.luluhypermarket.com
+        public-key: wPDTWjK4PYbOlruZOvX64vVS9tkOPSM6X4Ymg-FzvxY
+        short-id: ad9cf8818428d847
+      server: 185.164.35.37
+      servername: www.hyundai.com
       skip-cert-verify: true
       tfo: false
       tls: true
       type: vless
       uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-    - name: "\U0001F1EE\U0001F1F3IN_2|2.0MB/s|YT-IN|GPT⁺-IN|GM-IN|CL-IN|SP-IN"
+    - name: "\U0001F1FA\U0001F1F8US_34|2.1MB/s|TK-US|YT-US|NF|GM-US|SP-US"
       network: ws
-      port: 80
-      server: dual.abhizzz.net
-      skip-cert-verify: true
-      tfo: false
-      tls: false
-      type: vless
-      uuid: d8dabd75-ae26-4c27-993e-75a00ff72185
-      ws-opts:
-        headers:
-            Host: dual.abhizzz.net
-        path: /vless
-    - name: "\U0001F1F8\U0001F1ECSG_2|686KB/s|0%|YT-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: 80
-      server: education.panelvps.eu.org
-      skip-cert-verify: true
-      tfo: false
-      tls: false
-      type: vless
-      uuid: 4e5bbbe0-e38e-4868-804a-2e54e654ec98
-      ws-opts:
-        headers:
-            Host: education.panelvps.eu.org
-        path: /vless
-    - alpn:
-        - h2%2Ch3
-      client-fingerprint: edge
-      name: "\U0001F1F7\U0001F1FARU_1|618KB/s|0%|TK-RU|NF|GPT-FR|CL-FR"
-      network: tcp
+      password: 0291f571-478a-483a-8206-06e196f9af1c
       port: 443
-      server: 185.68.185.212
-      servername: progressiya-vpn.online
+      server: edu.ruangguru.com.novantunnel.tech
       skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 9768c292-e505-4555-a98d-270983439d80
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F0\U0001F1F7KR_3|5.7MB/s|TK-KR|YT-KR|NF|GPT⁺-KR|GM-KR|CL-KR|SP-KR"
-      network: tcp
-      port: 8123
-      reality-opts:
-        public-key: ZXcygBPTlVUgYDMViBKgs2TXyRHcxVzo4lycLXOG1GQ
-      server: 47.80.24.245
-      servername: addons.mozilla.org
+      sni: edu.ruangguru.com.novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: edu.ruangguru.com.novantunnel.tech
+        path: /Novan-AE19
+    - name: "\U0001F1FA\U0001F1F8US_35|1.1MB/s|TK-US|NF"
+      network: ws
+      password: 635737d0-c289-4862-b939-c66864004dfb
+      port: 443
+      server: novantunnel.tech
       skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 5fb6c5d2-629b-48c6-bb3c-595caf2007ee
-    - name: "\U0001F1FA\U0001F1F8US_4|2.7MB/s|0%|TK-US|YT-US|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: 1bd12499-91c3-463b-bf9a-f98744239557
-      port: 60298
-      server: 38.60.162.21
+      sni: novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: novantunnel.tech
+        path: /Novan-AE4
+    - name: "\U0001F1FA\U0001F1F8US_36|2.4MB/s|TK-US|YT-US|D+|SP-US"
+      network: ws
+      password: bc090949-8630-4faa-bf0d-839a703af09c
+      port: 443
+      server: support.zoom.us.novantunnel.tech
       skip-cert-verify: true
-      sni: www.bing.com
-      type: anytls
-    - name: "\U0001F1FA\U0001F1F8US_5|1.4MB/s|59%|TK-US|YT-US|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: cbf0fc01-f9b2-4f18-b712-88c34a84647d
-      port: 30225
-      server: 38.34.0.185
+      sni: support.zoom.us.novantunnel.tech
+      type: trojan
+      ws-opts:
+        headers:
+            Host: support.zoom.us.novantunnel.tech
+        path: /Novan-AE29
+    - name: "\U0001F1FA\U0001F1F8US_37|546KB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
+      network: ws
+      password: 18f0a073-ec66-4b6d-b8cf-4181213ee90e
+      port: 443
+      server: shazira.app
       skip-cert-verify: true
-      sni: www.bing.com
-      type: anytls
+      sni: shazira.app
+      type: trojan
+      ws-opts:
+        headers:
+            Host: shazira.app
+        path: /Novan-ID2
