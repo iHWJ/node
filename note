@@ -25,3 +25,15 @@ sudo python /Users/hongwenjun/Downloads/installinstallmacos.py --catalogurl http
 sudo python /Users/hongwenjun/Downloads/installinstallmacos.py --catalogurl https://swscan.apple.com/content/catalogs/others/index-10.15-10.14-10.13-10.12-10.11-10.10-10.9-10.8-10.7-10.6-10.5-10.4-10.3-10.2-10.1-10.0-10.merged-1.sucatalog
 
 sudo pip install xattr
+
+
+curl -k -L -o ~/Downloads/installinstallmacos.py https://raw.githubusercontent.com/munki/macadmin-scripts/main/installinstallmacos.py
+PYTHONHTTPSVERIFY=0 sudo python ~/Downloads/installinstallmacos.py
+sudo installer -pkg ~/Downloads/content/InstallAssistant.pkg -target /
+
+curl -k -L -o ~/Downloads/OpenCore.zip https://github.com/acidanthera/OpenCorePkg/releases/download/0.9.9/OpenCore-0.9.9-RELEASE.zip
+cd ~/Downloads
+unzip OpenCore.zip -d OpenCore
+cd OpenCore/Utilities/macrecovery
+PYTHONHTTPSVERIFY=0 python macrecovery.py -b Mac-937CB26E8EEFAB25 -m 00000000000000000 download
+sudo asr restore --source BaseSystem.dmg --target /Volumes/MyVolume --erase
