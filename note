@@ -1,0 +1,21 @@
+curl -L -o ~/Downloads/InstallAssistant.dmg "https://swcdn.apple.com/content/downloads/34/56/071-88632-A_9B8DD6F4-3D3B-4C1A-9E3F-1D3E4C5A6B7C/InstallAssistant.pkg"
+
+curl -L -o ~/Downloads/installinstallmacos.py https://raw.githubusercontent.com/munki/macadmin-scripts/main/installinstallmacos.py
+sudo python ~/Downloads/installinstallmacos.py --seedprogram
+
+ls -lh ~/Downloads/InstallAssistant.dmg
+
+hdiutil attach ~/Downloads/InstallAssistant.dmg
+
+sudo installer -pkg /Volumes/Install\ Assistant/InstallAssistant.pkg -target /
+
+hdiutil detach /Volumes/Install\ Assistant
+rm ~/Downloads/InstallAssistant.dmg
+
+sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/startosinstall --agreetolicense
+
+# 先同步网络时间
+sudo sntp -sS time.apple.com
+
+# 如果仍然报错，临时修改系统日期到 2022 年（Monterey 发布期间）
+sudo date 010112002022
