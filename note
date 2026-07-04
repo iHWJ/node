@@ -19,3 +19,9 @@ sudo sntp -sS time.apple.com
 
 # 如果仍然报错，临时修改系统日期到 2022 年（Monterey 发布期间）
 sudo date 010112002022
+
+sudo python /Users/hongwenjun/Downloads/installinstallmacos.py --catalogurl https://swscan.apple.com/content/catalogs/others/index-10.10-10.9-10.8-10.7-10.6-10.5-10.4-10.3-10.2-10.1-10.0-10.merged-1.sucatalog
+
+sudo python /Users/hongwenjun/Downloads/installinstallmacos.py --catalogurl https://swscan.apple.com/content/catalogs/others/index-10.15-10.14-10.13-10.12-10.11-10.10-10.9-10.8-10.7-10.6-10.5-10.4-10.3-10.2-10.1-10.0-10.merged-1.sucatalog
+
+sudo pip install xattr
