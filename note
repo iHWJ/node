@@ -37,3 +37,22 @@ unzip OpenCore.zip -d OpenCore
 cd OpenCore/Utilities/macrecovery
 PYTHONHTTPSVERIFY=0 python macrecovery.py -b Mac-937CB26E8EEFAB25 -m 00000000000000000 download
 sudo asr restore --source BaseSystem.dmg --target /Volumes/MyVolume --erase
+
+
+
+
+
+cd ~/Downloads
+curl -k -L -o gibMacOS.zip https://github.com/corpnewt/gibMacOS/archive/refs/heads/master.zip
+unzip -q gibMacOS.zip
+cd gibMacOS-master
+
+chmod +x gibMacOS.command
+PYTHONHTTPSVERIFY=0 ./gibMacOS.command
+
+
+# 找到下载目录中的 InstallAssistant.pkg 并运行安装
+find ~/Downloads/gibMacOS-master/macOS\ Downloads -name "InstallAssistant.pkg" -exec sudo installer -pkg {} -target / \;
+
+
+sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
