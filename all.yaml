@@ -1,6 +1,6 @@
 proxies:
     - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_1|2.8MB/s|0%|TK-US|YT-CN|NF|D+|GPT⁺-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_1|2.2MB/s|0%|TK-US|YT-CN|NF|D+|GPT⁺-US|CL-US|SP-US"
       password: dongtaiwang.com
       port: 34567
       server: 157.254.223.44
@@ -13,7 +13,7 @@ proxies:
         enable: true
         query-server-name: cloudflare-ech.com
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_2|718KB/s|TK-US|YT-US|NF|D+|GPT⁺|GM-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_2|638KB/s|16%|TK-US|YT-US|NF|D+|GPT-US|GM-US|CL-US|SP-US"
       network: ws
       packet-encoding: xudp
       port: 8443
@@ -28,1120 +28,185 @@ proxies:
         headers:
             Host: t1s1.rittbo.kdns.fr
         path: /
-    - name: "\U0001F1F7\U0001F1F4RO_1|2.0MB/s|0%|TK-RO|YT-RU|NF|GPT⁺-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.38
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_2|672KB/s|0%|TK-RO|YT-CN|NF|GPT⁺-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.162
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_3|821KB/s|0%|TK-RO|GPT⁺-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.196
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_4|1.4MB/s|TK-RO|GPT⁺-RO|GM-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 193.176.84.25
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_5|1.8MB/s|0%|TK-RO|YT-CN|NF|GPT⁺-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.171
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - encryption: none
-      http-opts:
-        headers:
-            Host:
-                - Telegram-NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EADE_1|603KB/s|YT-US|GPT-DE|CL-DE|SP-DE"
-      network: http
-      port: "8882"
-      server: gr1.fifapes.monster
-      type: vless
-      udp: true
-      uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-      xudp: true
-    - name: "\U0001F1F7\U0001F1F4RO_6|885KB/s|0%|TK-RO|GPT⁺-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.202
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_1|1.0MB/s|5%|YT-KR|NF|GPT⁺-KR|GM-KR|CL-KR|SP-KR"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
-    - name: "\U0001F1F7\U0001F1F4RO_7|2.0MB/s|0%|TK-RO|YT-CN|D+|GPT⁺-RO|CL-RO|SP-RO"
+    - name: "\U0001F1F7\U0001F1F4RO_1|630KB/s|0%|TK-RO|YT-CN|NF|D+|GPT⁺-RO|CL-RO|SP-RO"
       port: 9002
       server: 84.239.49.227
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F1F7\U0001F1F4RO_8|2.0MB/s|TK-RO|YT-CN|GPT|CL-RO"
-      port: 9002
-      server: 84.239.49.235
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_9|711KB/s"
-      port: 9002
-      server: 193.176.84.19
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_10|2.1MB/s"
-      port: 9002
-      server: 84.239.49.164
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_11|1.1MB/s"
-      port: 9002
-      server: 84.239.14.154
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_12|515KB/s|GPT-RO"
-      port: 9002
-      server: 84.239.49.39
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_13|544KB/s"
-      port: 9002
-      server: 84.239.49.231
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_14|1.3MB/s|GPT-RO"
-      port: 9002
-      server: 84.239.49.233
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_15|807KB/s|GPT-RO"
-      port: 9002
-      server: 84.239.49.40
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_16|562KB/s|GPT-RO"
-      port: 9002
-      server: 84.239.49.170
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_17|1.3MB/s|GPT-RO"
-      port: 9002
-      server: 84.239.49.207
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_18|1.5MB/s|GPT⁺-RO|CL-RO"
-      port: 9002
-      server: 193.176.84.34
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F9\U0001F1F7TR_1|614KB/s|TK-TR|YT-TR|D+|GPT⁺-TR|GM-TR|CL-TR"
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_1|1.3MB/s|0%|YT-JP|D+|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
       network: ws
-      password: dfdse334053vuohm
-      port: 443
-      server: auto.mhjstudio.ir
-      skip-cert-verify: false
-      sni: alternative.mhjstudio.ir
-      type: trojan
-      ws-opts:
-        headers:
-            Host: alternative.mhjstudio.ir
-        path: /
-    - name: "\U0001F1F7\U0001F1F4RO_19|1.5MB/s|0%|TK-RO|YT-CN|GPT⁺-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.187
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_20|2.2MB/s|0%|TK-RO|NF|GPT⁺-RO|GM-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.159
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1EB\U0001F1EEFI_1|520KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.130
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_2|636KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.139
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_3|702KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.152
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_4|531KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.166
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_5|607KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.179
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_6|696KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.186
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_7|523KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.196
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_8|644KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.204
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_9|736KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.208
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_10|706KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.209
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_11|565KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.210
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_12|554KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.222
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_13|576KB/s|TK-FI|YT-RU|GPT-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.231
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_14|713KB/s|TK-FI|GPT-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.243
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_15|728KB/s|TK-FI|YT-RU|GPT-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 45.196.182.245
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1EB\U0001F1EEFI_16|735KB/s|TK-FI|YT-RU|GPT-FI|GM-FR|CL-FI|SP-FI"
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: 8449
-      server: 66.234.150.254
-      skip-cert-verify: true
-      sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_3|3.1MB/s|TK-US|YT-US|NF|D+|GM-US|SP-US"
-      network: ws
-      port: 443
-      server: 8.133.176.42
-      servername: nbhhh.mrcool.kdns.fr
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
-      ws-opts:
-        headers:
-            Host: nbhhh.mrcool.kdns.fr
-        path: /proxyip=3cfb8e26.tp30304.ip.090227.xyz
-    - client-fingerprint: chrome
-      ech-opts:
-        _dns: https://dns.alidns.com/dns-query
-        enable: true
-        query-server-name: cloudflare-ech.com
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_4|785KB/s|15%|TK-US|YT-US|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      packet-encoding: xudp
-      port: 443
-      server: 172.64.53.27
-      servername: t1s1.rittbo.kdns.fr
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-      ws-opts:
-        headers:
-            Host: t1s1.rittbo.kdns.fr
-        path: /
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_1|729KB/s|0%|TK-GB|GPT⁺-GB|GM-FR|CL-GB|SP-UK"
-      network: tcp
-      port: "8443"
-      reality-opts:
-        public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
-        short-id: ea10cd5686751ec5
-      server: 45.206.0.37
-      servername: storage.yandex.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 52faee73-e0fe-4661-992d-67259257170f
-      xudp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5JP_1|3.0MB/s|YT-JP|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
-      password: amazonskr05
       port: "443"
-      server: 57.180.55.43
-      type: ss
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_2|842KB/s|GPT|GM-KR|CL-KR"
-      port: 1090
-      server: 121.169.46.116
-      tls: false
-      type: socks5
-      username: Og%3D%3D
-    - client-fingerprint: firefox
-      encryption: none
-      grpc-opts:
-        grpc-service-name: grpc-direct
-      name: "\U0001F1E9\U0001F1EADE_2|1.2MB/s|28%|TK-DE|YT-RU|NF|GPT-DE|CL-DE|SP-DE"
-      network: grpc
-      port: 2053
-      reality-opts:
-        public-key: waaYYZNd0vgbsNi8BO5e0FFjxFJMWnumuOdaarKsnQs
-        short-id: e4fb18c16a95e52d
-      server: 5.129.250.210
-      servername: cam-msk-6.videomonitor.cloud
+      server: jp01.scpnb.top
+      servername: jp01.scpnb.top
+      skip-cert-verify: false
       tls: true
-      type: vless
+      type: vmess
       udp: true
-      uuid: 9316bdbe-64c3-11f1-a103-aef63c7126b0
+      uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
+      ws-opts:
+        headers:
+            Host: jp01.scpnb.top
+        path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
       xudp: true
-    - name: "\U0001F1F7\U0001F1F4RO_21|1.5MB/s|0%|TK-RO|YT-CN|GPT⁺-RO|CL-RO|SP-RO"
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_3|2.0MB/s|16%|TK-US|YT-US|NF|D+|GPT⁺-SE|GM-US|CL-SE|SP-US"
+      network: ws
+      password: MiTiVPN
+      port: "443"
+      server: 104.18.37.237
+      skip-cert-verify: false
+      sni: S-o-W.MaQror.ir
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
+    - name: "\U0001F1F7\U0001F1F4RO_2|966KB/s|0%|TK-RO|NF|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.219
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_4|638KB/s|D+|CL-US|SP-US"
+      password: gs4BXwT6SW
+      port: 10988
+      server: 154.26.192.123
+      tls: false
+      type: http
+      username: fQ67Dpe5dU
+    - name: "\U0001F1EF\U0001F1F5JP_2|1.6MB/s|0%|YT-JP|NF|D+|GPT⁺-TW|GM-JP|CL-TW|SP-JP"
+      password: 72aaf68b-fca5-48fa-9ba3-b0a6fb9990d2
+      port: 31190
+      server: 154.16.248.199
+      skip-cert-verify: true
+      sni: akjp.fe-9.top
+      tfo: true
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_3|709KB/s|TK-RO|NF|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 193.176.84.24
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1EC\U0001F1E7GB_1|535KB/s|GPT|SP-UK"
+      password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
+      port: 443
+      server: 0bfaae1c-t9zts0-tlm64c-xm0q.uk.oshuawei.com
+      sni: 0bfaae1c-t9zts0-tlm64c-xm0q.uk.oshuawei.com
+      tls: true
+      type: http
+      username: 3437f34e-1b77-11eb-8684-f23c913c8d2b
+    - name: "\U0001F1F7\U0001F1F4RO_4|834KB/s|0%|TK-RO|YT-CN|GPT⁺-RO|CL-RO|SP-RO"
       port: 9002
       server: 84.239.49.225
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F1F7\U0001F1F4RO_22|1.7MB/s|0%|TK-RO|YT-CN|NF|GPT⁺-RO|CL-RO|SP-RO"
+    - name: "\U0001F1FA\U0001F1F8US_5|565KB/s|17%|TK-US|YT-US|NF|GPT⁺-US|GM-US|CL-US|SP-US"
+      password: 0b869f32-657e-11ee-a90c-f23c9313b177
+      port: 3443
+      server: 6a6fc92d-t9zts0-ta9qsh-24c4.seadc2.cdnbytescm.com
+      sni: 6a6fc92d-t9zts0-ta9qsh-24c4.seadc2.cdnbytescm.com
+      tls: true
+      type: http
+      username: 0b869f32-657e-11ee-a90c-f23c9313b177
+    - name: "\U0001F1F7\U0001F1F4RO_5|1.0MB/s|0%|TK-RO|NF|GPT⁺-RO|CL-RO|SP-RO"
       port: 9002
-      server: 84.239.49.155
+      server: 84.239.14.152
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F1F7\U0001F1F4RO_23|2.1MB/s|0%|TK-RO|YT-CN|NF|GPT⁺-RO|CL-RO|SP-RO"
+    - name: "\U0001F1F7\U0001F1F4RO_6|544KB/s|0%|TK-RO|YT-CN|GPT⁺-RO|CL-RO|SP-RO"
       port: 9002
-      server: 84.239.49.163
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_24|2.5MB/s|0%|TK-RO|NF|GPT⁺-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.160
+      server: 84.239.49.173
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F1F7\U0001F1F4RO_25|2.1MB/s|0%|TK-RO|YT-CN|GPT⁺-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.238
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_26|2.0MB/s|0%|TK-RO|YT-CN|NF|GPT⁺-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.191
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_5|526KB/s|TK-US|YT-CN|NF|D+|GPT⁺-US|CL-US|SP-US"
-      password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-      port: 8443
-      server: d1608817-te3z40-tip01z-1gevg.isp.cdnkuaishou.com
-      tls: true
-      type: http
-      username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-    - name: "\U0001F1F7\U0001F1F4RO_27|2.0MB/s|0%|TK-RO|YT-CN|NF|GPT⁺-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.199
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_28|2.0MB/s|0%|TK-RO|YT-US|GPT⁺-RO|GM-TM|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.242
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_6|611KB/s|50%|TK-US|YT-US|NF|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-      port: 443
-      server: ef729ea7-ta1og0-tnsc3a-1f0gu.se.oshuawei.com
-      sni: ef729ea7-ta1og0-tnsc3a-1f0gu.se.oshuawei.com
-      tls: true
-      type: http
-      username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-    - name: "\U0001F1F7\U0001F1F4RO_29|2.9MB/s|0%|TK-RO|NF|GPT⁺-RO|GM-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.14.160
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_30|1.3MB/s|0%|TK-RO|YT-CN|NF|GPT⁺-RO|CL-RO|SP-RO"
-      port: 9002
-      server: 84.239.49.202
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_7|538KB/s|0%|TK-US|YT-US|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: b02327ac-a49a-11ef-a673-f23c913c8d2b
-      port: 8443
-      server: 34f047db-tegxs0-tqruo0-1pqhp.isp.cdnkuaishou.com
-      sni: 34f047db-tegxs0-tqruo0-1pqhp.isp.cdnkuaishou.com
-      tls: true
-      type: http
-      username: b02327ac-a49a-11ef-a673-f23c913c8d2b
-    - name: "\U0001F1F7\U0001F1F4RO_31|1.6MB/s|0%|TK-RO|NF|GPT⁺-RO|GM-RO|CL-RO|SP-RO"
+    - name: "\U0001F1F7\U0001F1F4RO_7|947KB/s|0%|TK-RO|NF|GPT⁺-RO|GM-RO|CL-RO"
       port: 9002
       server: 84.239.14.148
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F1FA\U0001F1F8US_8|573KB/s|50%|TK-US|YT-US|NF|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: f7d95364-607b-11ee-93af-f23c91369f2d
-      port: 443
-      server: 326a16fe-tegxs0-tv7zgh-1ijh5.se.oshuawei.com
-      sni: 326a16fe-tegxs0-tv7zgh-1ijh5.se.oshuawei.com
-      tls: true
-      type: http
-      username: f7d95364-607b-11ee-93af-f23c91369f2d
-    - name: "\U0001F1FA\U0001F1F8US_9|521KB/s|50%|TK-US|YT-US|NF|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-      port: 443
-      server: 1e802ac6-t9zts0-tarwmr-1fqef.se.oshuawei.com
-      sni: 1e802ac6-t9zts0-tarwmr-1fqef.se.oshuawei.com
-      tls: true
-      type: http
-      username: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-    - name: "\U0001F1FA\U0001F1F8US_10|548KB/s|50%|TK-US|YT-US|NF|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      server: d4a66819-t9zts0-tb224g-1h0r9.se.oshuawei.com
-      sni: d4a66819-t9zts0-tb224g-1h0r9.se.oshuawei.com
-      tls: true
-      type: http
-      username: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
-    - name: "\U0001F1FA\U0001F1F8US_11|532KB/s|50%|TK-US|YT-US|NF|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
-      port: 443
-      server: 12a36dcd-ta1og0-tlm64c-xm0q.se.oshuawei.com
-      sni: 12a36dcd-ta1og0-tlm64c-xm0q.se.oshuawei.com
-      tls: true
-      type: http
-      username: 3437f34e-1b77-11eb-8684-f23c913c8d2b
-    - name: "\U0001F1FA\U0001F1F8US_12|584KB/s|50%|TK-US|YT-US|NF|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-      port: 443
-      server: 9f362ccf-tegxs0-tvgkxc-hrtf.se.oshuawei.com
-      sni: 9f362ccf-tegxs0-tvgkxc-hrtf.se.oshuawei.com
-      tls: true
-      type: http
-      username: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-    - name: "\U0001F1F7\U0001F1F4RO_32|2.1MB/s|TK-RO|NF|GPT⁺-RO|GM-RO|CL-RO|SP-RO"
+    - name: "\U0001F1F7\U0001F1F4RO_8|671KB/s|0%|TK-RO|YT-CN|NF|GPT⁺-RO|CL-RO|SP-RO"
       port: 9002
-      server: 193.176.84.26
+      server: 84.239.49.182
       skip-cert-verify: true
       sni: www.bing.com
       tls: true
       type: http
-    - name: "\U0001F1FA\U0001F1F8US_13|651KB/s|50%|TK-US|YT-US|NF|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: ae5338ae-9a70-58c9-3d47-7d54a5675715
-      port: 443
-      server: c36d21e0-t9zts0-tc9wl2-py5w.se.oshuawei.com
-      sni: c36d21e0-t9zts0-tc9wl2-py5w.se.oshuawei.com
+    - name: "\U0001F1F7\U0001F1F4RO_9|730KB/s|0%|TK-RO|YT-CN|NF|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.161
+      skip-cert-verify: true
+      sni: www.bing.com
       tls: true
       type: http
-      username: ae5338ae-9a70-58c9-3d47-7d54a5675715
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F8\U0001F1ECSG_1|888KB/s|0%|YT-SG|NF-SG|D+|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      password: 1348a838-9105-4f3e-bd04-699a9be10480
-      port: "45507"
-      server: sgp02.network-cdn-gw-yd.net
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_14|2.6MB/s|0%|TK-US|YT-US|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: 1348a838-9105-4f3e-bd04-699a9be10480
-      port: "43212"
-      server: us08.network-cdn-gw-yd.net
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_15|935KB/s|TK-US|YT-US|NF|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: tcp
-      port: "2053"
-      reality-opts:
-        public-key: -dvaet5vTdRvWpkf_1wY2HcWuHDMHK_A_19tUq3QQRQ
-        short-id: a8434c33
-      server: 44.223.17.190
-      servername: www.inel.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0d9cc99b-d11a-43b8-8613-dc8ef04a326b
-      xudp: true
-    - encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_17|891KB/s|TK-FI|GPT⁺-FI|GM-FI|CL-FI|SP-FI"
-      network: ws
-      port: "80"
-      server: 146.75.119.82
-      type: vless
-      udp: true
-      uuid: 30b76156-3557-4cec-b4d3-d291e9280a81
-      ws-opts:
-        headers:
-            Host: rb24.ir
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0HK_1|512KB/s|0%|TK-TW|YT-HK|NF|D+|GPT⁺-TW|CL-TW|SP-HK"
-      password: b3813e01-e131-4ed2-98fd-c3a805fc515f
-      port: "47708"
-      server: hk18.network-cdn-gw-yd.net
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0HK_2|844KB/s|0%|TK-TW|YT-HK|NF|D+|GPT⁺-TW|CL-TW|SP-HK"
-      password: 1348a838-9105-4f3e-bd04-699a9be10480
-      port: "47709"
-      server: hk09.network-cdn-gw-yd.net
-      type: ss
-      udp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_18|860KB/s|TK-FI|GPT⁺-FI|GM-DE|CL-FI|SP-FI"
-      network: ws
-      port: "443"
-      server: 104.16.174.78
-      servername: alfi.yas-nowin.ir
-      tls: true
-      type: vless
-      udp: true
-      uuid: ccd48d1b-63a8-436c-f62f-d6bf59fa7d1c
-      ws-opts:
-        headers:
-            Host: alfi.yas-nowin.ir
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36
-        path: /@Alfred_Config
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-      name: "\U0001F1E9\U0001F1EADE_3|2.7MB/s|TK-DE|GPT⁺-DE|GM-DE|CL-DE|SP-DE"
-      network: xhttp
-      port: "2087"
-      server: 188.114.99.250
-      servername: rr.v2configpro.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: '@V2ConfigPro'
-      xhttp-opts:
-        host: rr.v2configpro.dpdns.org
-        mode: auto
-        path: /
-        x-padding-bytes: 100-1000
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_2|2.0MB/s|TK-GB|NF-GB|GPT⁺-GB|GM-GB|CL-GB|SP-UK"
-      network: tcp
-      port: "7000"
-      reality-opts:
-        public-key: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
-        short-id: ""
-      server: unitedkingdomvluding.iranlast.com
-      servername: yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_4|755KB/s|54%|YT-RU|GPT-DE|GM-DE"
-      network: tcp
-      port: "1111"
-      reality-opts:
-        public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
-        short-id: ""
-      server: 78.159.250.189
-      servername: api-maps.yandex.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 72edcaa1-685e-4022-9576-273746529e1f
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_16|1.9MB/s|0%|TK-US|YT-US|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: 1348a838-9105-4f3e-bd04-699a9be10480
-      port: "44404"
-      server: us04.network-cdn-gw-yd.net
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_17|2.5MB/s|0%|TK-US|YT-US|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: 1348a838-9105-4f3e-bd04-699a9be10480
-      port: "44405"
-      server: us05.network-cdn-gw-yd.net
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_5|568KB/s"
-      network: tcp
-      port: "25567"
-      reality-opts:
-        public-key: tsxzBG6xHNl1Nu8XPpd3hWk_zPGrpFrv2Z-difc3nGY
-        short-id: a5bd715847213387
-      server: 151.236.114.151
-      servername: iv.kommersant.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 72edcaa1-685e-4022-9576-273746529e1f
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5JP_2|1.5MB/s|12%|TK-TW|YT-JP|NF|D+|GPT⁺-TW|GM-JP|CL-TW|SP-JP"
-      password: 1348a838-9105-4f3e-bd04-699a9be10480
-      port: "48801"
-      server: jp01.network-cdn-gw-yd.net
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_18|1.1MB/s|0%|TK-US|YT-US|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: b3813e01-e131-4ed2-98fd-c3a805fc515f
-      port: "44405"
-      server: us05.network-cdn-gw-yd.net
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0HK_3|1.0MB/s|12%|YT-HK|NF|SP-HK"
-      password: b3813e01-e131-4ed2-98fd-c3a805fc515f
-      port: "32060"
-      server: hk1.network-cdn-gw-yd.net
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_1|712KB/s|TK-FR|GPT⁺-LU|GM-FR|CL-LU|SP-FR"
-      network: tcp
-      port: "7009"
-      reality-opts:
-        public-key: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
-        short-id: ""
-      server: luemborgclouding.iranlast.com
-      servername: yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_19|2.4MB/s|0%|TK-US|YT-US|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: b3813e01-e131-4ed2-98fd-c3a805fc515f
-      port: "43211"
-      server: us07.network-cdn-gw-yd.net
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5JP_3|3.6MB/s|6%|YT-JP|NF|D+|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
-      password: 1348a838-9105-4f3e-bd04-699a9be10480
-      port: "48804"
-      server: jp04.network-cdn-gw-yd.net
-      type: ss
-      udp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_3|2.6MB/s|43%|TK-GB|YT-RU|NF-GB|D+|GPT⁺-GB|GM-GB|CL-GB|SP-UK"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: 2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4
-        short-id: f66c289040d589ee
-      server: 217.179.220.164
-      servername: uk.monkeyisland.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e0a91ec-05a3-461f-9367-14b289a5b54b
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F8\U0001F1ECSG_2|954KB/s|0%|TK-SG|YT-SG|NF-SG|D+|GPT⁺-SG|GM-SG|SP-SG"
-      password: 1348a838-9105-4f3e-bd04-699a9be10480
-      port: "45506"
-      server: sgp01.network-cdn-gw-yd.net
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_4|1014KB/s|0%|TK-GB|YT-RU|NF-GB|GPT⁺-GB|CL-GB|SP-UK"
-      network: tcp
-      port: "8443"
-      reality-opts:
-        public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
-        short-id: ea10cd5686751ec5
-      server: 45.206.0.29
-      servername: storage.yandex.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 52faee73-e0fe-4661-992d-67259257170f
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F8\U0001F1ECSG_3|1.5MB/s|3%|TK-SG|YT-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      obfs: ""
-      obfs-password: ""
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      port: "443"
-      server: 13.229.110.73
+    - name: "\U0001F1F7\U0001F1F4RO_10|826KB/s|0%|TK-RO|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.207
       skip-cert-verify: true
-      sni: vpn-sg-001.fastervpn.world
-      type: hysteria2
-      up: ""
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_5|2.6MB/s|43%|TK-GB|YT-RU|NF-GB|D+|GPT⁺-GB|GM-GB|CL-GB|SP-UK"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: 2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4
-        short-id: f66c289040d589ee
-      server: uk.monkeyisland.xyz
-      servername: uk.monkeyisland.xyz
+      sni: www.bing.com
       tls: true
-      type: vless
-      udp: true
-      uuid: 3e0a91ec-05a3-461f-9367-14b289a5b54b
-      xudp: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_11|855KB/s|0%|TK-RO|YT-CN|NF|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.240
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_12|890KB/s|0%|TK-RO|YT-CN|NF|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.57
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_13|513KB/s|0%|TK-RO|YT-CN|NF|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.171
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_14|741KB/s|0%|TK-RO|YT-CN|NF|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.178
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
     - alpn:
         - h3
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_20|2.5MB/s|3%|TK-US|YT-US|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 2.dogegg.online
-      servername: freedom.dogegg.online
-      tls: true
-      type: vless
-      udp: true
-      uuid: c9ddce25-8dc7-4d01-af0a-cca144c9e42c
-      ws-opts:
-        headers:
-            Host: freedom.dogegg.online
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /freedom
-      xudp: true
+      auth-str: dongtaiwang.com
+      down: "1000"
+      name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s|0%|D+|GPT⁺-DE|GM-NL|CL-DE"
+      port: 20088
+      protocol: udp
+      server: 5.83.129.153
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "500"
     - down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_19|1.0MB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.221
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_20|832KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.250
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_21|859KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.147
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_22|900KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.196
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_23|707KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.252
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_24|993KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.249
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_25|993KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.226
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_26|1.2MB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.146
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_27|887KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.233
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_28|1.1MB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.229
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_29|939KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.139
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_30|963KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.245
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_31|627KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.168
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_32|818KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.238
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_33|727KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.243
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_34|606KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.172
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_35|755KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.179
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_36|735KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.242
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_37|800KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.250
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_38|658KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.149
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_39|653KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.183
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_40|750KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.145
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_41|710KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.163
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_42|814KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.170
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_43|702KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
+      name: "\U0001F1EB\U0001F1EEFI_1|539KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
       obfs: ""
       obfs-password: ""
       password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
@@ -1153,199 +218,7 @@ proxies:
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_44|798KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.235
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_45|807KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.141
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_46|687KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.198
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_47|832KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.200
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_48|849KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.225
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_49|567KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.216
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_50|687KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.199
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_51|953KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.213
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_52|545KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.203
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_53|1013KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.234
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_54|1.0MB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.140
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_55|745KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.217
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_56|851KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.218
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_57|557KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.193
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_58|1.0MB/s|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.174
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_59|524KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.164
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_60|653KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
+      name: "\U0001F1EB\U0001F1EEFI_2|570KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
       obfs: ""
       obfs-password: ""
       password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
@@ -1357,415 +230,7 @@ proxies:
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_61|966KB/s|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.231
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_62|865KB/s|TK-FI|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.235
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_63|889KB/s|TK-FI|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.176
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_64|806KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.184
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_65|783KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.162
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_66|1.3MB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.240
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_67|607KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.212
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_68|968KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.133
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_69|952KB/s|TK-FI|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.237
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_70|536KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.169
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_71|606KB/s|TK-FI|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.190
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_72|851KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.246
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_73|525KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.177
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_74|568KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.185
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_75|619KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.227
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_76|551KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.182
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_77|833KB/s|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.181
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_78|732KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.202
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_79|548KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.194
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_80|763KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.159
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_81|791KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.144
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_82|1.0MB/s|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.251
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_83|887KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.154
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_84|795KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.189
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_85|569KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.228
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_86|759KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.241
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_87|667KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.219
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_88|776KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.238
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_89|708KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.180
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_90|548KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.230
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_91|550KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.161
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_92|544KB/s|TK-FI|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.188
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_93|621KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.254
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_94|802KB/s|TK-FI|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.239
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_95|608KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
+      name: "\U0001F1EB\U0001F1EEFI_3|609KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
       obfs: ""
       obfs-password: ""
       password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
@@ -1777,512 +242,85 @@ proxies:
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_96|694KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
+      name: "\U0001F1EB\U0001F1EEFI_4|523KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
       obfs: ""
       obfs-password: ""
       password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
       port: "8449"
-      server: 45.196.182.247
+      server: 45.196.182.148
       skip-cert-verify: false
       sni: sni.fi-m247-02.com
       type: hysteria2
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_97|784KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
+      name: "\U0001F1EB\U0001F1EEFI_5|525KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
       obfs: ""
       obfs-password: ""
       password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
       port: "8449"
-      server: 66.234.150.231
+      server: 45.196.182.133
       skip-cert-verify: false
       sni: sni.fi-m247-02.com
       type: hysteria2
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_98|724KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
+      name: "\U0001F1EB\U0001F1EEFI_6|549KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
       obfs: ""
       obfs-password: ""
       password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
       port: "8449"
-      server: 45.196.182.160
+      server: 45.196.182.203
       skip-cert-verify: false
       sni: sni.fi-m247-02.com
       type: hysteria2
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_99|749KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
+      name: "\U0001F1EB\U0001F1EEFI_7|555KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
       obfs: ""
       obfs-password: ""
       password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
       port: "8449"
-      server: 66.234.150.230
+      server: 66.234.150.237
       skip-cert-verify: false
       sni: sni.fi-m247-02.com
       type: hysteria2
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_100|912KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
+      name: "\U0001F1EB\U0001F1EEFI_8|535KB/s|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
       obfs: ""
       obfs-password: ""
       password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
       port: "8449"
-      server: 45.196.182.253
+      server: 45.196.182.140
       skip-cert-verify: false
       sni: sni.fi-m247-02.com
       type: hysteria2
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_101|590KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
+      name: "\U0001F1EB\U0001F1EEFI_9|538KB/s|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
       obfs: ""
       obfs-password: ""
       password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
       port: "8449"
-      server: 45.196.182.192
+      server: 45.196.182.217
       skip-cert-verify: false
       sni: sni.fi-m247-02.com
       type: hysteria2
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_102|672KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
+      name: "\U0001F1EB\U0001F1EEFI_10|530KB/s|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
       obfs: ""
       obfs-password: ""
       password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
       port: "8449"
-      server: 45.196.182.187
+      server: 45.196.182.162
       skip-cert-verify: false
       sni: sni.fi-m247-02.com
       type: hysteria2
       up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_103|695KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.135
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_104|869KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.232
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_105|636KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.252
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_106|675KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.175
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_107|612KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.195
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_108|720KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.143
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_109|941KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.201
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_110|867KB/s|GPT⁺-FI|CL-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.253
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_111|787KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.209
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_112|972KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.243
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_113|825KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.129
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_114|693KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.171
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_115|838KB/s|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.166
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_116|946KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.224
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_117|702KB/s|TK-FI|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.208
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_118|916KB/s|TK-FI|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.129
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_119|634KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.131
-      skip-cert-verify: false
-      sni: sni.fi-m247-02.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_120|1018KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.245
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_121|660KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.179
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_122|1.1MB/s|TK-FI|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 66.234.150.254
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_123|1.1MB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.222
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_124|633KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.210
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_125|932KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.150
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_126|754KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.130
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_127|709KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.204
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_128|643KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.186
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_129|640KB/s|TK-FI|YT-RU|GPT⁺-FI|GM-FR|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.152
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_130|930KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.139
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_131|918KB/s|TK-FI|YT-RU|GPT⁺-FI|CL-FI|SP-FI"
-      obfs: ""
-      obfs-password: ""
-      password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-      port: "8449"
-      server: 45.196.182.196
-      skip-cert-verify: true
-      sni: 'https://t.me/WangCai2            '
-      type: hysteria2
-      up: ""
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_21|2.6MB/s|0%|TK-US|YT-US|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: JKljeAoIvgygSC7PzCz74fckLcRv7udl4qCUEHxrOQk
-        short-id: b2c3d4e5
-      server: us2-r.vortexio.cc
-      servername: www.cloudflare.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e63daf8b-d5ef-4dab-a43b-f731eb72e1f4
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_22|2.7MB/s|0%|TK-US|YT-US|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: tcp
-      port: "8443"
-      reality-opts:
-        public-key: JKljeAoIvgygSC7PzCz74fckLcRv7udl4qCUEHxrOQk
-        short-id: b2c3d4e5
-      server: us2-r.vortexio.cc
-      servername: www.cloudflare.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e63daf8b-d5ef-4dab-a43b-f731eb72e1f4
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_4|669KB/s|12%|YT-HK|NF|D+|SP-HK"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: JKljeAoIvgygSC7PzCz74fckLcRv7udl4qCUEHxrOQk
-        short-id: b2c3d4e5
-      server: hk2-r.vortexio.cc
-      servername: www.cloudflare.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e63daf8b-d5ef-4dab-a43b-f731eb72e1f4
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1E8SC_1|888KB/s|12%|TK-SC|D+|GPT⁺-DE|GM-DE|CL-DE|SP-SC"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: JKljeAoIvgygSC7PzCz74fckLcRv7udl4qCUEHxrOQk
-        short-id: b2c3d4e5
-      server: de3-r.vortexio.cc
-      servername: www.cloudflare.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e63daf8b-d5ef-4dab-a43b-f731eb72e1f4
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_6|2.1MB/s|0%|TK-GB|NF-GB|GPT⁺-GB|GM-FR|CL-GB|SP-UK"
-      network: tcp
-      port: 8443
-      reality-opts:
-        public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
-        short-id: ea10cd5686751ec5
-      server: 45.206.0.39
-      servername: storage.yandex.net
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 52faee73-e0fe-4661-992d-67259257170f
