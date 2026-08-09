@@ -1,56 +1,7 @@
 proxies:
-    - name: "\U0001F1F8\U0001F1E8SC_1|766KB/s|0%"
-      password: null
-      port: 1080
-      server: 27.155.93.29
-      type: http
-      username: null
-    - name: "\U0001F1F3\U0001F1F1NL_1|635KB/s|NF|GPT-NL|CL-NL"
-      port: 9002
-      server: 84.17.47.149
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_1|2.1MB/s|11%|TK-JP|YT-CN|D+|GPT⁺-JP|GM-JP|CL-JP"
-      password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-      port: 443
-      server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
-      tls: true
-      type: http
-      username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_1|2.1MB/s|TK-FR|YT-RU|NF|GPT⁺-SE|CL-SE|SP-FR"
-      port: 8443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: 141.227.160.138
-      servername: sellflow.org
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
-    - name: "\U0001F1FA\U0001F1F8US_1|2.4MB/s|19%|TK-US|YT-CN|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-      port: 443
-      server: b0746e33-tcxds0-tgl02u-1jr1u.sjc.oshuawei.com
-      sni: b0746e33-tcxds0-tgl02u-1jr1u.sjc.oshuawei.com
-      tls: true
-      type: http
-      username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-    - name: "\U0001F1FA\U0001F1F8US_2|572KB/s|62%|TK-US|YT-US|NF|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: "null"
-      port: 9002
-      server: 138.199.35.200
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_1|1.5MB/s|30%|TK-GB|YT-RU|NF|GPT⁺-DE|CL-DE|SP-UK"
+      name: "\U0001F1EC\U0001F1E7GB_1|2.3MB/s|30%|TK-GB|YT-RU|NF|GPT⁺-DE|CL-DE|SP-UK"
       port: 443
       reality-opts:
         public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -61,53 +12,89 @@ proxies:
       type: vless
       udp: true
       uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
-    - down: 1000
-      name: "\U0001F1F8\U0001F1ECSG_1|1.1MB/s|38%|YT-CN|NF|GPT⁺-SG|CL-SG|SP-SG"
-      password: 164dbaa4-3054-4de1-a37d-13e18c69818e
-      port: 2060
-      server: xjp4.mangshe.xyz
-      skip-cert-verify: true
-      sni: xjp4.mangshe.xyz
-      type: hysteria2
-      up: 1000
-    - name: "\U0001F1E9\U0001F1EADE_1|710KB/s"
-      password: None
-      port: 11111
-      server: 103.237.102.191
-      type: http
-      username: null
-    - name: "\U0001F1E8\U0001F1FFCZ_1|589KB/s|5%|GPT⁺-CH|CL-CH"
+    - name: "\U0001F1E8\U0001F1FFCZ_1|2.4MB/s|5%|TK-CZ|GPT⁺-CH|GM-CH"
       password: null
       port: 10800
       server: 212.113.99.167
       type: socks5
       udp: true
       username: null
+    - down: 200
+      name: "\U0001F1F7\U0001F1FARU_1|6.5MB/s"
+      password: 164dbaa4-3054-4de1-a37d-13e18c69818e
+      port: 2056
+      server: els1.mangshe.xyz
+      skip-cert-verify: true
+      sni: els1.mangshe.xyz
+      type: hysteria2
+      up: 1000
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7FR_1|2.4MB/s|TK-FR|YT-RU|NF|GPT⁺-FI|CL-FI|SP-FR"
+      port: 8443
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      server: 141.227.170.192
+      servername: sellflow.org
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+    - name: "\U0001F1EC\U0001F1E7GB_2|576KB/s|41%|TK-GB|YT-CN|NF-GB|GPT⁺-GB|CL-GB|SP-UK"
+      password: a95e9198-0671-11f0-9426-f23c932f2c32
+      port: 443
+      server: 75da2c41-thvs00-tjdj5q-azvy.cldvpuk.cdnbytescm.com
+      skip-cert-verify: true
+      sni: 75da2c41-thvs00-tjdj5q-azvy.cldvpuk.cdnbytescm.com
+      tls: true
+      type: http
+      username: a95e9198-0671-11f0-9426-f23c932f2c32
+    - name: "\U0001F1F3\U0001F1F1NL_1|1.4MB/s|64%|TK-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL"
+      password: None
+      port: 9002
+      server: 84.17.47.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
     - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_2|567KB/s|TK-FR|D+|CL-FR"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 104.18.152.152
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /assignment
-    - alpn:
-        - h2
-      client-fingerprint: edge
       grpc-opts:
-        grpc-service-name: vlgrpc
-      name: ❓Other_1|641KB/s
+        grpc-service-name: grpc-tuning-stream
+      name: ❓Other_1|1.4MB/s
       network: grpc
-      password: BsS4eXN6o16Z570sKHPjM3mog0ASr6LJ
-      port: "443"
-      server: hk1.vpn.partners
-      skip-cert-verify: false
-      sni: hk1.vpn.partners
-      type: trojan
+      port: 9441
+      reality-opts:
+        public-key: xTk5dX6E0DGuQj19bWDMafx13XoUK8euqlmtwJIg8wY
+        short-id: 8a7137d4e9c49b9c
+      server: mws-fc-1.ghost-lan.com
+      servername: max.ru
+      tls: true
+      type: vless
       udp: true
+      uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
+      xudp: true
+    - client-fingerprint: firefox
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: grpc
+      name: "\U0001F1FA\U0001F1F8US_1|674KB/s|38%|TK-US|YT-RU|NF|GPT⁺-US|CL-US|SP-US"
+      network: grpc
+      port: 443
+      reality-opts:
+        public-key: iUc9JqWjFemnQo8R5fgiwssCjEdWmixB4X-mRJkx2VE
+        short-id: 3182f9ae
+      server: 193.233.205.117
+      servername: media3.abvphelp.cc
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+    - name: "\U0001F1F7\U0001F1F4RO_1|623KB/s|0%|TK-RO|YT-US|NF|GPT⁺-RO|CL-RO|SP-RO"
+      port: 9002
+      server: 84.239.49.253
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
