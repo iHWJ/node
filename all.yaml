@@ -1,5 +1,5 @@
 proxies:
-    - name: "\U0001F1F0\U0001F1F7KR_1|950KB/s|YT-KR|D+|GPT⁺-KR|GM-KR|CL-KR"
+    - name: "\U0001F1F0\U0001F1F7KR_1|2.0MB/s|3%|YT-KR|D+|GPT⁺-KR|GM-KR|CL-KR|SP-KR"
       network: tcp
       password: 0010996f-3eab-4804-9b3a-3a889d6767fc
       port: 20088
@@ -7,19 +7,6 @@ proxies:
       skip-cert-verify: true
       sni: iepl.krz3.cat.bilibili.com
       type: trojan
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_1|2.0MB/s|TK-FR|D+|GPT-FR|SP-FR"
-      network: ws
-      password: humanity
-      port: "443"
-      server: www.ignitelimit.com
-      skip-cert-verify: false
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /assignment
     - name: "\U0001F1F8\U0001F1ECSG_1|9.4MB/s|53%|YT-CN|NF-SG|GPT⁺-SG|CL-SG|SP-SG"
       password: 13f0acfa-38c1-4e82-a758-583aa31740df
       port: 60572
@@ -28,60 +15,245 @@ proxies:
       type: anytls
       udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_1|4.9MB/s|1%|YT-HK|NF|D+|SP-HK"
-      password: 6ec301428255a78a1d826988d86cc87e
-      port: "50887"
-      server: 2c.fast9988.com
+      name: "\U0001F1EB\U0001F1F7FR_1|982KB/s|TK-FR|NF|D+|GPT⁺-FR|CL-FR|SP-FR"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 104.18.152.103
       skip-cert-verify: false
-      sni: www.nintendogames.net
+      sni: www.ignitelimit.com
       type: trojan
       udp: true
-    - name: "\U0001F1FA\U0001F1F8US_1|3.2MB/s|20%|TK-US|YT-RU|NF|D+|GPT⁺-US|CL-US|SP-US"
-      password: CJtE4HLmxz859YMNiZM1NTuDRy7jjs8t
-      port: 1443
-      server: pg-usa2-hy2.gigatapbot.top
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /assignment
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      down: 1000
+      name: "\U0001F1E9\U0001F1EADE_1|2.1MB/s|25%|TK-DE|D+|GPT⁺-DE|CL-DE"
+      port: 20088
+      protocol: udp
+      server: 5.83.129.153
       skip-cert-verify: true
-      sni: pg-usa2-hy2.gigatapbot.top
-      tls: false
-      type: hysteria2
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: 500
+    - alpn:
+        - h3
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_1|3.3MB/s|TK-US|YT-US|D+|GPT⁺-DE|CL-DE|SP-DE"
+      network: xhttp
+      port: "443"
+      server: 104.16.75.207
+      servername: sub1.sub017.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: c4bf72d1-a74d-4ffc-8c81-a0f8b2047f2e
+      xhttp-opts:
+        host: sub1.sub017.dpdns.org
+        mode: auto
+        path: /api
+        reuse-settings:
+            c-max-reuse-times: "0"
+            h-keep-alive-period: 0
+            h-max-request-times: 600-900
+            h-max-reusable-secs: 1800-3000
+            max-connections: "6"
+        x-padding-bytes: 100-1000
+      xudp: true
+    - cipher: 2022-blake3-aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0HK_1|3.5MB/s|13%|GPT⁺-TW"
+      password: ZTEyY2ViOGU0MWJiNDcwN2VlYjU3MzkzODlhNjliNGY=:OWU4M2Q3NzctNWMyYy00MDNlLWIxYTYtMmE3ODRmOTM=
+      port: "65012"
+      server: cccct.284.pics
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      encryption: mlkem768x25519plus.native.0rtt.f7Tb0m3B9X1wwykTgP_vWHH6uXOt8CX-MAipUAObJ1c
+      name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s|TK-US|YT-US|NF|GPT⁺-US|CL-US|SP-US"
+      network: xhttp
+      port: "2086"
+      reality-opts:
+        public-key: KFBwAFDtUP4C2fQb_P6uJ_EgpIwdoG_6jj0NSEcIuhQ
+        short-id: 0a2b1c50d98fa5d3
+      server: site2.awexaiooo.shop
+      servername: play.googleapis.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 95b0fa1d-645a-4438-9d67-d7220eb93e7b
+      xhttp-opts:
+        mode: auto
+        path: /
+      xudp: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_2|2.1MB/s|2%|TK-DE|YT-DE|NF|GPT⁺-DE|GM-DE|CL-DE|SP-DE"
+      network: tcp
+      port: "22222"
+      server: 35.158.7.204
+      type: vless
+      udp: true
+      uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+      xudp: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_3|2.0MB/s|2%|TK-DE|YT-DE|NF|GPT⁺-DE|GM-DE|CL-DE|SP-DE"
+      network: tcp
+      port: "22224"
+      server: 18.193.240.71
+      type: vless
+      udp: true
+      uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+      xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_3|2.2MB/s|0%|TK-US|YT-US|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: stanngv2-production-4f14.up.railway.app
+      servername: stanngv2-production-4f14.up.railway.app
+      tls: true
+      type: vless
+      udp: true
+      uuid: a6452560-77c7-49a6-9a18-a369bb4170d6
+      ws-opts:
+        headers:
+            Host: stanngv2-production-4f14.up.railway.app
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+        path: /ws/05dced1bde57bd2e
+      xudp: true
+    - cipher: 2022-blake3-aes-256-gcm
+      name: "\U0001F1EF\U0001F1F5JP_1|1.2MB/s|0%|YT-JP|GPT⁺-JP|GM-JP"
+      password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:OWU4M2Q3NzctNWMyYy00MDNlLWIxYTYtMmE3ODRmOTM=
+      port: "65032"
+      server: cccct.284.pics
+      type: ss
+      udp: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_4|2.6MB/s|2%|TK-DE|YT-DE|NF|GPT⁺-DE|GM-DE|CL-DE|SP-DE"
+      network: tcp
+      port: "22224"
+      server: 52.59.68.6
+      type: vless
+      udp: true
+      uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+      xudp: true
+    - cipher: 2022-blake3-aes-256-gcm
+      name: "\U0001F1F9\U0001F1EDTH_1|621KB/s|YT-CN|NF|D+|GPT⁺-US|GM-US|CL-US|SP-TH"
+      password: YmQ5Y2E3MGRlNmU1NDVkZTNhZGIyMmIyZDJjZjM3NGI=:OWU4M2Q3NzctNWMyYy00MDNlLWIxYTYtMmE3ODRmOTM=
+      port: "65112"
+      server: cccct.284.pics
+      type: ss
+      udp: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_5|2.1MB/s|2%|TK-DE|YT-DE|NF|GPT⁺-DE|GM-DE|CL-DE|SP-DE"
+      network: tcp
+      port: "22223"
+      server: 18.193.240.71
+      type: vless
+      udp: true
+      uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1|641KB/s|0%|TK-DE|NF|GPT⁺-DE|GM-FR|CL-DE|SP-DE"
+      name: "\U0001F1F8\U0001F1EASE_1|2.5MB/s|17%|TK-SE|YT-RU|NF-GB|D+|GPT⁺-GB|CL-GB|SP-UK"
       network: tcp
-      port: "2027"
+      port: "443"
       reality-opts:
-        public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-        short-id: dc8109baf0f607ea
-      server: 78.159.247.253
-      servername: storage.yandex.net
+        public-key: -nB-tCeZ4Zr72ArHUKnbUphbs4PlBS6iId6PkrPQQTE
+        short-id: 84f9881951050a30
+      server: gb1.murhost.network
+      servername: gb1.murhost.network
       tls: true
       type: vless
       udp: true
-      uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+      uuid: a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac
+      xudp: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_6|2.9MB/s|2%|TK-DE|NF|GPT⁺-DE|GM-DE|CL-DE|SP-DE"
+      network: tcp
+      port: "22222"
+      server: 52.59.68.6
+      type: vless
+      udp: true
+      uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EE\U0001F1F7IR_1|790KB/s|52%|YT-DE|D+|GPT-GB|CL-GB"
-      network: ws
-      port: "8443"
-      server: www.speedtest.net
-      servername: free-irancell.warzonmob.ir
+      flow: xtls-rprx-vision
+      name: "\U0001F1E8\U0001F1FFCZ_1|2.1MB/s|0%|TK-CZ|YT-RU|NF|D+|GPT⁺-CZ|CL-CZ|SP-CZ"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: V-B12dvv0fVIwcmcRNdMQIcc4nmqsYB_PR_3X4VVB0A
+        short-id: 91a7a393d805f5c6
+      server: ch1.murhost.network
+      servername: ch1.murhost.network
       tls: true
       type: vless
       udp: true
-      uuid: b1e6a8df-effc-4b70-9132-4dca98085420
-      ws-opts:
-        headers:
-            Host: free-irancell.warzonmob.ir
-            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      uuid: a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: mlkem768x25519plus.native.0rtt.Mx0f1kLg9E0uQfA79cfhs8n6akrAp8vej3lxYml4aDU
+      name: "\U0001F1E6\U0001F1FFAZ_1|1.1MB/s|42%|YT-US|GPT⁺-AZ|CL-AZ"
+      network: xhttp
+      port: "2095"
+      reality-opts:
+        public-key: UXhVDyALV2nO_eOoB0AMneCi3RWZwOs98rklVahi4Es
+        short-id: 51175528867ebe95
+      server: site2.awexaiooo.shop
+      servername: play.googleapis.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 95b0fa1d-645a-4438-9d67-d7220eb93e7b
+      xhttp-opts:
+        host: token.safebrowsing.apple
+        mode: auto
         path: /
       xudp: true
-    - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_2|3.0MB/s|0%|TK-US|YT-CN|NF|D+|GPT⁺-US|CL-US|SP-US"
-      password: dongtaiwang.com
-      port: 34567
-      server: 157.254.223.44
-      transport: TCP
-      type: mieru
-      username: dongtaiwang.com
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI_1|995KB/s|75%|TK-FI|D+|GPT⁺-EE|CL-LV|SP-LV"
+      network: xhttp
+      port: "250"
+      reality-opts:
+        public-key: 5iJCoKxbieeScK9pzTkimCseiS4pCGGJkNrs-jYNdzk
+        short-id: 3f85c62b86748cd0
+      server: 45.38.41.40
+      servername: play.googleapis.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 95b0fa1d-645a-4438-9d67-d7220eb93e7b
+      xhttp-opts:
+        mode: auto
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_2|2.2MB/s|TK-FR|NF|GPT⁺-FR|CL-FR|SP-FR"
+      network: ws
+      port: "443"
+      server: 4.240.110.47
+      servername: bab-6.site
+      tls: true
+      type: vless
+      udp: true
+      uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+      ws-opts:
+        headers:
+            Host: bab-6.site
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /vws/
+      xudp: true
