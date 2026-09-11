@@ -4,7 +4,7 @@ proxies:
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       down: 1000
-      name: "\U0001F1E9\U0001F1EADE_1|1.4MB/s|40%|TK-DE|YT-NL|D+|GPT⁺|GM-NL|CL-DE"
+      name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s|40%|TK-DE|YT-CN|D+|GPT⁺-DE|CL-DE|SP-DE"
       port: 20088
       protocol: udp
       server: 5.83.129.153
@@ -13,158 +13,84 @@ proxies:
       type: hysteria
       udp: true
       up: 500
-    - cipher: 2022-blake3-chacha20-poly1305
-      name: "\U0001F1F8\U0001F1ECSG_1|569KB/s|2%|YT-SG|NF-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      password: Ep1fuyrFAxEF87qg9q17V4YEGtS92m0xdJbwu6lwTF4=
-      port: 56927
-      server: 168.107.91.1
-      type: ss
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1|958KB/s|3%|YT-JP|D+|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: EXHC-Zeb77mF7OBJFe4PJciyi7DqY-II-J1eF4ScRVA
-        short-id: c3a982ac
-      server: 61.218.148.211
-      servername: cdn.heapanalytics.com
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s|TK-US|YT-CN|NF|D+|SP-US"
+      network: ws
+      port: 2096
+      server: 188.164.248.78
+      servername: fq.jp188.dpdns.org
+      skip-cert-verify: false
       tls: true
       type: vless
-      udp: false
-      uuid: bbbad538-910a-8972-278a-718093dc9980
-    - cipher: aes-256-cfb
-      name: "\U0001F1EC\U0001F1E7GB_1|2.5MB/s|14%|TK-GB|NF-GB|GPT-GB|GM-GB|CL-GB|SP-UK"
-      password: amazonskr05
-      port: 443
-      server: 35.178.181.116
-      type: ss
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_1|617KB/s|9%|TK-US|YT-CN|NF|GPT⁺-US|CL-US|SP-US"
-      password: github.com/Alvin9999-newpac/fanqiang
-      port: 19000
-      server: anytls2.864106.xyz
-      skip-cert-verify: true
-      sni: anytls2.864106.xyz
-      type: anytls
-    - auth: 3a702d4d1de4949005d8431220e040fb
-      name: "\U0001F1E8\U0001F1EDCH_1|2.7MB/s|5%|TK-CH|YT-CH|NF|GPT⁺-CH|GM-CH|CL-CH|SP-CH"
-      obfs: salamander
-      obfs-password: c13f29db6a638ad2b211b9ce2669ef27
-      password: 3a702d4d1de4949005d8431220e040fb
-      port: 443
-      server: 152.67.75.161
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - client-fingerprint: random
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2|640KB/s|54%|TK-DE|NF|GPT-DE|CL-DE|SP-DE"
-      network: ws
-      port: 443
-      server: www.visa.com.hk
-      servername: eu-central.xhs152.shop
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: a90b111a-3a58-49d2-aa7a-edd13d830926
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: eu-central.xhs152.shop
-        max-early-data: 2048
-        path: /announcement
-    - client-fingerprint: random
-      name: "\U0001F1E7\U0001F1F7BR_1|610KB/s|54%|YT-US|GPT⁺-BR|CL-BR"
-      network: ws
-      port: 443
-      server: ct.877774.xyz
-      servername: br-gru.xhs152.shop
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: a90b111a-3a58-49d2-aa7a-edd13d830926
+      uuid: 42c62a5a-cd31-4551-80ef-908732370287
       ws-opts:
         headers:
-            Host: br-gru.xhs152.shop
-        path: /announcement
-    - encryption: none
-      name: "\U0001F1FA\U0001F1F8US_2|1.0MB/s|29%|TK-US|NF|GPT⁺-NL|CL-NL|SP-US"
-      network: ws
-      port: "2087"
-      server: 178.95.170.115
-      type: vless
-      udp: true
-      uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /4bc027a44532
-      xudp: true
-    - encryption: mlkem768x25519plus.native.0rtt.nXRHYT2mMfgY3MxtLcyc89i0YRqqj3y7Zety3O2ipVU
-      name: "\U0001F1EB\U0001F1EEFI_1|1.7MB/s|5%|TK-FI|NF|GPT⁺-FI|GM-US|CL-FI|SP-FI"
-      network: tcp
-      port: "6386"
-      server: edge.movieham.ir
-      type: vless
-      udp: true
-      uuid: 7185254b-3b87-4073-9a0e-81093eac435b
-      xudp: true
-    - encryption: none
-      name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s|29%|TK-US|YT-US|NF|GPT⁺-NL|CL-NL|SP-US"
-      network: ws
-      port: "2087"
-      server: 178.95.170.98
-      type: vless
-      udp: true
-      uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /4bc027a44532
-      xudp: true
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_4|1.8MB/s|87%|TK-US|YT-US|NF|D+|GPT⁺-US|CL-US|SP-US"
+            Host: fq.jp188.dpdns.org
+        path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
+    - encryption: mlkem768x25519plus.native.0rtt.axhmyvi6WAeIVHyKYLuHz7cMMow5FBwwSjs9-TIWxRY
+      name: "\U0001F1EB\U0001F1EEFI_1|2.5MB/s|69%|TK-US|YT-US|D+|GPT⁺-US|GM-US|CL-US|SP-US"
       network: tcp
       port: "443"
-      server: 165.140.217.2
-      skip-cert-verify: false
-      tls: false
-      type: vmess
+      server: 85.9.194.75
+      type: vless
       udp: true
-      uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+      uuid: awlix_ir
       xudp: true
-    - encryption: mlkem768x25519plus.random.0rtt.4ZiK3Dv6QqgU4hTboAe80H0CPJ6KV_GUdsjOCLY3UlA
-      name: "\U0001F1FA\U0001F1F8US_5|781KB/s|3%|TK-US|NF|GPT⁺-DE|GM-GB|CL-DE|SP-UK"
+    - alpn:
+        - h2
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EC\U0001F1E7GB_1|2.1MB/s|63%|TK-DE|YT-US|D+|GPT⁺-DE|CL-DE"
       network: xhttp
-      port: "6010"
-      server: fr.masterpgd.com
+      port: "443"
+      server: 167.82.76.27
+      servername: ssl.fastly.com
+      tls: true
       type: vless
       udp: true
-      uuid: d2bf8658-06dc-4462-80d4-39c5c3bb0dd8
+      uuid: V2XNET
       xhttp-opts:
-        host: myket.ir
-        mode: stream-up
-        path: /assets
+        host: Nonotnotd.global.ssl.fastly.net
+        mode: auto
+        path: /
+        x-padding-bytes: 100-1000
       xudp: true
-    - encryption: mlkem768x25519plus.native.0rtt.nXRHYT2mMfgY3MxtLcyc89i0YRqqj3y7Zety3O2ipVU
-      name: "\U0001F1E9\U0001F1EADE_3|1.2MB/s|6%|TK-DE|YT-US|NF|GPT⁺-DE|GM-US|CL-DE|SP-DE"
-      network: tcp
-      port: "6386"
-      server: core.hac163.com
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F3\U0001F1F1NL_1|2.2MB/s|20%|TK-NL|YT-RU|NF|GPT⁺-NL|CL-NL|SP-NL"
+      obfs: ""
+      obfs-password: ""
+      password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+      port: "8443"
+      server: 46.229.243.149
+      skip-cert-verify: false
+      sni: grape-turbo-fr.roxa.org
+      type: hysteria2
+      up: ""
+    - cipher: aes-256-cfb
+      name: "\U0001F1E8\U0001F1E6CA_1|532KB/s|9%|NF-CA|GPT-CA|GM-CA|CL-CA"
+      password: amazonskr05
+      port: "443"
+      server: 35.183.244.25
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_2|525KB/s|28%|TK-US|NF|GPT⁺-US|CL-US"
+      network: ws
+      port: "443"
+      server: 172.67.205.153
+      servername: 8-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
+      tls: true
       type: vless
       udp: true
-      uuid: 7185254b-3b87-4073-9a0e-81093eac435b
+      uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+      ws-opts:
+        headers:
+            Host: 8-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+        path: /8qMLgNapWf6SBxo8fhQlVPYO
       xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1EE\U0001F1EAIE"
-      delay: 526
-      name: "\U0001F1EE\U0001F1EAIE_1|977KB/s|3%|TK-IE|NF-IE|GPT-IE|GM-IE|CL-IE|SP-IE"
-      password: amazonskr05
-      port: 443
-      server: 54.171.218.140
-      type: ss
