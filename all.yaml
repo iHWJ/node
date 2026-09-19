@@ -1,94 +1,165 @@
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1EB\U0001F1F7FR_1|3.3MB/s|3%|TK-FR|NF|GPT⁺|GM-FR|CL-FR|SP-FR"
-      password: amazonskr05
+    - name: "\U0001F1F7\U0001F1FARU_1|3.3MB/s|0%"
+      password: f317b5d6-d399-4d3d-a051-89d674ae953c
       port: 443
-      server: 15.188.246.220
-      type: ss
-    - client-fingerprint: qq
-      name: "\U0001F1F1\U0001F1F9LT_1|540KB/s|8%|TK-LT|YT-RU|NF-LT|D+|GPT⁺-LT|SP-LT"
-      network: xhttp
-      port: 443
-      server: 188.72.103.3
-      servername: cdnapiv2.streamru10.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 01a21e01-6098-4c3b-a6fd-1a04d64d0c7f
-      xhttp-opts:
-        mode: packet-up
-        path: /api/v75/uptodown/
-        seq-key: part_index
-        seq-placement: cookie
-        session-key: stream_auth
-        session-placement: cookie
-        uplink-data-placement: body
-        uplink-http-method: GET
-        x-padding-bytes: 96-1040
-        x-padding-header: X-Media-Token
-        x-padding-key: _t
-        x-padding-method: tokenish
-        x-padding-obfs-mode: true
-        x-padding-placement: queryInHeader
-    - cipher: aes-256-cfb
-      name: "\U0001F1E9\U0001F1EADE_1|2.1MB/s|3%|TK-DE|NF|GPT⁺-DE|GM-DE|CL-DE|SP-DE"
-      password: amazonskr05
-      port: 443
-      server: 3.75.89.244
-      type: ss
-      udp: true
-    - cipher: 2022-blake3-chacha20-poly1305
-      name: "\U0001F1E9\U0001F1EADE_2|3.2MB/s|5%|TK-DE|YT-DE|NF|GPT⁺-DE|GM-DE|CL-DE|SP-DE"
-      password: FL7Njqx7acZnllLYPIZhRxXMtCBw8Tct6FFY7Yqd8lw=
-      port: 59924
-      server: 130.61.35.239
-      type: ss
-    - cipher: 2022-blake3-chacha20-poly1305
-      name: "\U0001F1F3\U0001F1F1NL_1|2.7MB/s|2%|TK-NL|YT-NL|NF|GPT⁺-NL|GM-NL|CL-NL|SP-NL"
-      password: 0W18BiN3HuF+EBBdvuLgTaot1VAiMBw5c4okk1zE48w=
-      port: 45819
-      server: 84.235.162.230
-      type: ss
-    - encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_2|2.6MB/s|3%|TK-FR|GPT⁺-FR|GM-FR|CL-FR|SP-FR"
-      network: tcp
-      port: "22222"
-      server: 15.188.219.10
-      type: vless
-      udp: true
-      uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-      xudp: true
+      server: msk.frkn.org
+      tls: false
+      type: hysteria2
     - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_1|3.0MB/s|25%|TK-FI|YT-RU|D+|GPT-FI|CL-FI|SP-FI"
-      network: xhttp
-      port: "443"
+      name: "\U0001F1F9\U0001F1EDTH_1|1.3MB/s|2%|YT-TH|GM-TH|CL-TH|SP-TH"
+      network: tcp
+      port: 443
       reality-opts:
-        public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-        short-id: f79448a30d
-      server: 213.176.17.50
-      servername: sstats.vk-portal.net
+        public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+        short-id: ca672c53fbbac555
+      server: 34.15.162.1
+      servername: www.cloudflare.com
+      skip-cert-verify: true
+      tfo: false
       tls: true
       type: vless
-      udp: true
-      uuid: eb0e3aec-f67f-4fa2-8577-b0bff0484e77
-      xhttp-opts:
-        mode: auto
-        path: /assets/v2/pkg
-      xudp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_3|778KB/s|34%|D+|GPT-FR"
+      uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1FA\U0001F1F8US_1|572KB/s|27%|TK-US|YT-US|NF|D+|GPT⁺-US|GM-US|CL-US|SP-US"
       network: ws
-      password: humanity
-      port: "443"
-      server: www.ignitelimit.com
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
+      port: 443
+      server: 172.64.79.241
+      servername: cdn8848.776676.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /assignment
+            Host: cdn8848.776676.xyz
+        path: /pics?ed=2560
+    - client-fingerprint: chrome
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s|27%|TK-US|YT-US|NF|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 2096
+      server: 172.64.79.241
+      servername: cdn8848.776676.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: cdn8848.776676.xyz
+        path: /group/htm?ed=2560
+    - auth: github.com/Alvin9999-newpac/fanqiang
+      name: "\U0001F1F3\U0001F1F1NL_1|4.7MB/s|0%|TK-DE|YT-RU|NF|D+|GPT⁺-NL|CL-NL|SP-EE"
+      password: github.com/Alvin9999-newpac/fanqiang
+      port: 29900
+      server: 178.18.147.66
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_3|1.5MB/s|100%|TK-US|YT-US|GPT⁺-US|CL-US|SP-US"
+      network: ws
+      port: 443
+      server: 104.21.71.47
+      servername: 0-M16.CHIaN-mai-x.kDnS.FR
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 0-M16.CHIaN-mai-x.kDnS.FR
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: "1000"
+      name: "\U0001F1E9\U0001F1EADE_1|532KB/s|GPT-DE"
+      obfs: ""
+      port: 54177
+      protocol: udp
+      server: 5.83.129.90
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "500"
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7FR_1|1.9MB/s|0%|TK-FR|YT-RU|GPT⁺-FR|GM-PL|CL-FR"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: CL5aeP6smcd4ie9upZlYVEvuHDwLAt46BOIfHOjkMis
+        short-id: 5babfbd717bb
+      server: fr-cdg-1.blook.network
+      servername: fr-cdg-1.blook.network
+      tls: true
+      type: vless
+      udp: true
+      uuid: ddc234a7-e2b4-4558-8465-2b35cf513223
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_2|2.6MB/s|2%|TK-FR|GPT⁺-FR|GM-FR|CL-FR|SP-FR"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+        short-id: ae682368818bd6c5
+      server: 34.155.10.226
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+      xudp: true
+    - client-fingerprint: qq
+      encryption: none
+      name: "\U0001F1EB\U0001F1F7FR_3|2.6MB/s|11%|TK-FR|NF|GPT⁺-FR|CL-FR|SP-FR"
+      network: xhttp
+      port: "443"
+      server: 147.45.42.218
+      servername: bz-fra-01.hello-there.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: e3ec2866-96cd-4cc3-86c9-e7336ea2fbc2
+      xhttp-opts:
+        host: bz-fra-01.hello-there.ru
+        path: /xh
+      xudp: true
+    - encryption: none
+      name: "\U0001F1FA\U0001F1F8US_4|2.1MB/s|0%|TK-US|YT-RU|NF|D+|GPT⁺-US|CL-US|SP-US"
+      network: ws
+      port: "8088"
+      server: flax-spinel23895.my-vm.work
+      type: vless
+      udp: true
+      uuid: tmp_user
+      ws-opts:
+        headers:
+            Host: queuev4.vk.com
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        path: /api
+      xudp: true
+    - encryption: none
+      name: "\U0001F1F1\U0001F1FBLV_1|809KB/s|0%|TK-LV|YT-RU|D+|GPT⁺-LV|CL-LV|SP-PL"
+      network: ws
+      port: "8088"
+      server: atomic-prase23893.my-vm.work
+      type: vless
+      udp: true
+      uuid: tmp_user
+      ws-opts:
+        headers:
+            Host: queuev4.vk.com
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /api
+      xudp: true
