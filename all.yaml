@@ -1,109 +1,37 @@
 proxies:
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s|TK-US|YT-US|NF|D+|GPT⁺-US"
-      network: ws
-      port: "443"
-      server: grimness-backlogs.cdn-content.com
-      servername: grimness-backlogs.cdn-content.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7d7c2c1a-5220-431e-afb0-3b588baffb83
-      ws-opts:
-        headers:
-            Host: grimness-backlogs.cdn-content.com
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        path: /ws
-      xudp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5JP_1|1017KB/s|TK-JP|NF|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
-      password: amazonskr05
-      port: 443
-      server: 13.113.166.191
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_1|611KB/s|TK-NL|D+|GPT⁺-NL|CL-NL|SP-NL"
-      network: xhttp
-      port: "443"
-      server: dey.lnmarketplace.net
-      servername: dey.lnmarketplace.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-      xhttp-opts:
-        host: dey.lnmarketplace.net
-        mode: stream-one
-        path: /kavir
-      xudp: true
-    - name: "\U0001F1F9\U0001F1FCTW_1|2.7MB/s|TK-TW|YT-TW|NF|D+|GPT⁺-TW|CL-TW"
-      password: 9sK2mP8xQ7vL3nZ6
-      port: 443
-      server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
-      skip-cert-verify: true
-      sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|672KB/s|TK-US|YT-US|NF|GPT⁺-US|CL-US"
-      network: ws
-      port: 2095
-      server: www.fbi.gov
-      type: vless
-      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-      ws-opts:
-        headers:
-            Host: llm-api.sofurry.dpdns.org
-        path: /
-    - name: "\U0001F1EF\U0001F1F5JP_2|826KB/s|TK-JP|YT-RU|GPT⁺-JP|GM-US|CL-JP|SP-JP"
+    - name: "\U0001F1EF\U0001F1F5JP_1|1.4MB/s|27%|TK-JP|YT-RU|NF-JP|GPT⁺-JP|CL-JP|SP-JP"
       password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
       port: 20561
       server: msjp.mangshe.xyz
       skip-cert-verify: true
       sni: www.microsoft.com
       type: hysteria2
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5JP_3|575KB/s|YT-JP|NF|GPT⁺-JP|CL-JP|SP-JP"
-      password: amazonskr05
-      port: 443
-      server: 3.112.209.209
-      type: ss
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_2|2.5MB/s|GPT-NL|GM-NL|CL-NL"
-      port: 62145
-      server: 158.178.145.112
-      type: vless
-      uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
     - encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_1|754KB/s|YT-FR|GPT⁺-FR|GM-FR|CL-FR"
-      network: tcp
-      port: "22222"
-      server: 13.39.170.37
-      type: vless
-      udp: true
-      uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-      xudp: true
-    - encryption: none
-      name: "\U0001F1FA\U0001F1F8US_3|818KB/s|TK-US|GPT⁺-US|CL-US"
+      name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s|0%|TK-US|NF-CO|GPT⁺-US|CL-US"
       network: ws
       port: "2095"
-      server: support.cloudflare.com
+      server: blog.cloudflare.com
       type: vless
       udp: true
       uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
       ws-opts:
         headers:
             Host: llm-api.sofurry.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
         path: /
+      xudp: true
+    - encryption: none
+      name: "\U0001F1EB\U0001F1F7FR_1|810KB/s|NF-GB|GPT⁺|GM-FR|CL-FR"
+      network: tcp
+      port: "22223"
+      server: 15.224.91.237
+      type: vless
+      udp: true
+      uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
       xudp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1EF\U0001F1F5JP_4|541KB/s|GPT-JP|CL-JP"
+      name: ❓Other_1|831KB/s
       obfs: ""
       obfs-password: ""
       password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
@@ -113,3 +41,63 @@ proxies:
       sni: www.microsoft.com
       type: hysteria2
       up: ""
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1EASE_1|1.5MB/s|NF-GB|GPT-SE|GM-SE|CL-SE"
+      password: amazonskr05
+      port: 443
+      server: 51.20.72.15
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_2|1.4MB/s|11%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: yEpPLsSy8aCXkQ4wzc9t38gQACipc_k54upD9fJj5y4
+        short-id: 4679f07417e9feb4
+      server: 47.253.144.114
+      servername: www.apple.com
+      tls: true
+      type: vless
+      uuid: a4c6bab6-bd83-4b72-8c78-99e96f40cde3
+    - name: "\U0001F1FA\U0001F1F8US_3|2.7MB/s|0%|TK-US|YT-US|NF|GPT⁺-US|CL-US|SP-US"
+      network: ws
+      port: 2095
+      server: www.fbi.gov
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: llm-api.sofurry.dpdns.org
+        path: /
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7FR_2|2.5MB/s|TK-FR|YT-US|NF-BE|GPT-FR|CL-FR|SP-FR"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I
+        short-id: b390e0a721d242b0
+      server: 137.74.16.237
+      servername: www.icloud.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: aaec4e42-a095-44b6-a239-f16d234a0798
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_3|765KB/s|100%|NF-FR|D+-FR|GPT⁺-FR|CL-FR"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 104.18.152.140
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /assignment
