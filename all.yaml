@@ -1,103 +1,126 @@
 proxies:
-    - name: "\U0001F1EF\U0001F1F5JP_1|1.4MB/s|27%|TK-JP|YT-RU|NF-JP|GPT⁺-JP|CL-JP|SP-JP"
-      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-      port: 20561
-      server: msjp.mangshe.xyz
-      skip-cert-verify: true
-      sni: www.microsoft.com
+    - auth: 96ab5cd282733fd4c312a61f972f330a
+      name: "\U0001F1EF\U0001F1F5JP_1|1.4MB/s|TK-JP|NF|GPT-JP"
+      password: 96ab5cd282733fd4c312a61f972f330a
+      port: 443
+      server: vp3.yysyy.online
       type: hysteria2
-    - encryption: none
-      name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s|0%|TK-US|NF-CO|GPT⁺-US|CL-US"
-      network: ws
-      port: "2095"
-      server: blog.cloudflare.com
-      type: vless
       udp: true
-      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-      ws-opts:
-        headers:
-            Host: llm-api.sofurry.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /
-      xudp: true
-    - encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_1|810KB/s|NF-GB|GPT⁺|GM-FR|CL-FR"
-      network: tcp
-      port: "22223"
-      server: 15.224.91.237
-      type: vless
-      udp: true
-      uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-      xudp: true
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: "1000"
+      name: "\U0001F1E9\U0001F1EADE_1|521KB/s|50%|YT-CN|NF-DE|D+-DE|GPT⁺-DE|CL-DE|SP-DE"
+      obfs: ""
+      port: 54177
+      protocol: udp
+      server: 5.83.129.90
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "500"
     - down: ""
       fingerprint: ""
-      name: ❓Other_1|831KB/s
+      name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s|3%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
       obfs: ""
       obfs-password: ""
-      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-      port: "20561"
-      server: msjp1.mangshe.xyz
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: "443"
+      server: vpn-us-003.fastervpn.world
       skip-cert-verify: true
-      sni: www.microsoft.com
+      sni: 127.0.0.1
       type: hysteria2
       up: ""
-    - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1EASE_1|1.5MB/s|NF-GB|GPT-SE|GM-SE|CL-SE"
-      password: amazonskr05
-      port: 443
-      server: 51.20.72.15
-      type: ss
+    - name: "\U0001F1E8\U0001F1F3CN_1|2.1MB/s|0%|TK-ALISG|YT-CN"
+      password: Og
+      port: 1080
+      server: 103.210.161.8
+      type: socks5
       udp: true
+      username: Og
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_2|1.4MB/s|11%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: tcp
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1FA\U0001F1F8US_2|544KB/s|40%|TK-US|YT-US|NF-US|GPT⁺-US|CL-US|SP-US"
+      network: ws
       port: 443
-      reality-opts:
-        public-key: yEpPLsSy8aCXkQ4wzc9t38gQACipc_k54upD9fJj5y4
-        short-id: 4679f07417e9feb4
-      server: 47.253.144.114
-      servername: www.apple.com
-      tls: true
-      type: vless
-      uuid: a4c6bab6-bd83-4b72-8c78-99e96f40cde3
-    - name: "\U0001F1FA\U0001F1F8US_3|2.7MB/s|0%|TK-US|YT-US|NF|GPT⁺-US|CL-US|SP-US"
-      network: ws
-      port: 2095
-      server: www.fbi.gov
-      type: vless
-      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-      ws-opts:
-        headers:
-            Host: llm-api.sofurry.dpdns.org
-        path: /
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_2|2.5MB/s|TK-FR|YT-US|NF-BE|GPT-FR|CL-FR|SP-FR"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: 7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I
-        short-id: b390e0a721d242b0
-      server: 137.74.16.237
-      servername: www.icloud.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: aaec4e42-a095-44b6-a239-f16d234a0798
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_3|765KB/s|100%|NF-FR|D+-FR|GPT⁺-FR|CL-FR"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 104.18.152.140
+      server: cdn.8211992.xyz
+      servername: mao.mao114514.kdns.fr
       skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
+      tls: true
+      type: vless
       udp: true
+      uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /assignment
+            Host: mao.mao114514.kdns.fr
+        path: /glasspanel/guest000_0_5de14443985f/
+    - name: "\U0001F1E8\U0001F1FFCZ_1|724KB/s|0%|TK-CZ|NF-PL|GPT⁺-CZ|GM-CZ|CL-CZ|SP-CZ"
+      password: None
+      port: 443
+      server: 185.216.35.130
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - auth: gf1:gfhysteria2024
+      name: "\U0001F1EB\U0001F1F7FR_1|933KB/s|16%|TK-FR|YT-RU|NF-DE|GPT⁺-FR|CL-FR|SP-FR"
+      password: gf1:gfhysteria2024
+      port: 443
+      server: 173.212.201.85
+      skip-cert-verify: true
+      sni: www.docker.com
+      type: hysteria2
+      udp: true
+    - auth: cloud:Wz8cE3yFhL9dXoSp
+      name: ❓Other_1|1.7MB/s
+      password: cloud:Wz8cE3yFhL9dXoSp
+      port: 8443
+      server: ss.marmount.space
+      type: hysteria2
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_3|1.8MB/s|3%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      obfs: ""
+      obfs-password: ""
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: 443
+      server: vpn-us-004.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-us-004.fastervpn.world
+      type: hysteria2
+      up: ""
+    - auth: e9dc02d400b67c727aca1620
+      name: "\U0001F1EA\U0001F1F8ES_1|773KB/s|8%|TK-ES|YT-ES|NF-ES|GPT⁺-ES|CL-ES"
+      password: e9dc02d400b67c727aca1620
+      port: 8446
+      server: 185.174.137.172
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: "1000"
+      name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s|50%|TK-DE|YT-CN|NF-DE|D+-DE|GPT⁺-DE|CL-DE"
+      port: 20088
+      protocol: udp
+      server: 5.83.129.153
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "500"
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_4|2.6MB/s|TK-US|NF|GPT-US"
+      obfs: ""
+      obfs-password: ""
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: "443"
+      server: vpn-us-003.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-us-003.fastervpn.world
+      type: hysteria2
+      up: ""
