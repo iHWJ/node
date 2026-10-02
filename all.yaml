@@ -1,126 +1,90 @@
 proxies:
-    - auth: 96ab5cd282733fd4c312a61f972f330a
-      name: "\U0001F1EF\U0001F1F5JP_1|1.4MB/s|TK-JP|NF|GPT-JP"
-      password: 96ab5cd282733fd4c312a61f972f330a
-      port: 443
-      server: vp3.yysyy.online
-      type: hysteria2
-      udp: true
-    - alpn:
-        - h3
-      auth_str: dongtaiwang.com
-      down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_1|521KB/s|50%|YT-CN|NF-DE|D+-DE|GPT⁺-DE|CL-DE|SP-DE"
-      obfs: ""
-      port: 54177
-      protocol: udp
-      server: 5.83.129.90
+    - name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s|0%|TK-ALISG|YT-US|NF-US|D+-TW|GPT⁺-US|CL-US|SP-ZA"
+      password: ""
+      port: 8443
+      server: 154.81.36.92
       skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "500"
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s|3%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: "443"
-      server: vpn-us-003.fastervpn.world
-      skip-cert-verify: true
-      sni: 127.0.0.1
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1E8\U0001F1F3CN_1|2.1MB/s|0%|TK-ALISG|YT-CN"
-      password: Og
-      port: 1080
-      server: 103.210.161.8
-      type: socks5
-      udp: true
-      username: Og
-    - client-fingerprint: chrome
-      ech-opts:
-        enable: true
-        query-server-name: cloudflare-ech.com
-      name: "\U0001F1FA\U0001F1F8US_2|544KB/s|40%|TK-US|YT-US|NF-US|GPT⁺-US|CL-US|SP-US"
-      network: ws
-      port: 443
-      server: cdn.8211992.xyz
-      servername: mao.mao114514.kdns.fr
-      skip-cert-verify: false
       tls: true
-      type: vless
+      type: http
+      username: ""
+    - name: "\U0001F1F9\U0001F1FCTW_1|608KB/s|TK-ALISG|NF-TW|D+-TW|GPT⁺-TW|CL-TW"
+      password: 9sK2mP8xQ7vL3nZ6
+      port: 443
+      server: ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn
+      skip-cert-verify: true
+      sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
+      type: anytls
       udp: true
-      uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
-      ws-opts:
-        headers:
-            Host: mao.mao114514.kdns.fr
-        path: /glasspanel/guest000_0_5de14443985f/
-    - name: "\U0001F1E8\U0001F1FFCZ_1|724KB/s|0%|TK-CZ|NF-PL|GPT⁺-CZ|GM-CZ|CL-CZ|SP-CZ"
+    - name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s|3%|TK-US|YT-CN|NF-US|GPT⁺-US|CL-US|SP-US"
+      password: 16955d72-1794-11f0-a035-f23c95b6f51d
+      port: 443
+      server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+      sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+      tls: true
+      type: http
+      username: 16955d72-1794-11f0-a035-f23c95b6f51d
+    - auth: github.com/Alvin9999-newpac/fanqiang
+      name: "\U0001F1EB\U0001F1F7FR_1|2.7MB/s|36%|TK-FR|NF-FR|D+-FR|GPT⁺-FR|GM-FR|CL-FR|SP-FR"
+      password: github.com/Alvin9999-newpac/fanqiang
+      port: 43115
+      server: 62.210.147.2
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - cipher: none
+      name: "\U0001F1FA\U0001F1F8US_3|733KB/s|0%|NF-US|D+-US|CL-US|SP-US"
+      password: ODI4ZjAwZGMtNDQz
+      plugin: obfs
+      plugin-opts:
+        host: upay.10010.com
+        mode: http
+      port: 80
+      server: 103.11.76.248
+      type: ss
+    - auth: f25f19f29ce3fb53a35bf1b35b452a43
+      name: "\U0001F1EE\U0001F1F1IL_1|2.1MB/s|2%|TK-ALISG|YT-IL|NF-IL|GPT⁺-IL|GM-IL|CL-IL|SP-IL"
+      password: f25f19f29ce3fb53a35bf1b35b452a43
+      port: 50160
+      server: 129.159.156.109
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1EC\U0001F1E7GB_1|706KB/s|59%|TK-GB|NF-GB|D+-GB|GPT⁺-GB|GM-GB|CL-GB|SP-UK"
       password: None
       port: 443
-      server: 185.216.35.130
+      server: 212.102.63.31
       skip-cert-verify: true
       tls: true
       type: http
       username: null
-    - auth: gf1:gfhysteria2024
-      name: "\U0001F1EB\U0001F1F7FR_1|933KB/s|16%|TK-FR|YT-RU|NF-DE|GPT⁺-FR|CL-FR|SP-FR"
-      password: gf1:gfhysteria2024
-      port: 443
-      server: 173.212.201.85
-      skip-cert-verify: true
-      sni: www.docker.com
-      type: hysteria2
-      udp: true
-    - auth: cloud:Wz8cE3yFhL9dXoSp
-      name: ❓Other_1|1.7MB/s
-      password: cloud:Wz8cE3yFhL9dXoSp
-      port: 8443
-      server: ss.marmount.space
-      type: hysteria2
-      udp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_3|1.8MB/s|3%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: 443
-      server: vpn-us-004.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-us-004.fastervpn.world
-      type: hysteria2
-      up: ""
-    - auth: e9dc02d400b67c727aca1620
-      name: "\U0001F1EA\U0001F1F8ES_1|773KB/s|8%|TK-ES|YT-ES|NF-ES|GPT⁺-ES|CL-ES"
-      password: e9dc02d400b67c727aca1620
-      port: 8446
-      server: 185.174.137.172
-      skip-cert-verify: true
-      type: hysteria2
-      udp: true
     - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s|50%|TK-DE|YT-CN|NF-DE|D+-DE|GPT⁺-DE|CL-DE"
-      port: 20088
-      protocol: udp
-      server: 5.83.129.153
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "500"
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1EB\U0001F1F7FR_2|915KB/s|36%|TK-FR|NF-FR|D+-FR|GPT⁺-FR|CL-FR|SP-FR"
+      network: ws
+      port: "18901"
+      server: 2001:bc8:32d7:1a9::2
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+      ws-opts:
+        headers: {}
+        path: /github.com/Alvin9999-newpac/fanqiang
+      xudp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_4|2.6MB/s|TK-US|NF|GPT-US"
+      name: "\U0001F1EC\U0001F1E7GB_2|1.6MB/s|25%|TK-GB|NF-US|GPT⁺|GM-GB|CL-GB"
       obfs: ""
       obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: "443"
-      server: vpn-us-003.fastervpn.world
+      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+      port: "2060"
+      server: yg.mangshe.xyz
       skip-cert-verify: true
-      sni: vpn-us-003.fastervpn.world
+      sni: yg.mangshe.xyz
       type: hysteria2
       up: ""
