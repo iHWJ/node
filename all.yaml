@@ -1,46 +1,5 @@
 proxies:
-    - client-fingerprint: random
-      encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_1|858KB/s|TK-USEASTRED|GPT|CL-FI|SP-FI"
-      network: xhttp
-      port: 443
-      server: 95.140.158.168
-      servername: fi.bootless.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: a96ad3ea-4820-43d2-bbf3-27c6bf19d652
-      xhttp-opts:
-        mode: auto
-        path: /api/v2/stream
-      xudp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1ECSG_1|5.4MB/s|0%|YT-SG"
-      password: c2fe9024-d253-401a-b868-97421f6eb9e0
-      port: 22059
-      server: ruot.ayucloudservices.nl
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1F7\U0001F1FARU_1|2.4MB/s|17%|TK-ALISG|YT-RU"
-      password: edad69d9-ea99-4ce9-bae8-8fedc2afcbf4
-      port: 40040
-      server: ruot.ayucloudservices.nl
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F3IN_1|1.7MB/s|2%|TK-ALISG|YT-IN|NF-IN|GPT⁺-IN|GM-IN|CL-IN|SP-IN"
-      password: edad69d9-ea99-4ce9-bae8-8fedc2afcbf4
-      port: 21187
-      server: ruot.ayucloudservices.nl
-      type: ss
-    - cipher: aes-128-gcm
-      name: "\U0001F1F8\U0001F1ECSG_2|1.4MB/s|0%|TK-ALISG|YT-SG|NF-SG|D+-US|GM-TW"
-      password: edad69d9-ea99-4ce9-bae8-8fedc2afcbf4
-      port: 40023
-      server: ruot.ayucloudservices.nl
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8US_1|573KB/s|0%|TK-US|YT-US|NF-CO|GPT⁺-US|GM-US|CL-US|SP-US"
+    - name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s|0%|TK-US|YT-US|NF-CO|GPT⁺-US|GM-US|CL-US|SP-US"
       network: ws
       port: 2095
       server: www.epicgames.com
@@ -52,33 +11,65 @@ proxies:
         headers:
             Host: uwu.femboy67.cc.cd
         path: /
+    - auth: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+      name: "\U0001F1F7\U0001F1FARU_1|2.1MB/s|0%|YT-RU"
+      password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+      port: 2053
+      server: 194.87.118.184
+      skip-cert-verify: true
+      sni: match-stream.lovkisport.blog
+      tls: false
+      type: hysteria2
     - cipher: aes-256-cfb
-      name: "\U0001F1E8\U0001F1E6CA_1|589KB/s|0%|TK-ALISG|YT-CA|NF-US|GPT⁺-CA|GM-CA|CL-CA|SP-CA"
+      name: "\U0001F1E8\U0001F1E6CA_1|1.2MB/s|8%|TK-ALISG|NF-US|GPT⁺-CA|GM-CA|CL-CA|SP-CA"
       password: amazonskr05
       port: 443
-      server: 15.175.220.220
+      server: 3.96.190.88
       type: ss
       udp: true
-    - auth: github.com/Alvin9999-newpac/fanqiang
-      name: "\U0001F1EB\U0001F1F7FR_1|1.9MB/s|34%|TK-FR|YT-FR|NF-FR|GPT⁺-FR|CL-FR|SP-FR"
-      password: github.com/Alvin9999-newpac/fanqiang
-      port: 43115
-      server: 62.210.147.2
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
+    - cipher: aes-256-cfb
+      name: "\U0001F1E8\U0001F1E6CA_2|769KB/s|8%|TK-ALISG|YT-CA|NF-US|GPT-CA|GM-CA|CL-CA|SP-CA"
+      password: amazonskr05
+      port: 443
+      server: 3.99.191.16
+      type: ss
       udp: true
-    - client-fingerprint: random
-      name: "\U0001F1F5\U0001F1F1PL_1|1.2MB/s|0%|TK-PL|NF-PL|D+-PL|GPT⁺-PL|CL-PL|SP-PL"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg
-        short-id: ""
-      server: 80.47.12.94
-      servername: pl-1-1.unturned-rust-dead.lol
+    - alpn:
+        - http/1.1
+      client-fingerprint: unsafe
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_1|547KB/s|25%|NF-DE|D+-DE"
+      network: ws
+      port: 443
+      server: 31.77.126.2
+      servername: snip.edgeoneai.cc.cd
       tls: true
       type: vless
       udp: true
-      uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
+      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+      ws-opts:
+        headers:
+            Host: snip.edgeoneai.cc.cd
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
+      xudp: true
+    - alpn:
+        - h3
+        - h2
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_2|3.1MB/s|25%|TK-US|YT-CN|NF-US|D+-US|GM-US|SP-US"
+      network: ws
+      port: "443"
+      server: saas.sin.fan
+      servername: snip.edgeoneai.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+      ws-opts:
+        headers:
+            Host: snip.edgeoneai.cc.cd
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
       xudp: true
