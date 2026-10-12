@@ -1,6 +1,66 @@
 proxies:
+    - client-fingerprint: random
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI_1|858KB/s|TK-USEASTRED|GPT|CL-FI|SP-FI"
+      network: xhttp
+      port: 443
+      server: 95.140.158.168
+      servername: fi.bootless.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: a96ad3ea-4820-43d2-bbf3-27c6bf19d652
+      xhttp-opts:
+        mode: auto
+        path: /api/v2/stream
+      xudp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1F8\U0001F1ECSG_1|5.4MB/s|0%|YT-SG"
+      password: c2fe9024-d253-401a-b868-97421f6eb9e0
+      port: 22059
+      server: ruot.ayucloudservices.nl
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1F7\U0001F1FARU_1|2.4MB/s|17%|TK-ALISG|YT-RU"
+      password: edad69d9-ea99-4ce9-bae8-8fedc2afcbf4
+      port: 40040
+      server: ruot.ayucloudservices.nl
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F3IN_1|1.7MB/s|2%|TK-ALISG|YT-IN|NF-IN|GPT⁺-IN|GM-IN|CL-IN|SP-IN"
+      password: edad69d9-ea99-4ce9-bae8-8fedc2afcbf4
+      port: 21187
+      server: ruot.ayucloudservices.nl
+      type: ss
+    - cipher: aes-128-gcm
+      name: "\U0001F1F8\U0001F1ECSG_2|1.4MB/s|0%|TK-ALISG|YT-SG|NF-SG|D+-US|GM-TW"
+      password: edad69d9-ea99-4ce9-bae8-8fedc2afcbf4
+      port: 40023
+      server: ruot.ayucloudservices.nl
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8US_1|573KB/s|0%|TK-US|YT-US|NF-CO|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: 2095
+      server: www.epicgames.com
+      tls: false
+      type: vless
+      udp: true
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: uwu.femboy67.cc.cd
+        path: /
+    - cipher: aes-256-cfb
+      name: "\U0001F1E8\U0001F1E6CA_1|589KB/s|0%|TK-ALISG|YT-CA|NF-US|GPT⁺-CA|GM-CA|CL-CA|SP-CA"
+      password: amazonskr05
+      port: 443
+      server: 15.175.220.220
+      type: ss
+      udp: true
     - auth: github.com/Alvin9999-newpac/fanqiang
-      name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s|26%|NF-FR|GPT⁺-FR|GM-FR|CL-FR|SP-FR"
+      name: "\U0001F1EB\U0001F1F7FR_1|1.9MB/s|34%|TK-FR|YT-FR|NF-FR|GPT⁺-FR|CL-FR|SP-FR"
       password: github.com/Alvin9999-newpac/fanqiang
       port: 43115
       server: 62.210.147.2
@@ -8,64 +68,17 @@ proxies:
       sni: www.microsoft.com
       type: hysteria2
       udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1|754KB/s|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-      port: 1002
-      server: qm5tw9xz.zf-mix.9999231.xyz
-      skip-cert-verify: true
-      sni: iosapps.itunes.apple.com
-      type: anytls
-      udp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s|40%|TK-DE|YT-CN|NF-DE|D+-DE|GPT⁺-DE|CL-DE|SP-DE"
-      port: 20088
-      protocol: udp
-      server: 5.83.129.153
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "500"
-    - alpn:
-        - h3
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EF\U0001F1F5JP_1|1.7MB/s|YT-JP|NF-JP|D+-JP|GM-JP|SP-JP"
-      network: ws
-      port: 443
-      server: saas.sin.fan
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
-      xudp: true
-    - auth: Q3mAdf68GvbGEGqTAXkWjg
-      name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s|60%|TK-US|YT-CN|NF-US|GPT⁺-US|CL-US|SP-US"
-      password: Q3mAdf68GvbGEGqTAXkWjg
-      port: 8443
-      server: 173.249.210.76
-      skip-cert-verify: true
-      tls: false
-      type: hysteria2
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_1|808KB/s|13%|TK-ALISG|YT-RU|NF-HK|SP-HK"
-      port: 32134
+    - client-fingerprint: random
+      name: "\U0001F1F5\U0001F1F1PL_1|1.2MB/s|0%|TK-PL|NF-PL|D+-PL|GPT⁺-PL|CL-PL|SP-PL"
+      network: tcp
+      port: "443"
       reality-opts:
-        public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
-        short-id: 6c6c7c97
-      server: 3696b38bsg.murphyweb.sbs
-      servername: buylite.music.apple.com
+        public-key: gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg
+        short-id: ""
+      server: 80.47.12.94
+      servername: pl-1-1.unturned-rust-dead.lol
       tls: true
       type: vless
-      uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+      udp: true
+      uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
+      xudp: true
