@@ -1,42 +1,62 @@
 proxies:
-    - alterId: 0
-      cipher: auto
-      delay: 2071
-      name: "\U0001F1F9\U0001F1FCTW_1|1.3MB/s|0%|TK-ALISG|GPT⁺-TW|GM-TW|CL-TW|SP-TW"
-      network: ws
-      port: 443
-      server: fujrdt.d6f54hd1j.cc
-      servername: fujrdt.d6f54hd1j.cc
-      skip-cert-verify: false
-      tls: true
-      type: vmess
+    - name: "\U0001F1FA\U0001F1F8US_1|2.1MB/s|25%|TK-US|YT-RU|NF-US|GPT⁺-US|CL-US|SP-US"
+      password: ae7eb4dwyaz25pxwgq59
+      port: 59689
+      server: 66.23.203.21
+      skip-cert-verify: true
+      type: trojan
       udp: true
-      uuid: d877dc6f-7323-4b47-a7dd-14228cbae854
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: 55 Mbps
+      name: "\U0001F1EB\U0001F1F7FR_1|2.0MB/s|35%|TK-FR|NF-FR|D+-FR|GPT⁺-FR|CL-FR|SP-FR"
+      port: 24667
+      protocol: udp
+      server: 62.210.70.191
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria
+      up: 11 Mbps
+    - name: "\U0001F1EC\U0001F1E7GB_1|1.1MB/s|0%|TK-SE|NF-DE|GPT⁺-GB|GM-GB|CL-GB|SP-UK"
+      network: ws
+      port: 14430
+      server: 193.188.21.253
+      servername: 193.188.21.253
+      tls: false
+      type: vless
+      udp: true
+      uuid: 57f7772d-f5d6-4d8f-992d-5fa5e0d6da55
+      ws-opts:
+        headers:
+            Host: 193.188.21.253
+        path: /vless
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_1|2.6MB/s|3%|TK-ALISG|YT-JP|NF-JP|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: DAgqTSuxmGE7fP-upyw4qCoM1fqQIDC7Im5K2pL5UXs
+        short-id: 9ebc0931
+      server: 43.206.91.175
+      servername: www.samsung.com
+      tls: true
+      type: vless
+      uuid: 638d9b71-941d-45d7-a11b-4e012b6259b8
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_1|2.4MB/s|0%|TK-DE|YT-RU|NF-DE|GPT⁺-DE|GM-US|CL-DE|SP-DE"
+      name: "\U0001F1F8\U0001F1ECSG_1|5.6MB/s|16%|TK-ALISG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
       network: tcp
-      port: "443"
+      port: "57541"
       reality-opts:
-        public-key: ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY
-        short-id: ba4b2afa9e7193ea
-      server: 50.7.87.122
-      servername: edge-fr.extazy.net
+        public-key: hAtfAzXQrbxyqiK3b2XrsxZ35sWiN8iqp0LvjKr9_DE
+        short-id: 22b19630280c3f
+      server: funagfrdfs.alixxplay.com
+      servername: www.lamer.com.sg
       tls: true
       type: vless
       udp: true
-      uuid: 9c104116-b231-4626-94cb-6d8fc4d2b000
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
       xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F9\U0001F1F7TR_1|3.6MB/s|0%|TK-ALISG|YT-US|NF-TR|D+-TR|GPT⁺-TR|CL-TR|SP-TR"
-      obfs: salamander
-      obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
-      password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
-      port: "34121"
-      server: 153.56.210.134
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      up: ""
