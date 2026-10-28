@@ -1,7 +1,7 @@
 proxies:
     - alpn:
         - h2
-      name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s|0%|TK-USEASTRED|NF-NL|D+-NL|GPT⁺-NL|CL-NL|SP-NL"
+      name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s|0%|TK-USEASTRED|NF-NL|D+-NL|GPT⁺-NL|CL-NL|SP-NL"
       network: xhttp
       port: 443
       server: dey.lnmarketplace.net
@@ -17,7 +17,7 @@ proxies:
         - h3
       auth-str: dongtaiwang.com
       down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1|1.7MB/s|35%|TK-USEASTRED|NF-FR|D+-FR|GPT⁺-FR|CL-FR|SP-FR"
+      name: "\U0001F1EB\U0001F1F7FR_1|2.7MB/s|35%|TK-FR|NF-FR|D+-FR|GPT⁺-FR|CL-FR|SP-FR"
       port: 24667
       protocol: udp
       server: 62.210.70.191
@@ -25,798 +25,137 @@ proxies:
       sni: bing.com
       type: hysteria
       up: 11 Mbps
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FB\U0001F1F3VN_1|2.8MB/s|0%|TK-ALISG|YT-VN|NF-HK|GPT⁺-VN|GM-VN|CL-VN|SP-VN"
-      network: tcp
-      port: "55688"
-      reality-opts:
-        public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
-        short-id: a46bb5972cf50671
-      server: funagfrdfs.alixxplay.com
-      servername: bilibili-vn.biliimg.com
-      tls: true
-      type: vless
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_1|2.5MB/s|0%|TK-USEASTRED|YT-US|NF-IT|GPT⁺-IT|CL-IT|SP-IT"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.81
+      type: ss
       udp: true
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1|2.2MB/s|24%|TK-USEASTRED|NF-DE|D+-DE|SP-DE"
-      network: ws
-      port: "8443"
-      server: 2.28.42.209
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_2|2.6MB/s|100%|TK-USEASTRED|YT-US|NF-IT|GPT⁺-IT|CL-IT|SP-IT"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.18
+      type: ss
       udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      xudp: true
-    - name: "\U0001F1F9\U0001F1FCTW_1|1.2MB/s|0%|TK-ALISG|YT-TW|NF-TW|GPT⁺-TW|GM-TW|CL-TW|SP-TW"
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_3|2.2MB/s|19%|TK-USEASTRED|YT-US|NF-IT|GPT⁺-IT|CL-IT|SP-IT"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.72
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_4|2.5MB/s|50%|TK-USEASTRED|YT-US|NF-IT|GPT⁺-IT|CL-IT|SP-IT"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.54
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_5|2.3MB/s|0%|TK-USEASTRED|YT-US|NF-IT|GPT⁺-IT|CL-IT|SP-IT"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.36
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_6|2.4MB/s|19%|TK-USEASTRED|YT-US|NF-IT|GPT⁺-IT|CL-IT|SP-IT"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.63
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_7|1.2MB/s|0%|TK-USEASTRED|YT-US|NF-IT|GPT⁺-IT|CL-IT|SP-IT"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.27
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_8|2.2MB/s|19%|TK-USEASTRED|YT-US|NF-IT|GPT⁺-IT|CL-IT|SP-IT"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.45
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_9|2.4MB/s|19%|TK-USEASTRED|YT-RU|NF-IT|GPT⁺-IT|CL-IT|SP-IT"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.90
+      type: ss
+      udp: true
+    - fingerprint: ""
+      name: "\U0001F1F9\U0001F1FCTW_1|1.1MB/s|0%|TK-ALISG|YT-TW|NF-TW|D+-TW|GPT⁺-TW|GM-TW|CL-TW|SP-TW"
       password: 0324fbc29561
-      port: 443
-      server: er8u54dh.df6h451rh.xin
+      port: "443"
+      server: 684616s4.df6h451rh.xin
       skip-cert-verify: true
       sni: px.ads.linkedin.com
       type: anytls
       udp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1|2.7MB/s|24%|TK-US|YT-US|NF|D+-US|GPT⁺-US|SP-US"
-      network: ws
-      port: 443
-      server: 104.17.147.22
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
-        path: ""
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_1|2.3MB/s|24%|TK-FI|NF-SE|D+-FI|GM-FI|SP-FI"
-      network: ws
-      port: 8443
-      server: 139.100.226.187
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-        path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|2.7MB/s|48%|TK-US|YT-CN|NF-US|GPT⁺-US|CL-US|SP-US"
-      password: 4fUg3KH31LpMhko6o0Ka9Q
-      port: 36720
-      server: 198.46.146.118
+      username: 0324fbc29561
+    - fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_1|838KB/s|1%|TK-ALISG|YT-HK|NF-HK|D+-HK|GPT⁺-TW|SP-HK"
+      password: 0324fbc29561
+      port: "443"
+      server: 654968169.df6h451rh.xin
       skip-cert-verify: true
-      sni: bing.com
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1F9\U0001F1FCTW_2|704KB/s|0%|TK-ALISG|YT-TW|NF-TW|D+-TW|GPT⁺-TW|GM-TW|CL-TW|SP-TW"
-      password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
-      port: 47531
-      server: svip.skycon808.com
-      skip-cert-verify: true
-      sni: tw15.swiftrelay.cc
+      sni: ""
       type: anytls
       udp: true
-    - cipher: rc4-md5
-      name: "\U0001F1FA\U0001F1F8US_3|747KB/s|0%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      obfs: plain
-      obfs-param: f7d23929.douyin.com
-      password: di15PV
-      port: 27726
-      protocol: auth_aes128_md5
-      protocol-param: 23929:563537032
-      server: api.meituan88.com
-      type: ssr
-    - cipher: chacha20-ietf
-      name: "\U0001F1FA\U0001F1F8US_4|1.2MB/s|8%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      obfs: plain
-      obfs-param: 6f5218522.douyin.com
-      password: di15PV
-      port: 44983
-      protocol: auth_aes128_md5
-      protocol-param: 218522:0hfCJk
-      server: api.meituan88.com
-      type: ssr
-    - cipher: rc4-md5
-      name: "\U0001F1FA\U0001F1F8US_5|833KB/s|38%|TK-US|YT-CN|NF-US|GPT⁺-US|CL-US|SP-US"
-      obfs: plain
-      obfs-param: f7d23929.douyin.com
-      password: di15PV
-      port: 39266
-      protocol: auth_aes128_md5
-      protocol-param: 23929:563537032
-      server: api.meituan88.com
-      type: ssr
-    - cipher: chacha20-ietf
-      name: "\U0001F1FA\U0001F1F8US_6|1.1MB/s|8%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      obfs: tls1.2_ticket_auth
-      obfs-param: f7d23929.douyin.com
-      password: di15PV
-      port: 18534
-      protocol: auth_aes128_md5
-      protocol-param: 23929:563537032
-      server: api.meituan88.com
-      type: ssr
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_2|1.0MB/s|24%|TK-USEASTRED|YT-NL|NF-NL|D+-NL|GPT⁺-NL|GM-NL|CL-NL|SP-NL"
-      network: ws
-      port: 8443
-      server: 31.192.239.107
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
+      username: 0324fbc29561
+    - fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_2|877KB/s|1%|TK-ALISG|YT-HK|NF-HK|D+-HK|GPT⁺-TW|SP-HK"
+      password: 0324fbc29561
+      port: "443"
+      server: 654968169.df6h451rh.xin
+      skip-cert-verify: true
+      sni: 127.0.0.1
+      type: anytls
       udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
-        path: /
-      xudp: true
-    - cipher: chacha20-ietf
-      name: "\U0001F1FA\U0001F1F8US_7|533KB/s|8%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
-      obfs: tls1.2_ticket_auth
-      obfs-param: f7d23929.douyin.com
-      password: di15PV
-      port: 29790
-      protocol: auth_aes128_md5
-      protocol-param: 23929:563537032
-      server: api.meituan88.com
-      type: ssr
-    - client-fingerprint: chrome
-      name: "\U0001F1E6\U0001F1F9AT_1|2.3MB/s|24%|TK-AT|NF-AT|D+-AT|GM-AT|SP-AT"
-      network: ws
-      port: 443
-      server: 159.195.249.188
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /fp=chrome
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F5\U0001F1F1PL_1|640KB/s|24%|TK-PL|NF-PL|D+-PL|GM-PL|SP-PL"
-      network: ws
-      port: 443
-      server: 212.60.4.134
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
-        path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_1|2.0MB/s|24%|TK-ALISG|YT-SG|NF-HK|D+-SG|SP-SG"
-      network: ws
-      port: 443
-      server: 103.107.53.42
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /fp=chrome
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_8|2.2MB/s|24%|TK-US|YT-US|NF-US|D+-US|GM-US|SP-US"
-      network: ws
-      port: 443
-      server: 117.55.232.3
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: /fp=chrome
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_9|2.1MB/s|24%|TK-US|YT-CN|NF-US|D+-US|GPT⁺|CL-US|SP-US"
-      network: ws
-      port: 443
-      server: 203.88.117.190
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F5\U0001F1F1PL_2|1.2MB/s|TK-PL|NF|D+-PL|GM-PL"
-      network: ws
-      port: 443
-      server: 185.179.82.246
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
-        path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1NL_3|1.1MB/s|24%|TK-USEASTRED|NF-GB|D+-GB|GM-GB|SP-UK"
-      network: ws
-      port: 443
-      server: 185.186.246.8
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
-        path: /fp=chrome
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E8\U0001F1EDCH_1|616KB/s|24%|TK-CH|NF-CH|D+-CH|GPT⁺-CH|GM-CH|CL-CH|SP-CH"
-      network: ws
-      port: 443
-      server: 91.245.225.69
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E7\U0001F1ECBG_1|598KB/s|24%|TK-BG|NF-RO|D+-BG|GPT⁺-BG|CL-BG|SP-BG"
-      network: ws
-      port: 443
-      server: 104.152.48.248
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-        path: /
-      xudp: true
-    - alpn:
-        - h3
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F0\U0001F1ECKG_1|540KB/s|24%|TK-ALISG|YT-US|NF-IN|GM-KG|SP-KG"
-      network: ws
-      port: 443
-      server: 193.36.95.34
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F7\U0001F1F4RO_1|843KB/s|24%|TK-RO|NF-RO|D+-RO|GM-RO|SP-RO"
-      network: ws
-      port: 443
-      server: 81.181.166.197
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /fp=chrome
-      xudp: true
-    - client-fingerprint: chrome
+      username: 0324fbc29561
+    - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1EDTH_1|841KB/s|17%|TK-ALISG|YT-US|NF-TH|D+-TH|GPT⁺-TH|CL-TH|SP-TH"
+      name: "\U0001F1F3\U0001F1F1NL_2|2.1MB/s|0%|TK-USEASTRED|NF-DE|GPT⁺-NL|CL-NL|SP-NL"
       network: tcp
-      port: "56415"
+      port: "2083"
       reality-opts:
-        public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
-        short-id: cbd39bea0805e2
-      server: funagfrdfs.alixxplay.com
-      servername: www.kaidee.com
+        public-key: cHJfClQkyUnSxMCi9kmfC8j5OpMrUpyvrjVboO50YXM
+        short-id: f5152b45697a2b58
+      server: 13.143.172.34
+      servername: ya.ru
       tls: true
       type: vless
       udp: true
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1FFCZ_1|721KB/s|24%|TK-CZ|NF-AT|D+-CZ|GPT⁺-CZ|GM-CZ|CL-CZ|SP-CZ"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
-        short-id: 7271129440ade8fa
-      server: 89.125.237.24
-      servername: web.stride.surf
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
-      xudp: true
-    - encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_4|2.5MB/s|55%|TK-USEASTRED|NF-NL|GPT⁺-NL|CL-NL|SP-NL"
-      network: tcp
-      port: "443"
-      server: 94.237.46.104
-      type: vless
-      udp: true
-      uuid: dac47070-c136-49f3-8ed2-32b68e710ea3
-      xudp: true
-    - alpn:
-        - h3
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_10|860KB/s|24%|TK-US|YT-US|NF|D+-US|GPT⁺-US|GM-US|CL-US"
-      network: ws
-      port: "443"
-      server: 104.20.6.134
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s|46%|YT-RU|NF-BE|GPT-DE|CL-DE|SP-DE"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: ""
-      server: 103.91.147.212
-      servername: de.ozon.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 261160d5-0343-4b85-8c28-3d40dd681559
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_11|3.1MB/s|17%|TK-ALISG|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: tcp
-      port: "30892"
-      reality-opts:
-        public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
-        short-id: 3d31326f95
-      server: funagfrdfs.alixxplay.com
-      servername: us1p1.xn--ghq880n3na965a.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      xudp: true
-    - alpn:
-        - h3
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_12|1.3MB/s|24%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 172.64.155.209
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_2|1.7MB/s|24%|TK-FI|YT-RU|NF-SE|D+-FI|GPT⁺-FI|GM-FI|CL-FI|SP-FI"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
-        short-id: 7271129440ade8fa
-      server: 45.144.52.65
-      servername: web.moscowvibe.fyi
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_3|721KB/s|TK-AE|YT-RU|NF-PL|GPT⁺-PL|CL-PL"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: tPhBRGpTbyaPFF3W0wpqncSrdNsV5I-eyM3S9CZoeCQ
-        short-id: 9a26e586f8cadc07
-      server: 151.241.166.159
-      servername: pl-hsts.zloygo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7ab86f1f-871e-4de6-9dae-7addf6dc976c
-      xudp: true
-    - encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_2|2.7MB/s|3%|TK-USEASTRED|YT-FR|NF-GB|GPT⁺-FR|GM-FR|CL-FR|SP-FR"
-      network: tcp
-      port: "22223"
-      server: 13.37.186.150
-      type: vless
-      udp: true
-      uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+      uuid: fafc7c16-f890-45ee-a856-02df225172dd
       xudp: true
     - client-fingerprint: firefox
-      encryption: mlkem768x25519plus.native.0rtt.2pF0SU8GY0IN4hGf7rDNbyu-NrJGF8goZyVEAnAQ9Fw
-      name: "\U0001F1E9\U0001F1EADE_3|1.2MB/s|9%|TK-USEASTRED|NF-DE|GPT⁺-DE|CL-DE|SP-DE"
-      network: xhttp
-      port: "443"
-      server: 199.232.77.187
-      servername: ssl.fastly.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e68ca058-401a-413f-a5c4-a6cd2649ff46
-      xhttp-opts:
-        host: ded1.global.ssl.fastly.net
-        mode: auto
-        path: /api
-        x-padding-bytes: 100-1000
-      xudp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_13|589KB/s|24%|TK-US|YT-US|NF-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 104.19.45.195
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: /?TELEGRAM-TOOTFFARANGI
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_14|2.7MB/s|24%|TK-US|YT-CN|NF-US|D+-US|GM-US|SP-US"
-      network: ws
-      port: "443"
-      server: 162.35.169.69
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /fp=chromefp=chrome
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EADE_4|832KB/s|24%|TK-USEASTRED|NF-DE|D+-DE|SP-DE"
-      network: ws
-      port: "443"
-      server: 185.230.44.200
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
-        path: /fp=chrome
-      xudp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_15|2.6MB/s|24%|TK-US|YT-US|NF-US|D+-US|GM-US|SP-US"
-      network: ws
-      port: "443"
-      server: 104.17.148.22
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /fp=chrome
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EA\U0001F1EAEE_1|542KB/s|24%|TK-EE|NF-SE|D+-EE|GM-EE|SP-EE"
-      network: ws
-      port: "443"
-      server: 130.78.190.134
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_5|2.1MB/s|TK-USEASTRED|NF-DE|GPT⁺-DE"
-      network: ws
-      port: "8443"
-      server: 144.31.181.177
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_1|2.2MB/s|GPT-SG"
-      network: ws
-      port: "2087"
-      server: 166.88.194.74
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F0\U0001F1ECKG_2|1.1MB/s|24%|TK-ALISG|YT-US|NF-IN|GM-KG|SP-KG"
-      network: ws
-      port: "8443"
-      server: 188.240.213.98
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1NL_5|1.2MB/s|24%|TK-USEASTRED|NF-NL|D+-GB|GPT⁺-NL|GM-NL|CL-NL|SP-UK"
-      network: ws
-      port: "443"
-      server: 72.56.106.210
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /
-      xudp: true
-    - alpn:
-        - h3
-        - h2
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_16|648KB/s|24%|TK-US|YT-US|NF-US|D+-US|GM-US|SP-US"
-      network: ws
-      port: "443"
-      server: 172.64.154.211
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /fp=chrome
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1E6\U0001F1F9AT_2|795KB/s|24%|TK-AT|NF-AT|D+-AT|GM-AT|SP-AT"
-      network: ws
-      port: "443"
-      server: 130.78.185.4
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /fp=chrome
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_1|2.0MB/s|24%|TK-ALISG|YT-JP|NF-JP|D+-JP|SP-JP"
-      network: ws
-      port: "443"
-      server: 14.137.230.82
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-        path: /fp=chrome
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EASE_1|1.3MB/s|24%|TK-HT|NF-SE|D+-SE|SP-SE"
-      network: ws
-      port: "443"
-      server: 109.69.22.15
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-        path: /fp=chrome
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_2|4.6MB/s|24%|TK-ALISG|YT-SG|NF-SG|D+-SG|GM-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 18.138.206.30
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: /fp=chrome
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F9\U0001F1F7TR_1|2.5MB/s|0%|TK-ALISG|YT-US|NF-TR|D+-TR|GPT⁺-TR|CL-TR|SP-TR"
-      obfs: salamander
-      obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
-      password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
-      port: "34121"
-      server: 153.56.210.134
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      up: ""
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_17|3.2MB/s|24%|TK-US|YT-US|NF-US|D+-US|GM-US|SP-US"
-      network: ws
-      port: "443"
-      server: 104.17.134.88
-      servername: snip.edgeoneai.cc.cd
-      tls: true
-      type: vless
-      udp: true
-      uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-      ws-opts:
-        headers:
-            Host: snip.edgeoneai.cc.cd
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
-        path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_3|3.1MB/s|28%|TK-FR|NF-FR|D+-FR|GPT⁺-FR|GM-FR|CL-FR|SP-FR"
-      network: xhttp
-      port: "65513"
+      name: "\U0001F1EA\U0001F1EAEE_1|1.3MB/s|0%|TK-EE|YT-RU|NF-LV|D+-EE|GPT⁺-EE|CL-EE|SP-EE"
+      network: tcp
+      port: "25895"
       reality-opts:
-        public-key: tQeEamJmYVUUfjRLX7ETvMnPj4DrHzRhR5TI684oYgg
-        short-id: 21569dd6
-      server: 2001:bc8:32d7:302::10
-      servername: www.yahoo.com
+        public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+        short-id: a73f0410d728c823
+      server: ee.h1cloud.net
+      servername: www.samsung.com
       tls: true
       type: vless
       udp: true
-      uuid: 2567e2e0-8d4c-4c51-aee9-5d1f36024472
-      xhttp-opts:
-        path: /6eg3r4an
+      uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
       xudp: true
+    - fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_3|1.1MB/s|1%|TK-ALISG|YT-HK|NF-HK|D+-HK|GPT⁺-TW|SP-HK"
+      password: 0324fbc29561
+      port: "443"
+      server: 654968169.df6h451rh.xin
+      skip-cert-verify: true
+      sni: 654968169.df6h451rh.xin
+      type: anytls
+      udp: true
+      username: 0324fbc29561
