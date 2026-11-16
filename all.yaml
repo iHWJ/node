@@ -1,9 +1,111 @@
 proxies:
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1|626KB/s|15%|TK-TTP|YT-US|NF-US|D+-US|GPT|GM-US|CL-US|SP-US"
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_1|3.4MB/s|TK-TTP|YT-CN|NF-US|D+-US|GPT-US|GM-US|CL-US|SP-US"
       network: ws
       port: 443
-      server: 141.98.41.80
+      server: 179.255.99.31
+      servername: next-8zs.pages.dev
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_2|2.8MB/s|13%|TK-US|YT-CN|NF-US|D+-US|GPT⁺-US|SP-US"
+      network: ws
+      port: 443
+      server: 179.255.127.43
+      servername: next-8zs.pages.dev
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_3|3.0MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 8443
+      server: 179.253.232.219
+      servername: next-8zs.pages.dev
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_1|622KB/s|13%|TK-SG|YT-HK|NF-HK|D+-HK|SP-HK"
+      network: ws
+      port: 443
+      server: 172.67.72.4
+      servername: next-8zs.pages.dev
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_4|680KB/s|13%|TK-TTP|YT-CN|NF-US|D+-US|GPT-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: 443
+      server: 104.156.154.202
+      servername: next-8zs.pages.dev
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_5|2.0MB/s|13%|TK-TTP|NF-US|D+-US|GPT-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: 8443
+      server: 193.233.87.133
+      servername: next-8zs.pages.dev
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_2|646KB/s|1%|TK-TTP|NF|SP-US"
+      network: ws
+      port: 443
+      server: 38.180.6.148
       servername: apex-2jj.pages.dev
       tls: true
       type: vless
@@ -13,73 +115,8 @@ proxies:
         headers:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_1|535KB/s|YT-SG|GPT-SG|GM-SG"
-      network: ws
-      port: 443
-      server: 139.162.26.8
-      servername: next-8zs.pages.dev
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_2|649KB/s|15%|TK-US|YT-CN|NF-US|D+-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: 443
-      server: 117.55.231.18
-      servername: next-8zs.pages.dev
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_3|650KB/s|15%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
-      network: ws
-      port: 443
-      server: 168.222.0.251
-      servername: next-8zs.pages.dev
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_4|696KB/s|15%|TK-TTP|YT-US|NF-US|CL-US|SP-US"
-      network: ws
-      port: 443
-      server: 179.253.239.220
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 88d18cf3-ac0e-46ef-b073-47bd07145983
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/US?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_5|749KB/s|1%|TK-US|YT-US|NF|D+-US|GPT⁺-US|GM-US|CL-US"
+      name: "\U0001F1FA\U0001F1F8US_6|891KB/s|15%|TK-TTP|YT-US|NF-US|GPT⁺|CL-US|SP-US"
       network: ws
       port: 443
       server: 154.19.184.255
@@ -93,10 +130,24 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_1|860KB/s|0%|TK-GCP|NF-FR|D+-FR|GPT⁺|GM-FR|CL-US|SP-FR"
+      name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s|NF-DE|D+-DE|GPT-DE|CL-DE|SP-DE"
       network: ws
       port: 8443
-      server: 46.224.158.20
+      server: 89.127.198.10
+      servername: apex-2jj.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: 88d18cf3-ac0e-46ef-b073-47bd07145983
+      ws-opts:
+        headers:
+            Host: apex-2jj.pages.dev
+        path: /rp/DE?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s|TK-GCP|NF|GPT⁺-US|GM-DE"
+      network: ws
+      port: 8443
+      server: 81.30.157.13
       servername: apex-2jj.pages.dev
       tls: true
       type: vless
