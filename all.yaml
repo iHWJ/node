@@ -1,127 +1,219 @@
 proxies:
     - alpn:
-        - h2
-      name: "\U0001F1F3\U0001F1F1NL_1|1.8MB/s|0%|TK-GCP|NF-NL|D+-NL|GPT⁺-NL|CL-NL|SP-NL"
-      network: xhttp
-      port: 443
-      server: dey.lnmarketplace.net
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-      xhttp-opts:
-        mode: stream-one
-        path: /kavir
-    - encryption: mlkem768x25519plus.native.0rtt.JOz04Neg9PDWwDsVd4DaTDB63yZZDX2FNbkadsv91gk
-      http-opts:
-        headers:
-            Host:
-                - ssh.webdade.com
-        path:
-            - /
-      name: "\U0001F1F3\U0001F1F1NL_2|778KB/s|62%|TK-GCP|YT-US|NF-DE|D+-DE|GPT⁺-NL|CL-NL|SP-DE"
-      network: http
-      port: "46132"
-      server: edition.ativetechnology.ir
-      type: vless
-      udp: true
-      uuid: b86451af-4c98-4b7d-96e5-16f2e9df1d46
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1EDCH_1|1.5MB/s|TK-CH|YT-PA|GPT-CH|GM-NL|CL-CH"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-        short-id: 428ef87fd47a3a32
-      server: 179.43.166.190
-      servername: perevodchiki.su
-      tls: true
-      type: vless
-      udp: true
-      uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-      xudp: true
-    - alpn:
-        - h2
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E6\U0001F1F9AT_1|2.0MB/s|20%|TK-US|YT-RU|NF-FR|GPT|SP-US"
-      network: xhttp
-      port: "443"
-      server: 67.159.11.170
-      servername: atw-1.avito.business
-      tls: true
-      type: vless
-      udp: true
-      uuid: 82411ea4-94e5-4ff3-88b3-6ae28a3c8e23
-      xhttp-opts:
-        mode: stream-one
-        path: /api/v2/upload/8a3f1c5be24d2854
-        reuse-settings:
-            h-keep-alive-period: 45
-            h-max-request-times: 1200-1800
-            h-max-reusable-secs: 3600-6000
-            max-connections: "2"
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_3|1.6MB/s|0%|TK-GCP|YT-GB|NF-DE|D+-IL|GPT⁺-NL|GM-GB|CL-NL|SP-NL"
-      network: xhttp
-      port: "443"
-      reality-opts:
-        public-key: jIRVNEf9SpuWP2nJrAbHGGIUnfzOmwZZlrNGw-Y-O2Q
-        short-id: 2d2598d60447a967
-      server: e60833x.nl7.h1clayd.click
-      servername: e60833x.nl7.h1clayd.click
-      tls: true
-      type: vless
-      udp: true
-      uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-      xhttp-opts:
-        mode: auto
-        path: /d20896a4ce30
-      xudp: true
-    - encryption: mlkem768x25519plus.native.0rtt.y5JdNqCVO7XqO9RT4eXLtujAUrOcx_xjNI5us06yMBI
-      flow: xtls-rprx-vision
-      http-opts:
-        headers:
-            Host:
-                - docs.github.com
-        path:
-            - /
-      name: "\U0001F1F3\U0001F1F1NL_4|1002KB/s|0%|YT-US|NF-DE|D+-PL|GPT⁺-NL|CL-NL|SP-PL"
-      network: http
-      port: "49673"
-      server: uyt24-k2.miniseries.ir
-      type: vless
-      udp: true
-      uuid: b86451af-4c98-4b7d-96e5-16f2e9df1d46
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_5|712KB/s|0%|TK-GCP|YT-GB|NF-DE|D+-IL|GPT⁺-NL|GM-GB|CL-NL|SP-NL"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-        short-id: 361d0dd59c70516f
-      server: 5d0319t.nl7.h1clayd.click
-      servername: 5d0319t.nl7.h1clayd.click
-      tls: true
-      type: vless
-      udp: true
-      uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EADE_1|2.5MB/s|57%|TK-GCP|GPT-DE|CL-DE|SP-DE"
-      network: tcp
-      password: 6cddea99-9b18-4d42-8638-131bd9f5374f
-      port: "443"
-      server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
+        - h3
+      auth-str: dongtaiwang.com
+      down: "55"
+      name: "\U0001F1F3\U0001F1F1NL_1|892KB/s|50%|TK-GCP|YT-RU|NF-DE|D+-DE|GPT⁺-NL|CL-NL"
+      password: dongtaiwang.com
+      port: 26691
+      server: 5.83.129.143
       skip-cert-verify: true
-      sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-      type: trojan
+      tls: true
+      type: hysteria
+      up: "11"
+    - alpn:
+        - h3
+      auth-str: github.com/Alvin9999-newpac/fanqiang
+      auth_str: github.com/Alvin9999-newpac/fanqiang
+      down: 50
+      name: "\U0001F1FA\U0001F1F8US_1|747KB/s|1%|TK-US|YT-CN|NF-US|GPT⁺-US|CL-US"
+      port: 22335
+      server: 198.200.57.142
+      skip-cert-verify: true
+      type: hysteria
+      up: 10
+    - alpn:
+        - h3
+      auth-str: github.com/Alvin9999-newpac/fanqiang
+      down: "55"
+      name: "\U0001F1FA\U0001F1F8US_2|556KB/s|1%|TK-US|YT-CN|NF-US|GPT⁺-US|CL-US"
+      password: github.com/Alvin9999-newpac/fanqiang
+      port: 22335
+      server: 198.200.57.142
+      servername: bing.com
+      skip-cert-verify: true
+      sni: bing.com
+      tls: true
+      type: hysteria
+      up: "11"
+      x-toolall-mihomo: true
+    - name: "\U0001F1FA\U0001F1F8US_3|727KB/s|YT-CN|NF-US|GPT⁺-US|CL-US|SP-US"
+      password: 0324fbc29561
+      port: 443
+      server: sdf65h46wr.df6h451rh.xin
+      servername: images.ctfassets.net
+      skip-cert-verify: true
+      sni: images.ctfassets.net
+      tls: true
+      type: anytls
+      x-toolall-mihomo: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_4|911KB/s|15%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: "443"
+      server: 179.253.239.220
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
       udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_5|873KB/s|15%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-HK|GM-US|SP-US"
+      network: ws
+      port: "8443"
+      server: 46.8.227.89
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_1|689KB/s|15%|TK-SG|YT-HK|NF-HK|D+-HK|SP-HK"
+      network: ws
+      port: "443"
+      server: 172.67.72.4
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_6|1.5MB/s|15%|TK-TTP|YT-US|NF-US|D+-US|GPT|GM-US|SP-US"
+      network: ws
+      port: "443"
+      server: 66.94.122.26
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_7|686KB/s|15%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
+      network: ws
+      port: "8443"
+      server: 129.153.70.191
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_8|607KB/s|15%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "8443"
+      server: 152.53.81.176
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_1|712KB/s|15%|TK-SG|YT-JP|NF-JP|D+-JP|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
+      network: ws
+      port: "443"
+      server: 152.69.199.75
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_2|565KB/s|15%|TK-SG|YT-HK|NF-HK|D+-HK|SP-HK"
+      network: ws
+      port: "443"
+      server: 45.133.73.167
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_2|513KB/s|15%|TK-SG|YT-JP|NF-JP|D+-JP|GPT⁺|GM-JP|CL-JP|SP-JP"
+      network: ws
+      port: "443"
+      server: 23.27.201.128
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 98d52b0e-bb55-4d34-a7fd-49de7df50d56
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
+        path: /98d52b0e-bb55-4d34-a7fd-49de7df50d56?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_9|922KB/s|TK-TTP|YT-HK|NF|GPT-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 138.2.236.17
+      servername: apex-2jj.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 88d18cf3-ac0e-46ef-b073-47bd07145983
+      ws-opts:
+        headers:
+            Host: apex-2jj.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+        path: /rp/US?ed=2048
+      xudp: true
