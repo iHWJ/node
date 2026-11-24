@@ -1,7 +1,24 @@
 proxies:
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_1|2.7MB/s|13%|TK-SG|YT-CN|NF-HK|D+-HK|SP-HK"
+      name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s|10%|TK-TTP|YT-CN|NF|D+-US|GPT⁺-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 104.17.201.77
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_1|3.1MB/s|10%|TK-SG|YT-CN|NF-HK|D+-HK|GPT-US|SP-HK"
       network: ws
       port: "443"
       server: 104.26.1.1
@@ -13,12 +30,12 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_2|1.1MB/s|13%|TK-SG|YT-CN|NF-HK|D+-HK|SP-HK"
+      name: "\U0001F1ED\U0001F1F0HK_2|626KB/s|10%|TK-SG|YT-CN|NF-HK|D+-HK|CL-US|SP-HK"
       network: ws
       port: "443"
       server: 172.67.72.4
@@ -30,12 +47,80 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_3|2.6MB/s|13%|TK-SG|YT-CN|NF-HK|D+-HK|SP-HK"
+      name: "\U0001F1FA\U0001F1F8US_2|2.5MB/s|10%|TK-US|NF-US|D+-US|GPT⁺-US|CL-US"
+      network: ws
+      port: "443"
+      server: 104.20.15.15
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_3|1023KB/s|10%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 104.16.128.11
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_4|570KB/s|10%|TK-TTP|YT-CN|NF-US|GPT⁺-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 104.16.88.7
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_5|2.1MB/s|10%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺|SP-US"
+      network: ws
+      port: "443"
+      server: 104.20.1.1
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_3|690KB/s|10%|TK-SG|YT-CN|NF-HK|D+-HK|SP-HK"
       network: ws
       port: "443"
       server: 162.159.128.1
@@ -47,15 +132,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_1|635KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      name: "\U0001F1FA\U0001F1F8US_6|2.5MB/s|10%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
       network: ws
       port: "443"
-      server: 128.1.186.61
+      server: 104.21.2.1
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -64,15 +149,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_1|2.2MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_7|603KB/s|10%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
       network: ws
       port: "443"
-      server: 45.32.92.53
+      server: 104.16.98.7
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -81,202 +166,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_2|1.4MB/s|13%|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 62.146.232.232
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_2|2.6MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_8|1.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
       network: ws
       port: "8443"
-      server: 144.202.110.83
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_3|2.5MB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 149.28.137.52
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_3|627KB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 64.112.42.28
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_4|1.4MB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 167.253.159.63
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_5|2.9MB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT|GM-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 139.180.152.37
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_4|2.2MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 45.32.73.12
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_4|835KB/s|13%|TK-SG|YT-CN|NF-HK|D+-HK|SP-HK"
-      network: ws
-      port: "443"
-      server: cfip.1323123.xyz
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_6|955KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 157.230.248.87
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_5|771KB/s|13%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 205.186.76.197
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_6|2.1MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 198.23.169.168
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_7|2.4MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺|GM-US|SP-US"
-      network: ws
-      port: "8443"
-      server: 159.195.233.11
+      server: 172.245.244.62
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -290,10 +188,10 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_8|859KB/s|13%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_9|2.7MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
       network: ws
       port: "443"
-      server: 113.20.12.85
+      server: 144.225.246.20
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -302,134 +200,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_7|607KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_1|2.5MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
       network: ws
       port: "443"
-      server: 159.223.88.166
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_9|1.5MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "2053"
-      server: 64.188.29.141
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F9\U0001F1FCTW_1|582KB/s|13%|TK-SG|YT-TW|NF-HK|D+-TW|GM-TW|SP-TW"
-      network: ws
-      port: "443"
-      server: 140.115.53.51
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_8|808KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 139.59.104.158
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_10|3.2MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "2053"
-      server: 103.11.78.142
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_9|1.2MB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 165.22.99.214
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_11|1.0MB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 162.243.148.170
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_12|706KB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 203.88.117.190
+      server: 139.180.135.10
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -443,10 +222,10 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_13|590KB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_10|3.0MB/s|10%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
       network: ws
       port: "443"
-      server: 84.75.220.198
+      server: 144.202.107.94
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -455,15 +234,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_10|759KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_2|753KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
       network: ws
       port: "443"
-      server: 168.144.39.64
+      server: 207.148.120.87
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -472,15 +251,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_14|2.6MB/s|13%|NF-US|GPT⁺-US|CL-US|SP-US"
+      name: "\U0001F1F8\U0001F1ECSG_3|1.8MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
       network: ws
       port: "443"
-      server: 66.94.126.122
+      server: 168.138.176.180
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -489,15 +268,66 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_15|2.1MB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_11|869KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 167.172.150.242
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_12|1.0MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 203.88.121.217
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_4|785KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 43.134.101.37
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_13|1.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
       network: ws
       port: "8443"
-      server: 162.141.123.128
+      server: 152.67.233.61
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -506,15 +336,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_16|1.2MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺|GM-US|CL-US"
+      name: "\U0001F1F8\U0001F1ECSG_5|1.3MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
       network: ws
-      port: "2096"
-      server: 23.158.233.2
+      port: "2053"
+      server: 206.189.34.99
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -523,32 +353,134 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_5|3.4MB/s|13%|TK-SG|YT-CN|NF-HK|D+-HK|SP-HK"
-      network: ws
-      port: "443"
-      server: cf.0sm.com
-      servername: next-8zs.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
-      ws-opts:
-        headers:
-            Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_17|2.2MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_14|2.0MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
       network: ws
       port: "443"
-      server: 129.159.119.161
+      server: 45.76.238.232
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_15|3.4MB/s|10%|TK-TTP|YT-CN|NF-US|D+-US|GPT-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: fn.130519.xyz
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_16|1.3MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 143.246.62.173
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_6|768KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "8443"
+      server: 157.228.130.145
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_17|1.9MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 166.88.227.145
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_7|2.1MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 207.148.73.18
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_1|565KB/s|10%|TK-SG|YT-JP|NF-JP|D+-JP|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
+      network: ws
+      port: "443"
+      server: 152.70.86.199
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_8|613KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 165.245.190.53
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -562,10 +494,129 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_11|603KB/s|0%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_9|945KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
       network: ws
       port: "443"
-      server: 152.42.174.94
+      server: 165.245.182.116
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_18|1.4MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 45.82.244.40
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_19|2.5MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 117.55.233.168
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_2|2.1MB/s|10%|TK-SG|YT-JP|NF-JP|D+-JP|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
+      network: ws
+      port: "443"
+      server: 161.33.31.228
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_20|1.0MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 66.42.125.21
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F0\U0001F1F7KR_1|2.8MB/s|10%|TK-SG|YT-KR|NF-JP|D+-KR|GPT⁺-KR|GM-KR|CL-KR|SP-KR"
+      network: ws
+      port: "443"
+      server: 123.111.169.70
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_21|641KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 144.225.8.47
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_10|715KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 178.128.114.149
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -579,10 +630,10 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_18|579KB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1F8\U0001F1ECSG_11|664KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
       network: ws
       port: "443"
-      server: 103.232.95.178
+      server: 206.189.151.133
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -591,15 +642,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_12|929KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      name: "\U0001F1FA\U0001F1F8US_22|2.0MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT-US|GM-US|CL-US|SP-US"
       network: ws
       port: "443"
-      server: 206.189.95.91
+      server: 5.78.155.4
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -608,15 +659,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_13|871KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      name: "\U0001F1FA\U0001F1F8US_23|2.7MB/s|10%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
       network: ws
       port: "443"
-      server: 45.66.128.2
+      server: 159.65.108.242
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -625,15 +676,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_14|1.1MB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺|GM-SG|CL-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_12|907KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
       network: ws
       port: "443"
-      server: 152.42.247.235
+      server: 157.230.37.190
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -642,15 +693,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_19|2.1MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1EF\U0001F1F5JP_3|1.4MB/s|10%|TK-SG|YT-JP|NF-JP|D+-JP|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
       network: ws
       port: "443"
-      server: 64.181.247.243
+      server: 217.142.232.60
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -659,15 +710,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_15|601KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      name: "\U0001F1FA\U0001F1F8US_24|2.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
       network: ws
-      port: "443"
-      server: 167.71.215.36
+      port: "2053"
+      server: 172.82.74.217
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -676,15 +727,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_16|809KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_13|522KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
       network: ws
       port: "443"
-      server: 203.55.176.251
+      server: 68.183.186.105
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -693,15 +744,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_17|920KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT-SG|GM-SG|CL-SG|SP-SG"
+      name: "\U0001F1ED\U0001F1F0HK_4|3.3MB/s|10%|TK-SG|YT-CN|NF-HK|D+-HK|SP-HK"
       network: ws
       port: "443"
-      server: 152.42.173.234
+      server: cf.0sm.com
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -710,15 +761,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_20|2.1MB/s|13%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_25|2.1MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
       network: ws
       port: "443"
-      server: 203.88.127.231
+      server: 203.88.117.227
       servername: next-8zs.pages.dev
       tls: true
       type: vless
@@ -727,15 +778,406 @@ proxies:
       ws-opts:
         headers:
             Host: next-8zs.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
         path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_6|630KB/s|13%|TK-SG|YT-HK|NF-HK|D+-HK|SP-HK"
+      name: "\U0001F1FA\U0001F1F8US_26|831KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
       network: ws
       port: "443"
-      server: 104.26.1.1
+      server: 38.244.60.197
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_14|2.7MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 139.180.145.3
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_27|2.3MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 152.53.31.251
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_28|1.6MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 66.94.122.26
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_29|2.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "8443"
+      server: 54.190.224.192
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_30|1.4MB/s|10%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 82.29.67.18
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_4|603KB/s|10%|TK-SG|YT-JP|NF-JP|D+-JP|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
+      network: ws
+      port: "443"
+      server: 152.69.200.164
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_31|2.0MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "8443"
+      server: 185.245.34.118
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_5|1.2MB/s|10%|TK-SG|YT-CN|NF-HK|D+-HK|SP-HK"
+      network: ws
+      port: "443"
+      server: cfip.1323123.xyz
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_15|566KB/s|10%|TK-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 62.72.45.223
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_32|2.3MB/s|10%|TK-TTP|YT-CN|NF-US|D+-US|GPT-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 45.76.172.125
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_33|561KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "2083"
+      server: 150.230.40.142
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_34|686KB/s|10%|TK-TTP|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: cloudflare-ip.mofashi.ltd
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_35|2.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 45.63.57.12
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_36|733KB/s|10%|TK-TTP|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: cloudflare.182682.xyz
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F0\U0001F1F7KR_2|807KB/s|10%|TK-SG|YT-KR|NF-JP|D+-KR|GPT⁺-KR|GM-KR|CL-KR|SP-KR"
+      network: ws
+      port: "443"
+      server: 158.247.220.241
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_16|2.2MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 168.138.177.32
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_37|572KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 182.255.84.204
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_17|755KB/s|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 178.128.118.19
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_38|690KB/s|10%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 192.241.219.221
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_39|601KB/s|10%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 203.24.88.18
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_40|1.6MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 43.172.85.49
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_18|2.0MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 149.28.139.185
+      servername: next-8zs.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5c35d449-43e7-4a66-b520-63d2fc891bcd
+      ws-opts:
+        headers:
+            Host: next-8zs.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /5c35d449-43e7-4a66-b520-63d2fc891bcd?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_41|2.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 104.17.201.77
       servername: next-1ez.pages.dev
       tls: true
       type: vless
@@ -744,15 +1186,66 @@ proxies:
       ws-opts:
         headers:
             Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
         path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_7|599KB/s|13%|TK-SG|YT-HK|NF-HK|D+-HK|GPT-HK|SP-HK"
+      name: "\U0001F1FA\U0001F1F8US_42|2.4MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US"
       network: ws
       port: "443"
-      server: 162.159.128.1
+      server: 104.19.1.1
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_43|814KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 104.20.1.1
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_6|684KB/s|10%|TK-SG|YT-HK|NF-HK|D+-HK|SP-HK"
+      network: ws
+      port: "443"
+      server: 172.67.72.4
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_44|2.5MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 104.21.2.1
       servername: next-1ez.pages.dev
       tls: true
       type: vless
@@ -766,10 +1259,10 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_8|833KB/s|13%|TK-SG|YT-HK|NF-HK|D+-HK|SP-HK"
+      name: "\U0001F1ED\U0001F1F0HK_7|1.1MB/s|10%|TK-SG|YT-HK|NF-HK|D+-HK|SP-HK"
       network: ws
       port: "443"
-      server: 172.67.72.4
+      server: 104.26.1.1
       servername: next-1ez.pages.dev
       tls: true
       type: vless
@@ -778,15 +1271,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
         path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_9|1.5MB/s|13%|TK-SG|YT-HK|NF-HK|D+-HK|SP-HK"
+      name: "\U0001F1FA\U0001F1F8US_45|1.8MB/s|10%|TK-TTP|YT-US|NF|D+-US|GPT-US|CL-US"
       network: ws
       port: "443"
-      server: cfip.1323123.xyz
+      server: 104.21.23.1
       servername: next-1ez.pages.dev
       tls: true
       type: vless
@@ -795,15 +1288,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
         path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_21|652KB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1ED\U0001F1F0HK_8|2.6MB/s|10%|TK-SG|YT-HK|NF-HK|D+-HK|CL-US|SP-HK"
       network: ws
       port: "443"
-      server: 84.75.220.198
+      server: 162.159.128.1
       servername: next-1ez.pages.dev
       tls: true
       type: vless
@@ -812,457 +1305,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
         path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_10|3.4MB/s|13%|TK-SG|YT-HK|NF-HK|D+-HK|SP-HK"
-      network: ws
-      port: "443"
-      server: cf.0sm.com
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_22|1.1MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 152.53.194.202
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_18|781KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 43.134.101.37
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_23|2.4MB/s|13%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "2053"
-      server: 103.11.78.142
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_19|1.2MB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 45.66.128.2
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_24|2.6MB/s|YT-US|NF-US|D+-US|GPT⁺-US|CL-US"
-      network: ws
-      port: "443"
-      server: 66.94.126.122
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_25|1.6MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 203.88.127.231
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_20|752KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 188.166.190.246
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_26|1.3MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 149.248.10.46
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_21|661KB/s|13%|TK-SG|YT-SG|NF-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 206.189.39.92
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_22|602KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 43.156.92.214
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_11|545KB/s|13%|TK-SG|YT-CN|NF-HK|D+-HK|SP-HK"
-      network: ws
-      port: "443"
-      server: 122.10.119.252
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_23|908KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 128.1.186.61
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_24|903KB/s|13%|TK-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 167.71.215.36
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_25|2.0MB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 149.28.137.52
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_26|749KB/s|13%|TK-SG|NF-SG|D+-SG|GPT⁺-SG|CL-SG"
-      network: ws
-      port: "443"
-      server: 152.42.247.235
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_27|1.1MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 205.186.76.197
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F0\U0001F1F7KR_1|601KB/s|13%|TK-SG|YT-KR|NF-JP|D+-KR|GPT⁺-KR|GM-KR|CL-KR|SP-KR"
-      network: ws
-      port: "443"
-      server: 158.247.220.241
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_28|2.1MB/s|13%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 45.32.92.53
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_27|592KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 206.189.95.91
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_28|743KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 203.55.176.251
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_29|1.1MB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 165.22.99.214
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_29|2.8MB/s|13%|TK-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "2053"
-      server: 107.175.254.119
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_30|1.0MB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 128.1.186.119
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_30|2.4MB/s|13%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 113.20.12.85
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_31|1.9MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 64.112.42.28
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_32|2.1MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_46|2.0MB/s|10%|TK-TTP|YT-CN|NF-US|D+-US|GM-US|CL-US|SP-US"
       network: ws
       port: "8443"
-      server: 159.195.233.11
+      server: 185.245.34.118
       servername: next-1ez.pages.dev
       tls: true
       type: vless
@@ -1271,80 +1322,12 @@ proxies:
       ws-opts:
         headers:
             Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
         path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_31|837KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT-SG|GM-SG|CL-SG|SP-SG"
-      network: ws
-      port: "443"
-      server: 68.183.183.54
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EF\U0001F1F5JP_1|663KB/s|13%|TK-SG|YT-JP|NF-JP|D+-JP|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
-      network: ws
-      port: "443"
-      server: 64.110.97.200
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_33|2.0MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 45.32.73.12
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_34|2.1MB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 64.181.247.243
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F0\U0001F1F7KR_2|4.6MB/s|13%|TK-SG|YT-KR|NF-JP|D+-KR|GPT⁺-KR|GM-KR|CL-KR|SP-KR"
+      name: "\U0001F1F0\U0001F1F7KR_3|768KB/s|10%|TK-SG|YT-KR|NF-JP|D+-KR|GPT⁺-KR|GM-KR|CL-KR|SP-KR"
       network: ws
       port: "443"
       server: 123.111.169.70
@@ -1356,15 +1339,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
         path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_35|622KB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_47|2.0MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
       network: ws
       port: "443"
-      server: 129.159.119.161
+      server: 152.53.31.251
       servername: next-1ez.pages.dev
       tls: true
       type: vless
@@ -1373,15 +1356,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
         path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_36|2.1MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_48|820KB/s|10%|TK-US|YT-CN|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
       network: ws
-      port: "443"
-      server: 162.243.148.170
+      port: "8443"
+      server: 103.232.95.249
       servername: next-1ez.pages.dev
       tls: true
       type: vless
@@ -1390,49 +1373,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
         path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EF\U0001F1F5JP_2|2.0MB/s|13%|TK-SG|YT-JP|NF-JP|D+-JP|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
+      name: "\U0001F1FA\U0001F1F8US_49|2.4MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
       network: ws
-      port: "443"
-      server: 138.2.41.8
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_37|2.9MB/s|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
-      network: ws
-      port: "2053"
-      server: 64.188.29.141
-      servername: next-1ez.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
-      ws-opts:
-        headers:
-            Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1FA\U0001F1F8US_38|2.3MB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT-US|GM-US|CL-US|SP-US"
-      network: ws
-      port: "443"
-      server: 198.23.169.168
+      port: "8443"
+      server: 104.168.133.127
       servername: next-1ez.pages.dev
       tls: true
       type: vless
@@ -1446,10 +1395,10 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_32|754KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_19|1.1MB/s|0%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
       network: ws
       port: "443"
-      server: 152.42.173.234
+      server: 168.138.176.180
       servername: next-1ez.pages.dev
       tls: true
       type: vless
@@ -1458,15 +1407,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
         path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_33|806KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_20|1.0MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
       network: ws
       port: "443"
-      server: 152.42.174.94
+      server: 165.22.106.244
       servername: next-1ez.pages.dev
       tls: true
       type: vless
@@ -1475,15 +1424,15 @@ proxies:
       ws-opts:
         headers:
             Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
         path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_39|2.3MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_50|2.2MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT-US|GM-US|CL-US|SP-US"
       network: ws
       port: "443"
-      server: 203.88.117.190
+      server: 159.65.108.242
       servername: next-1ez.pages.dev
       tls: true
       type: vless
@@ -1492,14 +1441,725 @@ proxies:
       ws-opts:
         headers:
             Host: next-1ez.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
         path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_40|1.5MB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_21|952KB/s|10%|TK-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
       network: ws
-      port: 8443
-      server: 134.209.166.201
+      port: "443"
+      server: 157.230.37.190
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_51|746KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US"
+      network: ws
+      port: "443"
+      server: cnamefuckxxs.yuchen.icu
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_52|1.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 5.78.155.4
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_53|546KB/s|10%|TK-TTP|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 117.55.233.168
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F0\U0001F1F7KR_4|642KB/s|10%|TK-SG|YT-KR|NF-JP|D+-KR|GPT⁺-KR|GM-KR|CL-KR|SP-KR"
+      network: ws
+      port: "443"
+      server: 158.247.220.241
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_54|1.1MB/s|10%|TK-SG|YT-US|NF-US|D+-HK|GPT-HK|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: cf.0sm.com
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_22|773KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 68.183.186.105
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_55|1.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 45.82.244.40
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_56|2.1MB/s|10%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 149.28.76.221
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_23|2.5MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 207.148.73.18
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_57|792KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 203.88.117.227
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_58|860KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 82.29.67.18
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_59|565KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: cloudflare-ip.mofashi.ltd
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_24|3.0MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 207.148.120.87
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_60|724KB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: cdn.tzpro.xyz
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_25|2.5MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 139.180.135.10
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_61|742KB/s|10%|TK-TTP|NF|GPT⁺-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: cloudflare.182682.xyz
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_62|2.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 144.225.8.47
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_9|1.7MB/s|10%|TK-SG|YT-HK|NF-HK|D+-HK|SP-HK"
+      network: ws
+      port: "443"
+      server: cfip.1323123.xyz
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_5|796KB/s|10%|TK-SG|YT-JP|NF-JP|D+-JP|GPT⁺-HK|GM-JP|CL-JP|SP-JP"
+      network: ws
+      port: "443"
+      server: 217.142.232.60
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_63|2.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 45.76.238.232
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_26|2.5MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 45.77.243.66
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_6|2.1MB/s|10%|TK-SG|YT-JP|NF-JP|D+-JP|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
+      network: ws
+      port: "443"
+      server: 161.33.31.228
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_64|2.2MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "8443"
+      server: 172.245.244.62
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_65|1.4MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "8443"
+      server: 54.190.224.192
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_66|2.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 66.94.122.26
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_67|2.0MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: "443"
+      server: 45.65.9.36
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_27|568KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 165.245.184.76
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_68|790KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 144.225.246.20
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_69|2.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "2053"
+      server: 172.82.74.217
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_28|650KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 128.1.186.180
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_29|1.4MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG"
+      network: ws
+      port: "443"
+      server: 149.28.139.185
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_70|1.8MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "8443"
+      server: 152.67.233.61
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_30|571KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 178.128.118.19
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_7|1.5MB/s|10%|TK-SG|YT-JP|NF-JP|D+-JP|GPT⁺-JP|GM-JP|CL-JP|SP-JP"
+      network: ws
+      port: "443"
+      server: 152.70.86.199
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_31|568KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "443"
+      server: 165.245.190.53
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4 (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_71|1.9MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 43.172.85.49
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_72|1004KB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 192.241.219.221
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_32|1.1MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|CL-SG|SP-SG"
+      network: ws
+      port: "2053"
+      server: 206.189.34.99
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_73|573KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 147.45.125.231
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_74|1.1MB/s|10%|TK-TTP|YT-CN|NF-US|D+-US|GPT⁺-US|CL-US|SP-US"
+      network: ws
+      port: "443"
+      server: 45.63.57.12
+      servername: next-1ez.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 12eb241d-f650-4e7e-969b-09f00bb80123
+      ws-opts:
+        headers:
+            Host: next-1ez.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+        path: /12eb241d-f650-4e7e-969b-09f00bb80123?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_75|1.5MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: apex-2jj.pages.dev
+      servername: apex-2jj.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
+      ws-opts:
+        headers:
+            Host: apex-2jj.pages.dev
+        path: /?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_76|2.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 203.88.123.113
       servername: apex-2jj.pages.dev
       tls: true
       type: vless
@@ -1510,7 +2170,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_41|1.7MB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_77|2.0MB/s|0%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 443
       server: 91.90.195.68
@@ -1524,7 +2184,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_42|2.5MB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_78|3.0MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 443
       server: 144.225.130.48
@@ -1538,7 +2198,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_43|2.6MB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_79|3.2MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 443
       server: 64.181.251.32
@@ -1552,7 +2212,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_44|2.5MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_80|2.4MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 8443
       server: 104.168.133.127
@@ -1566,7 +2226,21 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1EA\U0001F1EAEE_1|1.1MB/s|13%|TK-EE|NF-FI|D+-EE|GPT⁺-US|GM-EE|SP-EE"
+      name: "\U0001F1FA\U0001F1F8US_81|2.2MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 216.238.52.8
+      servername: apex-2jj.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
+      ws-opts:
+        headers:
+            Host: apex-2jj.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1EA\U0001F1EAEE_1|881KB/s|10%|TK-EE|NF-FI|D+-EE|GPT-US|GM-EE"
       network: ws
       port: 8443
       server: 13.143.176.206
@@ -1580,7 +2254,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_45|2.1MB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_82|1.1MB/s|10%|TK-US|NF-US|GPT⁺-US"
       network: ws
       port: 443
       server: 87.251.79.39
@@ -1594,35 +2268,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_46|2.1MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
-      network: ws
-      port: 443
-      server: 68.178.203.190
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/US?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_47|2.0MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
-      network: ws
-      port: 443
-      server: 182.255.85.215
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/US?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_48|2.0MB/s|13%|TK-ES|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_83|2.0MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 443
       server: 66.228.36.39
@@ -1636,7 +2282,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_49|2.1MB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_84|1.7MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 443
       server: 45.63.49.61
@@ -1650,7 +2296,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_50|2.1MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_85|1.3MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 443
       server: 103.196.20.14
@@ -1664,7 +2310,21 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_51|1.2MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_86|870KB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 64.23.153.167
+      servername: apex-2jj.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
+      ws-opts:
+        headers:
+            Host: apex-2jj.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_87|1.3MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 443
       server: 193.17.180.112
@@ -1678,7 +2338,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_52|2.0MB/s|0%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_88|1.7MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 443
       server: 45.38.3.35
@@ -1692,21 +2352,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_53|578KB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
-      network: ws
-      port: 443
-      server: 117.55.235.56
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/US?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_54|2.1MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_89|2.8MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 443
       server: 45.77.190.163
@@ -1720,10 +2366,10 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_55|2.6MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_90|2.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 443
-      server: 205.186.76.141
+      server: 68.232.175.194
       servername: apex-2jj.pages.dev
       tls: true
       type: vless
@@ -1734,21 +2380,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_56|822KB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
-      network: ws
-      port: 443
-      server: 198.20.138.211
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/US?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_57|2.8MB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_91|2.5MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|SP-US"
       network: ws
       port: 8443
       server: 24.249.30.56
@@ -1762,7 +2394,21 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_58|1.6MB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_92|765KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 136.175.177.113
+      servername: apex-2jj.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
+      ws-opts:
+        headers:
+            Host: apex-2jj.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_93|2.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 8443
       server: 172.245.244.62
@@ -1776,7 +2422,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_59|1.9MB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_94|2.1MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 443
       server: 23.95.123.103
@@ -1790,21 +2436,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_60|772KB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
-      network: ws
-      port: 443
-      server: 203.88.114.29
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/US?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_61|1.2MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_95|2.0MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 443
       server: 216.173.65.216
@@ -1818,7 +2450,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_62|943KB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_96|1.5MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 443
       server: 23.95.220.231
@@ -1832,10 +2464,10 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_63|2.2MB/s|13%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: ❓Other_1|676KB/s|TK-TTP|NF-US
       network: ws
       port: 443
-      server: 152.53.91.198
+      server: 70.249.178.241
       servername: apex-2jj.pages.dev
       tls: true
       type: vless
@@ -1846,7 +2478,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_64|2.0MB/s|13%|TK-TTP|NF-US|D+-US|GPT⁺-US|GM-US"
+      name: "\U0001F1FA\U0001F1F8US_97|1.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US"
       network: ws
       port: 443
       server: 23.95.171.155
@@ -1860,7 +2492,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_65|1.1MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_98|2.5MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 8443
       server: 54.190.224.192
@@ -1874,7 +2506,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_66|2.5MB/s|13%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      name: "\U0001F1FA\U0001F1F8US_99|2.3MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
       network: ws
       port: 443
       server: 113.20.6.37
@@ -1888,10 +2520,10 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/US?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_3|2.0MB/s|13%|TK-SG|YT-JP|NF-JP|D+-JP|GPT⁺-JP|GM-JP|SP-JP"
+      name: "\U0001F1EF\U0001F1F5JP_8|1.0MB/s|10%|TK-SG|YT-JP|NF-JP|D+-JP|GPT⁺-JP|GM-JP|SP-JP"
       network: ws
       port: 443
-      server: 138.2.41.26
+      server: 172.104.89.73
       servername: apex-2jj.pages.dev
       tls: true
       type: vless
@@ -1902,21 +2534,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/JP?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_34|1.7MB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
-      network: ws
-      port: 8443
-      server: 15.235.211.100
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/SG?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_35|1.2MB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_33|3.0MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
       network: ws
       port: 443
       server: 149.28.159.87
@@ -1930,7 +2548,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/SG?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_36|818KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_34|786KB/s|0%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
       network: ws
       port: 443
       server: 134.209.104.130
@@ -1944,7 +2562,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/SG?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_37|1.0MB/s|0%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_35|937KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
       network: ws
       port: 443
       server: 168.144.132.93
@@ -1958,7 +2576,35 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/SG?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_38|751KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_36|914KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 5.223.59.9
+      servername: apex-2jj.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
+      ws-opts:
+        headers:
+            Host: apex-2jj.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_37|755KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 178.128.82.93
+      servername: apex-2jj.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
+      ws-opts:
+        headers:
+            Host: apex-2jj.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_38|844KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
       network: ws
       port: 443
       server: 206.189.95.233
@@ -1972,7 +2618,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/SG?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_39|806KB/s|13%|TK-SG|YT-CN|NF-RO|D+-SG|GPT⁺-SG|GM-ID|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_39|1.3MB/s|0%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
       network: ws
       port: 443
       server: 167.253.159.63
@@ -1986,21 +2632,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/SG?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_40|852KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
-      network: ws
-      port: 443
-      server: 159.223.88.166
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/SG?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_41|965KB/s|0%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_40|849KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
       network: ws
       port: 443
       server: 46.250.231.61
@@ -2014,7 +2646,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/SG?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_42|915KB/s|13%|TK-SG|YT-SG|NF-RO|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_41|1.1MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
       network: ws
       port: 443
       server: 167.172.68.31
@@ -2028,10 +2660,10 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/SG?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_43|555KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_42|1.2MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
       network: ws
       port: 443
-      server: 157.230.254.79
+      server: 159.65.8.14
       servername: apex-2jj.pages.dev
       tls: true
       type: vless
@@ -2042,35 +2674,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/SG?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_44|873KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
-      network: ws
-      port: 443
-      server: 157.230.32.230
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/SG?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_45|566KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
-      network: ws
-      port: 443
-      server: 128.199.128.117
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/SG?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_46|1.0MB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_43|665KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
       network: ws
       port: 443
       server: 146.190.86.159
@@ -2084,7 +2688,21 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/SG?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_47|971KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_44|1.4MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 8443
+      server: 161.118.195.117
+      servername: apex-2jj.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
+      ws-opts:
+        headers:
+            Host: apex-2jj.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_45|1.1MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
       network: ws
       port: 443
       server: 146.190.100.44
@@ -2098,10 +2716,10 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/SG?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_48|2.2MB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_46|661KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
       network: ws
       port: 443
-      server: 168.138.186.126
+      server: 178.128.114.149
       servername: apex-2jj.pages.dev
       tls: true
       type: vless
@@ -2112,21 +2730,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/SG?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_49|791KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
-      network: ws
-      port: 443
-      server: 168.144.32.180
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/SG?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_50|654KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      name: "\U0001F1F8\U0001F1ECSG_47|1.4MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
       network: ws
       port: 443
       server: 168.144.102.226
@@ -2140,49 +2744,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/SG?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_51|861KB/s|13%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
-      network: ws
-      port: 443
-      server: 161.118.219.55
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/SG?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_52|680KB/s|13%|TK-SG|NF-SG|D+-SG|GPT⁺-SG|SP-SG"
-      network: ws
-      port: 443
-      server: 152.42.246.237
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/SG?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1F0\U0001F1F7KR_3|582KB/s|13%|TK-SG|YT-KR|NF-JP|D+-KR|GPT⁺-KR|GM-KR|SP-KR"
-      network: ws
-      port: 443
-      server: 64.176.230.50
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/KR?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1F0\U0001F1F7KR_4|1.5MB/s|TK-SG|YT-KR|NF-JP|D+-KR|GPT⁺-KR|GM-KR|SP-KR"
+      name: "\U0001F1F0\U0001F1F7KR_5|2.5MB/s|10%|TK-SG|YT-KR|NF-JP|D+-KR|GPT⁺-KR|GM-KR|SP-KR"
       network: ws
       port: 443
       server: 123.111.169.70
@@ -2196,21 +2758,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/KR?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1F0\U0001F1F7KR_5|595KB/s|13%|TK-SG|YT-KR|NF-JP|D+-KR|GPT⁺-KR|GM-KR|SP-KR"
-      network: ws
-      port: 443
-      server: 158.247.220.241
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/KR?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_1|789KB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      name: "\U0001F1E8\U0001F1E6CA_1|600KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
       network: ws
       port: 2083
       server: 147.182.158.54
@@ -2224,7 +2772,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/CA?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_2|2.0MB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      name: "\U0001F1E8\U0001F1E6CA_2|693KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
       network: ws
       port: 443
       server: 138.197.173.118
@@ -2238,24 +2786,10 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/CA?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_3|581KB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
-      network: ws
-      port: 443
-      server: 149.56.109.62
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/CA?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_4|1.1MB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      name: "\U0001F1E8\U0001F1E6CA_3|819KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
       network: ws
       port: 8443
-      server: 24.150.16.183
+      server: 24.141.96.92
       servername: apex-2jj.pages.dev
       tls: true
       type: vless
@@ -2266,63 +2800,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/CA?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_5|2.0MB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
-      network: ws
-      port: 443
-      server: 147.182.156.112
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/CA?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_6|1.0MB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT-CA|GM-CA|SP-CA"
-      network: ws
-      port: 443
-      server: 142.93.154.249
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/CA?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_7|639KB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
-      network: ws
-      port: 443
-      server: 144.217.93.183
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/CA?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_8|646KB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|SP-CA"
-      network: ws
-      port: 8443
-      server: 148.113.236.36
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/CA?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_9|2.2MB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      name: "\U0001F1E8\U0001F1E6CA_4|2.4MB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
       network: ws
       port: 443
       server: 165.227.41.38
@@ -2336,7 +2814,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/CA?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_10|723KB/s|13%|TK-SG|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      name: "\U0001F1E8\U0001F1E6CA_5|947KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
       network: ws
       port: 443
       server: 140.238.152.64
@@ -2350,10 +2828,10 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/CA?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_11|918KB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      name: "\U0001F1E8\U0001F1E6CA_6|528KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
       network: ws
       port: 8443
-      server: 158.69.201.4
+      server: 51.222.30.98
       servername: apex-2jj.pages.dev
       tls: true
       type: vless
@@ -2364,10 +2842,10 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/CA?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_12|537KB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      name: "\U0001F1E8\U0001F1E6CA_7|2.0MB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
       network: ws
       port: 443
-      server: 178.128.231.7
+      server: 144.217.92.9
       servername: apex-2jj.pages.dev
       tls: true
       type: vless
@@ -2378,7 +2856,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/CA?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_13|1.0MB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      name: "\U0001F1E8\U0001F1E6CA_8|892KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
       network: ws
       port: 443
       server: 24.84.0.55
@@ -2392,21 +2870,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/CA?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_14|827KB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
-      network: ws
-      port: 443
-      server: 151.145.33.145
-      servername: apex-2jj.pages.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
-      ws-opts:
-        headers:
-            Host: apex-2jj.pages.dev
-        path: /rp/CA?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_15|683KB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      name: "\U0001F1E8\U0001F1E6CA_9|614KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
       network: ws
       port: 8443
       server: 192.99.245.146
@@ -2420,10 +2884,10 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/CA?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_16|880KB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      name: "\U0001F1E8\U0001F1E6CA_10|981KB/s|10%|TK-SG|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
       network: ws
-      port: 443
-      server: 142.4.215.110
+      port: 8443
+      server: 158.69.196.206
       servername: apex-2jj.pages.dev
       tls: true
       type: vless
@@ -2434,7 +2898,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/CA?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_17|2.2MB/s|13%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      name: "\U0001F1E8\U0001F1E6CA_11|551KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
       network: ws
       port: 443
       server: 148.113.239.167
@@ -2448,7 +2912,7 @@ proxies:
             Host: apex-2jj.pages.dev
         path: /rp/CA?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6CA_18|1.8MB/s|13%|TK-SG|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      name: "\U0001F1E8\U0001F1E6CA_12|723KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|SP-CA"
       network: ws
       port: 443
       server: 192.99.169.176
@@ -2460,4 +2924,928 @@ proxies:
       ws-opts:
         headers:
             Host: apex-2jj.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_13|2.0MB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      network: ws
+      port: 443
+      server: 40.233.87.120
+      servername: apex-2jj.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
+      ws-opts:
+        headers:
+            Host: apex-2jj.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_14|2.1MB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      network: ws
+      port: 443
+      server: 216.128.176.190
+      servername: apex-2jj.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
+      ws-opts:
+        headers:
+            Host: apex-2jj.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_15|668KB/s|10%|TK-SG|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      network: ws
+      port: 443
+      server: 78.111.91.80
+      servername: apex-2jj.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
+      ws-opts:
+        headers:
+            Host: apex-2jj.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_16|2.0MB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      network: ws
+      port: 443
+      server: 40.233.99.248
+      servername: apex-2jj.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: 95bf18bf-e676-42ce-84f9-4b2338f9aaba
+      ws-opts:
+        headers:
+            Host: apex-2jj.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_100|2.8MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: apex-rr4.pages.dev
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_101|1.5MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 8443
+      server: 134.209.166.201
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_102|1.4MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 203.88.123.113
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_103|1.4MB/s|10%|TK-DE|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 91.90.195.68
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_104|2.6MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 144.225.130.48
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_105|2.6MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 8443
+      server: 104.168.133.127
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_106|2.0MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 216.238.52.8
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1EA\U0001F1EAEE_2|2.2MB/s|10%|TK-EE|NF-FI|D+-EE|GPT⁺-US|GM-EE|SP-EE"
+      network: ws
+      port: 8443
+      server: 13.143.176.206
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_107|793KB/s|TK-TTP|YT-US|NF-US|GPT-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 192.255.178.201
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_108|988KB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|SP-US"
+      network: ws
+      port: 443
+      server: 182.255.85.215
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_109|2.0MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 66.228.36.39
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_110|2.3MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 45.63.49.61
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_111|580KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 64.23.153.167
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_112|1.4MB/s|10%|TK-TTP|YT-US|NF|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 193.17.180.112
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_113|2.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 45.38.3.35
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_114|849KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 117.55.235.56
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_115|1.9MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 45.77.190.163
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_116|606KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 198.20.138.211
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_117|2.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US"
+      network: ws
+      port: 443
+      server: 68.232.175.194
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_118|661KB/s|10%|TK-US|YT-US|NF|GPT⁺-US|SP-US"
+      network: ws
+      port: 8443
+      server: 192.161.163.37
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_119|2.3MB/s|10%|TK-US|NF-US|D+-US|GPT⁺-US|SP-US"
+      network: ws
+      port: 8443
+      server: 24.249.30.56
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_120|2.0MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 8443
+      server: 172.245.244.62
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_121|2.2MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 23.95.123.103
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_122|581KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 216.173.65.216
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_123|1.3MB/s|10%|TK-US|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 23.95.220.231
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_124|1.6MB/s|10%|NF|GPT"
+      network: ws
+      port: 443
+      server: 70.249.178.241
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_125|2.3MB/s|10%|TK-US|NF-US|GPT-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 23.95.171.155
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_126|828KB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 8443
+      server: 103.232.95.249
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_127|2.1MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 8443
+      server: 54.190.224.192
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_128|2.5MB/s|10%|TK-TTP|YT-US|NF-US|D+-US|GPT⁺-US|GM-US|SP-US"
+      network: ws
+      port: 443
+      server: 113.20.6.37
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/US?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_48|950KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 8443
+      server: 15.235.211.100
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_49|2.5MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 149.28.159.87
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_50|798KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 134.209.104.130
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_51|1.1MB/s|10%|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 168.144.132.93
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_52|1.2MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 143.198.90.188
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_53|802KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 5.223.59.9
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_54|1.1MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 8443
+      server: 139.180.212.225
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_55|1.0MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 178.128.82.93
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_56|619KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 206.189.95.233
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_57|893KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 167.253.159.63
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_58|1.1MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 46.250.231.61
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_59|543KB/s|10%|TK-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 167.172.68.31
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_60|527KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 157.230.32.230
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_61|1.0MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 146.190.100.44
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_62|780KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 168.144.32.180
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_63|732KB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 178.128.114.149
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_64|1.0MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 168.144.102.226
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_65|1.6MB/s|10%|TK-SG|YT-SG|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 161.118.219.55
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_66|873KB/s|10%|TK-SG|YT-CN|NF-SG|D+-SG|GPT⁺-SG|GM-SG|SP-SG"
+      network: ws
+      port: 443
+      server: 152.42.246.237
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/SG?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F0\U0001F1F7KR_6|1.1MB/s|10%|TK-SG|YT-KR|NF-JP|D+-KR|GPT⁺-KR|GM-KR|SP-KR"
+      network: ws
+      port: 443
+      server: 123.111.169.70
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/KR?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1F0\U0001F1F7KR_7|808KB/s|10%|TK-SG|YT-KR|NF-JP|D+-KR|GPT⁺-KR|GM-KR|SP-KR"
+      network: ws
+      port: 443
+      server: 158.247.220.241
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/KR?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_17|583KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|SP-CA"
+      network: ws
+      port: 8443
+      server: 15.235.104.68
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_18|777KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      network: ws
+      port: 443
+      server: 45.133.17.27
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_19|704KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      network: ws
+      port: 8443
+      server: 158.69.199.251
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_20|575KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      network: ws
+      port: 443
+      server: 149.56.109.62
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_21|600KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      network: ws
+      port: 443
+      server: 142.93.154.249
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_22|625KB/s|52%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      network: ws
+      port: 443
+      server: 144.217.93.183
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_23|1.2MB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      network: ws
+      port: 443
+      server: 165.227.41.38
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_24|781KB/s|10%|TK-SG|YT-CA|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      network: ws
+      port: 443
+      server: 24.84.0.55
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_25|1015KB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      network: ws
+      port: 443
+      server: 151.145.33.145
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_26|702KB/s|10%|TK-SG|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      network: ws
+      port: 443
+      server: 40.233.70.120
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
+        path: /rp/CA?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6CA_27|1.1MB/s|10%|TK-SG|YT-CA|NF-US|D+-CA|GPT⁺-CA|GM-CA|SP-CA"
+      network: ws
+      port: 443
+      server: 66.183.66.180
+      servername: apex-rr4.pages.dev
+      tls: true
+      type: vless
+      udp: false
+      uuid: e2796826-acdb-4b8d-bacd-9b40a84d5dfd
+      ws-opts:
+        headers:
+            Host: apex-rr4.pages.dev
         path: /rp/CA?ed=2048
